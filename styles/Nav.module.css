@@ -63,7 +63,36 @@
 .hamburger.isActive:hover span {
   background-color: #0067ff;
 }
-
+.mobileNav {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 100%;
+  width: 100%;
+  min-height: 100vh;
+  z-index: -1;
+  background-color: #212529;
+  padding-top: 120px;
+  transition: 0.4s;
+}
+.mobileNav.isActiveM {
+  left: 0;
+}
+.mobileNav a {
+  display: block;
+  width: 100%;
+  max-width: 200px;
+  margin: 0 auto 16px;
+  text-align: center;
+  margin-bottom: 1vh;
+  padding: 12px 16px;
+  background-color: #212529;
+  color: white;
+  text-decoration: none;
+}
+.mobileNav a:hover {
+  background-color: #0067ff;
+}
 .menu {
   display: none;
   flex: 1 1 0%;

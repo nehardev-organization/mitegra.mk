@@ -18,24 +18,26 @@ const Nav = () => {
 </svg>
 
   <a href="/" >Home</a>
-  <a href="/about">About</a>
-  <a href="#about">Contact</a>
+  <a href="/about-mitegra">About</a>
+  <a href="/contact-mitegra">Contact</a>
    
 </div>
-  <button onClick={() => setHamburger(!hamburger)} className={`${navStyles.hamburger} ${hamburger ? navStyles.isActive : ''}`}>
+<button onClick={() => setHamburger(!hamburger)} className={`${navStyles.hamburger} ${hamburger ? navStyles.isActive  : ''}`}>
       <span></span>
       <span></span>
       <span></span>
   </button>
- 
+   <div onClick={() => setHamburger(!hamburger)} className={`${navStyles.mobileNav} ${hamburger ? navStyles.isActiveM  : ''}`}>
+
+   <a href="/" >Home</a>
+  <a href="/about-mitegra">About</a>
+  <a href="/contact-mitegra">Contact</a>
 </div>
+   </div>
+
+
       </nav>
     )
 
 }
 export default Nav
-
-
-
-// `${navStyles.hamburger} ${navStyles.isActive}`//
-// {hamburger  ?  `${navStyles.hamburger} ${navStyles.isActive}`  : null }

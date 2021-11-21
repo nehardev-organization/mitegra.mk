@@ -18,7 +18,7 @@ export default function Home() {
         src={hero}
         priority
         />
-        <h1>Mitegra, from plumbing to heating</h1>
+        <h1 className={styles.h1}>Mitegra, from plumbing to heating</h1>
       </div>
       
     </div>
