@@ -12,3 +12,31 @@
   object-fit: cover;
   scroll-snap-align: start;
 }
+.h1 {
+  white-space: nowrap;
+  font-size: 3rem;
+  font-weight: bold;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%);
+  position: absolute;
+  color: white;
+}
+@media screen and (max-width: 768px) {
+  .h1 {
+    font-size: 2rem;
+    top: 11%;
+    left: 50%;
+    transform: translate(-50%);
+  }
+}
+@media screen and (max-width: 480px) {
+  .heroImg {
+  }
+  .h1 {
+    font-size: 2rem;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%);
+  }
+}
