@@ -4,13 +4,62 @@
   align-items: center;
   justify-content: space-between;
 }
-.heroImg {
-  z-index: -10;
+.heroButton {
   position: absolute;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  scroll-snap-align: start;
+  display: flex;
+  background-color: #0067ff;
+  white-space: nowrap;
+  padding: 10px 15px;
+  color: white;
+  font-size: 25px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+  transition: 0.5s;
+  border-radius: 10px;
+}
+.heroButton:hover {
+  background-color: #358b06;
+}
+
+@media screen and (max-width: 768px) {
+  .heroButton {
+    position: absolute;
+    display: flex;
+    background-color: #0067ff;
+    white-space: nowrap;
+    padding: 5px 10px;
+    color: white;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%, -50%);
+    transition: 0.5s;
+  }
+}
+@media screen and (max-width: 480px) {
+  .heroButton {
+    position: absolute;
+    display: flex;
+    background-color: #0067ff;
+    white-space: nowrap;
+    padding: 5px 5px;
+    color: white;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    left: 50%;
+    top: 15%;
+    transform: translate(-50%, -50%);
+    transition: 0.5s;
+  }
 }
 .h1 {
   white-space: nowrap;
@@ -31,12 +80,112 @@
   }
 }
 @media screen and (max-width: 480px) {
-  .heroImg {
-  }
   .h1 {
-    font-size: 2rem;
-    top: 5%;
+    font-size: 1rem;
+    top: 10%;
     left: 50%;
     transform: translate(-50%);
   }
+}
+.Ph1 {
+  white-space: nowrap;
+  font-size: 3rem;
+  font-weight: bold;
+  top: 75%;
+  left: 69%;
+  transform: translate(-50%, -100%);
+  position: absolute;
+  color: #474747;
+}
+@media screen and (max-width: 768px) {
+  .Ph1 {
+    font-size: 2rem;
+
+    top: 35%;
+    left: 70%;
+    transform: translate(-50%, -100%);
+  }
+}
+
+.Ph2 {
+  font-size: 1.3rem;
+  font-weight: bold;
+  top: 100%;
+  left: 74%;
+  transform: translate(-50%, -100%);
+  position: absolute;
+  color: #474747;
+}
+@media screen and (max-width: 768px) {
+  .Ph2 {
+    font-size: 0.6rem;
+    top: 47%;
+    left: 72%;
+    transform: translate(-50%, -100%);
+  }
+}
+
+.pButton {
+  position: absolute;
+  display: flex;
+  background-color: #0067ff;
+  white-space: nowrap;
+  padding: 10px 15px;
+  color: white;
+  font-size: 25px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  left: 66%;
+  top: 105%;
+  transform: translate(-50%, -50%);
+  transition: 0.5s;
+  border-radius: 10px;
+}
+.pButton:hover {
+  background-color: #358b06;
+}
+@media screen and (max-width: 480px) {
+  .hero {
+    display: none;
+  }
+}
+.hH1 {
+  white-space: nowrap;
+  font-size: 3rem;
+  font-weight: bold;
+  top: 125%;
+  left: 30%;
+  transform: translate(-50%, -100%);
+  position: absolute;
+  color: #0067ff;
+}
+.hH2 {
+  font-size: 1.3rem;
+  text-align: right;
+  top: 155%;
+  left: 25%;
+  transform: translate(-50%, -100%);
+  position: absolute;
+  color: white;
+}
+.hButton {
+  position: absolute;
+  display: flex;
+  background-color: #0067ff;
+  white-space: nowrap;
+  padding: 10px 15px;
+  color: white;
+  font-size: 25px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  left: 33%;
+  top: 160%;
+  transform: translate(-50%, -50%);
+  transition: 0.5s;
+  border-radius: 10px;
+}
+.hButton:hover {
+  background-color: #358b06;
 }

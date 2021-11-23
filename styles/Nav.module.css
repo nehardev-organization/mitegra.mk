@@ -78,7 +78,7 @@
 .mobileNav.isActiveM {
   left: 0;
 }
-.mobileNav a {
+.mobileNav li {
   display: block;
   width: 100%;
   max-width: 200px;
@@ -89,9 +89,10 @@
   background-color: #212529;
   color: white;
   text-decoration: none;
+  list-style: none;
 }
-.mobileNav a:hover {
-  background-color: #0067ff;
+.mobileNav li:hover {
+  background-color: #358b06;
 }
 .menu {
   display: none;
@@ -104,7 +105,7 @@
   display: absolute;
   margin-right: auto;
 }
-.menu a {
+.menu li {
   text-decoration: none;
   color: white;
   margin: 0 -0.1rem;
@@ -114,9 +115,10 @@
   border-radius: 5rem;
   top: 50%;
   transform: translate(-50%);
+  list-style: none;
 }
-.menu a:hover {
-  background-color: #0067ff;
+.menu li:hover {
+  background-color: #358b06;
 }
 
 @media (min-width: 768px) {
