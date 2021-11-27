@@ -4,6 +4,7 @@
   align-items: center;
   justify-content: space-between;
 }
+
 .heroButton {
   position: absolute;
   display: flex;
@@ -115,6 +116,7 @@
   transform: translate(-50%, -100%);
   position: absolute;
   color: #474747;
+  font-weight: 500;
 }
 @media screen and (max-width: 768px) {
   .Ph2 {
@@ -161,6 +163,7 @@
   color: #0067ff;
 }
 .hH2 {
+  font-weight: 500;
   font-size: 1.3rem;
   text-align: right;
   top: 155%;
@@ -187,5 +190,86 @@
   border-radius: 10px;
 }
 .hButton:hover {
+  background-color: #358b06;
+}
+.aH1 {
+  white-space: nowrap;
+  font-size: 3rem;
+  font-weight: bold;
+  top: 185%;
+  left: 72%;
+  transform: translate(-50%, -100%);
+  position: absolute;
+  color: #474747;
+}
+.aH2 {
+  white-space: nowrap;
+  font-size: 1.3rem;
+  font-weight: bold;
+  top: 205%;
+  left: 73%;
+  transform: translate(-50%, -100%);
+  position: absolute;
+  color: #474747;
+}
+.aButton {
+  position: absolute;
+  display: flex;
+  background-color: #0067ff;
+  white-space: nowrap;
+  padding: 10px 15px;
+  color: white;
+  font-size: 25px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  left: 64%;
+  top: 210%;
+  transform: translate(-50%, -50%);
+  transition: 0.5s;
+  border-radius: 10px;
+}
+.aButton:hover {
+  background-color: #358b06;
+}
+.bH1 {
+  white-space: nowrap;
+  font-size: 3rem;
+  font-weight: bold;
+  top: 240%;
+  left: 30%;
+  transform: translate(-50%, -100%);
+  position: absolute;
+  color: #0067ff;
+}
+.bH2 {
+  white-space: nowrap;
+  text-align: right;
+  font-size: 1.3rem;
+  font-weight: normal;
+  top: 265%;
+  left: 25%;
+  transform: translate(-50%, -100%);
+  position: absolute;
+  color: white;
+}
+.bButton {
+  position: absolute;
+  display: flex;
+  background-color: #0067ff;
+  white-space: nowrap;
+  padding: 10px 15px;
+  color: white;
+  font-size: 25px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  left: 33.5%;
+  top: 270%;
+  transform: translate(-50%, -50%);
+  transition: 0.5s;
+  border-radius: 10px;
+}
+.bButton:hover {
   background-color: #358b06;
 }

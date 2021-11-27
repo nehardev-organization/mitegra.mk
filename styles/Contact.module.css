@@ -1,0 +1,73 @@
+.wraper {
+  background-color: #0067ff;
+  width: 100%;
+  height: 500px;
+}
+.email {
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+  border: none;
+  top: 50%;
+  left: 50%;
+  transform: translate(275%, 230%);
+  outline: none;
+}
+.number {
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+  border: none;
+  top: 50%;
+  left: 50%;
+  transform: translate(280%, 230%);
+  outline: none;
+}
+.fname {
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+  border: none;
+  top: 50%;
+  left: 50%;
+  transform: translate(75%, 350%);
+  outline: none;
+}
+.lname {
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+  border: none;
+  top: 50%;
+  left: 50%;
+  transform: translate(80%, 350%);
+  outline: none;
+}
+.mess {
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+  border: none;
+  top: 50%;
+  left: 50%;
+  transform: translate(-70%, 500%);
+  outline: none;
+}
+.mess .placeholder {
+  position: absolute;
+  left: 12px;
+}
+.submit {
+  position: absolute;
+  display: flex;
+  background-color: #15181b;
+  white-space: nowrap;
+  padding: 1rem 1rem;
+  color: white;
+  font-size: 25px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+
+  transform: translate(500%, 450%);
+  transition: 0.5s;
+  border-radius: 10px;
+}
+.submit:hover {
+  background-color: #358b06;
+}

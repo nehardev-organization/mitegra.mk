@@ -78,7 +78,7 @@
 .mobileNav.isActiveM {
   left: 0;
 }
-.mobileNav li {
+.mobileNav a {
   display: block;
   width: 100%;
   max-width: 200px;
@@ -91,7 +91,7 @@
   text-decoration: none;
   list-style: none;
 }
-.mobileNav li:hover {
+.mobileNav a:hover {
   background-color: #358b06;
 }
 .menu {
@@ -105,7 +105,7 @@
   display: absolute;
   margin-right: auto;
 }
-.menu li {
+.menu a {
   text-decoration: none;
   color: white;
   margin: 0 -0.1rem;
@@ -117,7 +117,7 @@
   transform: translate(-50%);
   list-style: none;
 }
-.menu li:hover {
+.menu a:hover {
   background-color: #358b06;
 }
 

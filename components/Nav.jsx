@@ -18,14 +18,14 @@ const Nav = () => {
 <path d="M0.0624582 15.5819C-0.127543 15.877 0.138459 18.2729 0.556462 20.009C2.05747 26.1375 6.5225 31.4153 12.6785 34.3667C15.3576 35.6341 19.9176 36.7626 22.4256 36.7626H23.3566L23.2996 35.3216L23.2426 33.898L21.7226 33.7764C16.7256 33.3598 12.3745 31.45 8.93552 28.1861C6.6745 26.0333 5.34449 24.0715 4.29949 21.3979C3.82448 20.2 3.23548 17.5611 3.15948 16.1895L3.10248 15.4951L1.63947 15.443C0.746463 15.4083 0.138459 15.4604 0.0624582 15.5819Z" fill="#0067FF"/>
 </svg>
       <Link href="/">
-      <li>Home</li>
+      <a>Home</a>
        </Link>
-      <Link href="About-Mitegra">
-      <li>About</li>
+      <Link href="about-mitegra">
+      <a>About</a>
        </Link>
-      <Link href="Contact-Mitegra"> 
+      <Link href="contact-mitegra"> 
       
-  <li>Contact</li>
+  <a>Contact</a>
       </Link>
  
   
@@ -39,14 +39,14 @@ const Nav = () => {
    <div onClick={() => setHamburger(!hamburger)} className={`${navStyles.mobileNav} ${hamburger ? navStyles.isActiveM  : ''}`}>
 
    <Link href="/">
-      <li>Home</li>
+      <a>Home</a>
        </Link>
-      <Link href="About-Mitegra">
-      <li>About</li>
+      <Link href="about-mitegra">
+      <a>About</a>
        </Link>
-      <Link href="Contact-Mitegra"> 
+      <Link href="contact-mitegra"> 
       
-  <li>Contact</li>
+  <a>Contact</a>
       </Link>
 </div>
    </div>
