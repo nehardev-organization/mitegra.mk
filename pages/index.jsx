@@ -9,7 +9,9 @@ import bathroom from "../images/bathroom.png"
 import Link from 'next/link'
 export default function Home() {
   return (
+    
     <div className={styles.HomePage}>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-3D8RTZLS4T"></script>
       <Head>
         <title>Mitegra best plumbers in north macedonia</title>
         <meta name="description" content="You know when you have a leak and you have to wait hours to get it fixed, Bill had the same issue but he called Mitegra and he got it fixed in 10 minutes!"/>
