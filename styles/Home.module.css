@@ -29,7 +29,7 @@
   @media screen and (max-width: 480px) {
   }
   .imc1 {
-    height: 300px;
+    height: 250px;
   }
 }
 
@@ -67,7 +67,7 @@
     border: none;
     cursor: pointer;
     left: 50%;
-    top: 30%;
+    top: 25%;
     transform: translate(-50%, -50%);
     transition: 0.5s;
   }
@@ -85,7 +85,7 @@
     border: none;
     cursor: pointer;
     left: 50%;
-    top: 27%;
+    top: 23%;
     transform: translate(-50%, -50%);
     transition: 0.5s;
   }
@@ -103,7 +103,7 @@
 @media screen and (max-width: 768px) {
   .h1 {
     font-size: 2rem;
-    top: 20%;
+    top: 15%;
     left: 50%;
     transform: translate(-50%);
   }
@@ -111,7 +111,7 @@
 @media screen and (max-width: 480px) {
   .h1 {
     font-size: 1.5rem;
-    top: 20%;
+    top: 15%;
     left: 50%;
     transform: translate(-50%);
   }
@@ -412,30 +412,37 @@
   background-color: #358b06;
 }
 
-.pbg {
-  background-color: #474747;
+.mb1 {
+  top: 30.8%;
+  position: absolute;
   width: 100%;
-  height: 355px;
-  display: none;
+  height: 150px;
+}
+.mb1 .mi1 {
+  object-fit: fill;
+  width: 100% !important;
+  height: 100% !important;
+  position: relative !important;
+  height: unset !important;
+}
+@media screen and (min-width: 768px) {
+  .mb1 {
+    display: none;
+  }
+}
+@media screen and (min-width: 480px) {
+  .mb1 {
+  }
 }
 
 @media screen and (max-width: 768px) {
-  .imc2 {
+  .Desktop {
     display: none;
   }
-  .imc3 {
-    display: none;
-  }
-  .imc4 {
-    display: none;
-  }
-  .imc5 {
-    display: none;
-  }
-  .imc6 {
-    display: none;
-  }
-  .pbg {
-    display: flex;
-  }
+}
+.mp1 {
+  color: black;
+  top: 50%;
+  left: 50%;
+  transform: translate(0%, 500%);
 }

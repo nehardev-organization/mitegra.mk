@@ -7,6 +7,11 @@ import Heating from "../images/hbg.png"
 import airCon from "../images/abg.png"
 import bathroom from "../images/bbg.png"
 import ventilation from "../images/vbg.png"
+import mp from '../images/mpbg.png'
+import mh from '../images/mhbg.png'
+import ma from '../images/mabg.png'
+import mb from '../images/mbbg.png'
+import mv from '../images/mvbg.png'
 import Link from 'next/link'
 export default function Home() {
   return (
@@ -34,7 +39,8 @@ export default function Home() {
      <Link href="/contact-mitegra">
         <button  className={styles.heroButton}>Work with us</button> 
         </Link>
-          <div className={styles.Hero}>
+        <div className={styles.Desktop}>
+         
         <div className={styles.imc2}>
         <Image
       src={plumber}
@@ -45,9 +51,6 @@ export default function Home() {
       layout="fill"
       />
 </div>
-       <div className={styles.pbg}>
-         <span>as</span>
-       </div>
       <h1 className={styles.Ph1}>PLUMBING</h1>
       <h2 className={styles.Ph2}>Our approved plumbers can help with all your plumbing <br /> requirements, providing an efficient response to issues such <br /> as leaks, blockages, and broken toilets. Drawing on their <br /> extensive hands-on experience, our team can also carry out <br /> a wide range of professional plumbing installation services, <br /> covering everything from domestic appliances through to <br /> specialist thermal stores and Saniflo macerators.</h2>
       <Link href="/best-Plumber-in-North-macedonia-plumbing">
@@ -110,8 +113,22 @@ export default function Home() {
       <Link href="/best-ventilation-installation-north-macedonia-debar">
       <button className={styles.vButton}>VENTILATION</button>
       </Link>  
-     </div> 
-
+         </div>
+     
+       <div className={styles.mb1}>
+      <Image
+    className={styles.mi1}
+    src={mp}
+    alt={'plumbing plumber'}
+    blurDataURL="data:..."
+    placeholder="blur"
+    layout="fill"
+    />
+    </div> 
+    <div className={styles.plumber}>
+    <h1 className={styles.mp1}>test</h1>
+    </div>
+    
     </div>
   )
 }
