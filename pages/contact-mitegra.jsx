@@ -1,12 +1,11 @@
 import React from 'react'
 import Head from 'next/head'
 import Image from 'next/image'
-import Contactpng from '../images/Contact.png'
 import styles from '../styles/Footer.module.css'
 const Contact = () => {
     return (
         <div >
-            <Head>
+            {/* <Head>
                 <title>Contact Mitegra</title>
                 <meta name="description" content="Work with Mitegra best plumbers"/>
         
@@ -24,7 +23,7 @@ const Contact = () => {
         layout="responsive"
         />
 
-        </div>
+        </div> */}
         </div>
     )
 }

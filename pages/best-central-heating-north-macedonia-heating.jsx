@@ -8,7 +8,7 @@ const Heating = () => {
     return (
         <div>
             
-            <Head>
+            {/* <Head>
                 <title>Best central heating north macedonia heating</title>
                 <meta name="description" content="You know when you need heating but you cant find the right guy, Bill had the same problem, he asked his friends and they told him about mitegra, bill said that he will only use mitegra from now on"/>
         </Head>
@@ -26,7 +26,7 @@ const Heating = () => {
         </div>
         <div className={Styles.span}>
         <span className={Styles.span1}>We’ve provided high-quality heating services to residential and commercial customers. Our knowledgeable heating engineers have built up extensive experience with jobs of all types and sizes, providing effective solutions at a competitive price – without the need for an ongoing contract or call out charge. As heating experts, all our work is completed safely, efficiently, and professionally, keeping disruption to a minimum and taking the hassle out of addressing issues.</span>
-        </div>
+        </div> */}
         </div>
     )
 }
