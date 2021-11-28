@@ -117,7 +117,7 @@
   }
 }
 .imc2 {
-  top: 55%;
+  top: 53%;
   position: absolute;
   width: 100%;
   height: 500px;
@@ -133,7 +133,7 @@
   white-space: nowrap;
   font-size: 3rem;
   font-weight: bold;
-  top: 70%;
+  top: 65%;
   left: 69%;
   transform: translate(-50%, -100%);
   position: absolute;
@@ -144,8 +144,8 @@
   white-space: nowrap;
   font-size: 1.5rem;
   font-weight: bold;
-  top: 93%;
-  left: 78%;
+  top: 85%;
+  left: 77%;
   transform: translate(-50%, -100%);
   position: absolute;
   color: #474747;
@@ -163,8 +163,8 @@
   outline: none;
   border: none;
   cursor: pointer;
-  left: 65.5%;
-  top: 97%;
+  left: 66%;
+  top: 90%;
   transform: translate(-50%, -50%);
   transition: 0.5s;
   border-radius: 10px;
@@ -178,21 +178,9 @@
     display: none;
   }
 }
-.imc2 {
-  top: 55.5%;
-  position: absolute;
-  width: 100%;
-  height: 500px;
-}
-.imc2 .i2 {
-  object-fit: fill;
-  width: 100% !important;
-  height: 100% !important;
-  position: relative !important;
-  height: unset !important;
-}
+
 .imc3 {
-  top: 111%;
+  top: 106%;
   position: absolute;
   width: 100%;
   height: 500px;
@@ -208,7 +196,7 @@
   white-space: nowrap;
   font-size: 3rem;
   font-weight: bold;
-  top: 125%;
+  top: 115%;
   left: 30%;
   transform: translate(-50%, -100%);
   position: absolute;
@@ -220,8 +208,8 @@
   font-size: 1.3rem;
   text-align: right;
   font-weight: bold;
-  top: 155%;
-  left: 25%;
+  top: 140%;
+  left: 25.5%;
   transform: translate(-50%, -100%);
   position: absolute;
   color: white;
@@ -238,8 +226,8 @@
   outline: none;
   border: none;
   cursor: pointer;
-  left: 33%;
-  top: 160%;
+  left: 32.5%;
+  top: 145%;
   transform: translate(-50%, -50%);
   transition: 0.5s;
   border-radius: 10px;
@@ -249,7 +237,7 @@
 }
 
 .imc4 {
-  top: 166.5%;
+  top: 159.1%;
   position: absolute;
   width: 100%;
   height: 500px;
@@ -266,7 +254,7 @@
   white-space: nowrap;
   font-size: 3rem;
   font-weight: bold;
-  top: 185%;
+  top: 170%;
   left: 72%;
   transform: translate(-50%, -100%);
   position: absolute;
@@ -276,7 +264,7 @@
   white-space: nowrap;
   font-size: 1.3rem;
   font-weight: bold;
-  top: 205%;
+  top: 190%;
   left: 73%;
   transform: translate(-50%, -100%);
   position: absolute;
@@ -293,8 +281,8 @@
   outline: none;
   border: none;
   cursor: pointer;
-  left: 64%;
-  top: 210%;
+  left: 65%;
+  top: 195%;
   transform: translate(-50%, -50%);
   transition: 0.5s;
   border-radius: 10px;
@@ -303,7 +291,7 @@
   background-color: #358b06;
 }
 .imc5 {
-  top: 222%;
+  top: 212%;
   position: absolute;
   width: 100%;
   height: 500px;
@@ -319,7 +307,7 @@
   white-space: nowrap;
   font-size: 3rem;
   font-weight: bold;
-  top: 240%;
+  top: 220%;
   left: 30%;
   transform: translate(-50%, -100%);
   position: absolute;
@@ -330,7 +318,7 @@
   text-align: right;
   font-size: 1.3rem;
   font-weight: bold;
-  top: 265%;
+  top: 240%;
   left: 25%;
   transform: translate(-50%, -100%);
   position: absolute;
@@ -348,7 +336,7 @@
   border: none;
   cursor: pointer;
   left: 33.5%;
-  top: 270%;
+  top: 245%;
   transform: translate(-50%, -50%);
   transition: 0.5s;
   border-radius: 10px;
@@ -357,7 +345,7 @@
   background-color: #358b06;
 }
 .imc6 {
-  top: 277.5%;
+  top: 265%;
   position: absolute;
   width: 100%;
   height: 500px;
@@ -373,7 +361,7 @@
   white-space: nowrap;
   font-size: 3rem;
   font-weight: bold;
-  top: 290%;
+  top: 275%;
   left: 70%;
   transform: translate(-50%, -100%);
   position: absolute;
@@ -384,8 +372,8 @@
   text-align: left;
   font-size: 1.3rem;
   font-weight: bold;
-  top: 312%;
-  left: 73.5%;
+  top: 295%;
+  left: 73%;
   transform: translate(-50%, -100%);
   position: absolute;
   color: #474747;
@@ -401,8 +389,8 @@
   outline: none;
   border: none;
   cursor: pointer;
-  left: 66%;
-  top: 317%;
+  left: 66.5%;
+  top: 299%;
   transform: translate(-50%, -50%);
   transition: 0.5s;
   border-radius: 10px;

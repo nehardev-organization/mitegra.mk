@@ -1,5 +1,4 @@
 import React from 'react'
-import PlumberP from '../images/Plumber-page.png'
 import Head from 'next/head'
 import Styles from '../styles/Plumber.module.css'
 import Image from 'next/image'

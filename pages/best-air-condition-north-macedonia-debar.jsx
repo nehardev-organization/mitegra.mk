@@ -1,5 +1,4 @@
 import React from 'react'
-import AirP from '../images/AirP.png'
 import Head from 'next/head'
 import Styles from '../styles/Plumber.module.css'
 import Image from 'next/image'
@@ -7,7 +6,7 @@ import Image from 'next/image'
 const Air = () => {
     return (
         <div>
-{/*             
+            {/*             
             <Head>
                 <title>Best air condition North Macedonia Debar</title>
                 <meta name="description" content="you know when you need Air conditioning and cant find a good service, well bill had the same problem, bill went from store to store until he found us, he is very satisfied"/>

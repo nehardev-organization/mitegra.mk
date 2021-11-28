@@ -1,5 +1,4 @@
 import React from 'react'
-import heating from '../images/HeatingH.png'
 import Head from 'next/head'
 import Styles from '../styles/Plumber.module.css'
 import Image from 'next/image'
@@ -7,7 +6,7 @@ import Image from 'next/image'
 const Heating = () => {
     return (
         <div>
-            
+
             {/* <Head>
                 <title>Best central heating north macedonia heating</title>
                 <meta name="description" content="You know when you need heating but you cant find the right guy, Bill had the same problem, he asked his friends and they told him about mitegra, bill said that he will only use mitegra from now on"/>

@@ -1,5 +1,4 @@
 import React from 'react'
-import bathroom from '../images/BathroomI.png'
 import Head from 'next/head'
 import Styles from '../styles/Plumber.module.css'
 import Image from 'next/image'
@@ -7,7 +6,7 @@ import Image from 'next/image'
 const Bathroom = () => {
     return (
         <div>
-            
+
             {/* <Head>
                 <title>Best Bathroom Installation North Macedonia Debar</title>
                 <meta name="description" content="you know when you need a functional bathroom, bill had the same issue, he looked online on facebook and all of the internet until he found us, he said its the best bathroom he ever saw,"/>
