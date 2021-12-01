@@ -85,11 +85,11 @@ export default function Home() {
             placeholder="blur"
             layout="fill"
           />
+        <h1 className={styles.hH1}>HEATING</h1>
         <h2 className={styles.hH2}>We provide specialist heating services that <br /> promote a number of alternative heating <br /> options. Our engineers can introduce you to <br /> the benefits of underfloor heating and heat <br /> interface units, helping you to make an <br /> informed decision on whether they’re a good <br /> fit for your property. We also carry out <br /> professional buyer’s reports and <br /> powerflushing services that focus on the <br />  health of your central heating system.</h2>
         <Link href="/best-central-heating-north-macedonia-heating">
           <button className={styles.hButton}>HEATING</button>
         </Link>
-        <h1 className={styles.hH1}>HEATING</h1>
           </div>
 
         <div className={styles.imc4}>
@@ -159,7 +159,11 @@ export default function Home() {
         <Link href="/best-Plumber-in-North-macedonia-plumbing">
           <button className={styles.mButton}>PLUMBING</button>
         </Link>
+     
       </div>
+      <div className={styles.spacer}>
+          <span></span>
+        </div>
       <div className={styles.mh1}>
   <Image
           src={mh}
@@ -170,6 +174,37 @@ export default function Home() {
           placeholder="blur"
           layout="fill"
         />
+        <div className={styles.mheb}>
+        <h1 className={styles.mht}>HEATING</h1>
+        <h2 className={styles.mht1}>We provide specialist heating services that <br /> promote a number of alternative heating <br /> options. Our engineers can introduce you to <br /> the benefits of underfloor heating and heat <br /> interface units, helping you to make an <br /> informed decision on whether they’re a good <br /> fit for your property. We also carry out <br /> professional buyer’s reports and <br /> powerflushing services that focus on the <br />  health of your central heating system.</h2>
+        <Link href="/best-central-heating-north-macedonia-heating">
+          <button className={styles.mhButton}>HEATING</button>
+        </Link>
+        </div>
+        
+
+     
+           <div className={styles.mc}>
+          <Image
+          src={ma}
+          alt={'plumbing plumber'}
+          objectFit="cover"
+          objectPosition="top"
+          blurDataURL="data:..."
+          placeholder="blur"
+          layout="fill"
+        />
+      
+      <h1 className={styles.mc1}>AIR CONDITIONING</h1>
+        <h2 className={styles.mc2}>We can offer a complete Design, Manufacture <br /> and Install package on all manner of split air <br /> conditioning systems and ducted air handling <br /> units. The wall mounted split systems are designed <br /> to air condition small and medium size areas and <br /> are ideal for office shops or domestic applications, <br /> They are generally operated by a remote infra-red control.</h2>
+        <Link href="/best-air-condition-north-macedonia-debar">
+          <button className={styles.mcButton}>AIR CONDITION</button>
+        </Link>
+        
+        </div>
+        <div className={styles.spacer}>
+          <span></span>
+        </div>
       </div>
       </div>
 
