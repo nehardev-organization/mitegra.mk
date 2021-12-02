@@ -113,10 +113,10 @@
 
 .Ph2 {
   white-space: nowrap;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: bold;
   top: 60%;
-  left: 79%;
+  left: 77%;
   transform: translate(-50%, -100%);
   position: absolute;
   color: #212529;
@@ -342,7 +342,7 @@
   background-color: #358b06;
 }
 
-.mb1 {
+.mp {
   position: relative;
   width: 100%;
   height: 150px;
@@ -350,7 +350,7 @@
 .spacer {
   position: relative;
   width: 100%;
-  height: 15rem;
+  height: 20rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -384,7 +384,7 @@
   left: 20%;
 }
 
-.mButton {
+.mpButton {
   position: absolute;
   display: flex;
   background-color: #0067ff;
@@ -533,6 +533,88 @@
   transition: 0.5s;
   border-radius: 10px;
 }
+.mb {
+  position: relative;
+  width: 100%;
+  height: 150px;
+}
+.mb1 {
+  white-space: nowrap;
+  font-size: 30px;
+  z-index: 2;
+  color: #0067ff;
+  position: absolute;
+  top: 120%;
+  left: 30%;
+}
+
+.mb2 {
+  color: white;
+  position: absolute;
+  white-space: nowrap;
+  font-size: 14px;
+  text-align: center;
+  top: 150%;
+  left: 20%;
+}
+
+.mbButton {
+  position: absolute;
+  background-color: #0067ff;
+  white-space: nowrap;
+  padding: 5px 10px;
+  color: white;
+  font-size: 20px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  left: 46%;
+  top: 250%;
+  transform: translate(-50%, -50%);
+  transition: 0.5s;
+  border-radius: 10px;
+}
+.mv {
+  position: relative;
+  width: 100%;
+  height: 150px;
+}
+.mv1 {
+  white-space: nowrap;
+  font-size: 30px;
+  z-index: 2;
+  color: #0067ff;
+  position: absolute;
+  top: 120%;
+  left: 30%;
+}
+
+.mv2 {
+  color: #212529;
+  position: absolute;
+  white-space: nowrap;
+  font-size: 14px;
+  text-align: center;
+  top: 150%;
+  left: 20%;
+}
+
+.mvButton {
+  position: absolute;
+  background-color: #0067ff;
+  white-space: nowrap;
+  padding: 5px 10px;
+  color: white;
+  font-size: 20px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  left: 46%;
+  top: 250%;
+  transform: translate(-50%, -50%);
+  transition: 0.5s;
+  border-radius: 10px;
+}
 
 @media screen and (max-width: 450px) {
   .mb1 {
@@ -546,8 +628,8 @@
     font-size: 13px;
     left: 4%;
   }
-  .mButton {
-    font-size: 15px;
+  .mpButton {
+    font-size: 20px;
     top: 240%;
     left: 50%;
   }
@@ -562,7 +644,7 @@
   }
 
   .mhButton {
-    font-size: 15px;
+    font-size: 20px;
     top: 280%;
     left: 50%;
   }
@@ -571,12 +653,12 @@
     left: 33%;
   }
   .ma2 {
-    font-size: 12px;
+    font-size: 15px;
     left: 5%;
   }
 
   .maButton {
-    font-size: 15px;
+    font-size: 20px;
     top: 230%;
     left: 50%;
   }
@@ -585,13 +667,41 @@
     left: 20%;
   }
   .mc2 {
-    font-size: 12px;
-    left: 5%;
+    font-size: 15px;
+    left: 2%;
   }
 
   .mcButton {
-    font-size: 15px;
-    top: 230%;
+    font-size: 20px;
+    top: 260%;
     left: 50%;
+  }
+  .mb1 {
+    font-size: 25px;
+    left: 33%;
+  }
+  .mb2 {
+    font-size: 15px;
+    left: 1%;
+  }
+
+  .mbButton {
+    font-size: 20px;
+    top: 260%;
+    left: 50%;
+  }
+  .mv1 {
+    font-size: 25px;
+    left: 33%;
+  }
+  .mv2 {
+    font-size: 15px;
+    left: 5%;
+  }
+
+  .mvButton {
+    font-size: 20px;
+    top: 260%;
+    left: 55%;
   }
 }

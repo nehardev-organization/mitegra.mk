@@ -20,7 +20,7 @@ const Contact = () => {
     return (
         
         <>
-        {/* <div className={style.wraper}>
+         {/* <div className={style.contact}>
             <form  ref={form} onSubmit={sendEmail}>
                 <input type="text" className={style.email} placeholder="Email" name="email" />
                 <input type="text" className={style.number} placeholder="Number" name="number" />
@@ -30,7 +30,7 @@ const Contact = () => {
                 <input type="submit" className={style.submit} value="Contact Us" />
             </form>
             
-        </div> */}
+        </div>  */}
         </>
     )
 

@@ -144,7 +144,7 @@ export default function Home() {
         <div className={styles.Mobile}>
 
        
-      <div className={styles.mb1}>
+      <div className={styles.mp}>
         <Image
           src={mp}
           alt={'plumbing plumber'}
@@ -155,9 +155,9 @@ export default function Home() {
           layout="fill"
         />
         <h1 className={styles.mp1}>PLUMBING</h1>
-        <h1 className={styles.mp2}>Our approved plumbers can help with all your plumbing <br /> requirements, providing an efficient response to issues such <br /> as leaks, blockages, and broken toilets. Drawing on their <br /> extensive hands-on experience, our team can also carry out <br /> a wide range of professional plumbing installation services, <br /> covering everything from domestic appliances through to <br /> specialist thermal stores and Saniflo macerators.</h1>
+        <h1 className={styles.mp2}>Our approved plumbers  can help with all your plumbing <br /> requirements, providing an  efficient response to issues such <br /> as leaks, blockages, and broken toilets. Drawing on their <br /> extensive hands-on experience, our team can also carry out <br /> a wide range of professional plumbing installation services, <br /> covering everything from domestic appliances through to <br /> specialist thermal stores and Saniflo macerators.</h1>
         <Link href="/best-Plumber-in-North-macedonia-plumbing">
-          <button className={styles.mButton}>PLUMBING</button>
+          <button className={styles.mpButton}>PLUMBING</button>
         </Link>
      
       </div>
@@ -196,7 +196,7 @@ export default function Home() {
         />
       
       <h1 className={styles.mc1}>AIR CONDITIONING</h1>
-        <h2 className={styles.mc2}>We can offer a complete Design, Manufacture <br /> and Install package on all manner of split air <br /> conditioning systems and ducted air handling <br /> units. The wall mounted split systems are designed <br /> to air condition small and medium size areas and <br /> are ideal for office shops or domestic applications, <br /> They are generally operated by a remote infra-red control.</h2>
+        <h2 className={styles.mc2}>We can offer a complete Design, Manufacture <br /> and Install package on all manner of split air <br /> conditioning systems and ducted air handling <br /> units. The wall mounted split systems are designed <br /> to air condition small and medium size areas and <br /> are ideal for office shops or domestic applications, <br /> They are generally operated by a remote <br /> infra-red control.</h2>
         <Link href="/best-air-condition-north-macedonia-debar">
           <button className={styles.mcButton}>AIR CONDITION</button>
         </Link>
@@ -205,7 +205,50 @@ export default function Home() {
         <div className={styles.spacer}>
           <span></span>
         </div>
+
+        <div className={styles.mb}>
+  <Image
+          src={mb}
+          alt={'plumbing plumber'}
+          objectFit="cover"
+          objectPosition="top"
+          blurDataURL="data:..."
+          placeholder="blur"
+          layout="fill"
+        />
+        <div className={styles.mheb}>
+        <h1 className={styles.mb1}>BATHROOM</h1>
+        <h2 className={styles.mb2}>As experienced plumbers, we can help to design, <br /> install, repair, and replace bathrooms, putting our <br /> skills to good use as part of your home improvement <br /> project. We’ve successfully worked on bathrooms of <br /> all sizes within a wide range of properties and will be <br /> able to provide any expert assistance you require. <br /> We are prepared to handle any issues or challenges <br /> we encounter.</h2>
+        <Link href="/best-bathroom-installation-north-macedonia-debar">
+          <button className={styles.mbButton}>BATHROOM</button>
+        </Link>
+        </div>
+        
+        <div className={styles.mv}>
+          <Image
+          src={mv}
+          alt={'plumbing plumber'}
+          objectFit="cover"
+          objectPosition="top"
+          blurDataURL="data:..."
+          placeholder="blur"
+          layout="fill"
+        />
+      
+    
+        <h1 className={styles.mv1}>VENTILATION</h1>
+        <h2 className={styles.mv2}> we can help to design, install, repair, and replace <br /> Air Conditions, putting our skills to good use as <br /> part of your  improvement project. We’ve <br /> successfully  worked on Air conditions of all sizes <br />within a wide  range of properties and will be able <br />to provide  any expert  assistance you require. <br />We are prepared  to handle any issues or <br /> challenges we encounter.</h2>
+        <Link href="/best-ventilation-installation-north-macedonia-debar">
+          <button className={styles.mvButton}>VENTILATION</button>
+        </Link>
+        
+        </div>
+        <div className={styles.spacer}>
+          <span></span>
+        </div>
+        </div>
       </div>
+      
       </div>
 
     </div>

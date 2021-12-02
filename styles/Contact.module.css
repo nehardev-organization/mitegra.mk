@@ -1,60 +1,64 @@
-.wraper {
+.contact {
+  top: 500%;
   background-color: #0067ff;
   width: 100%;
   height: 500px;
+  position: relative;
 }
 .email {
   padding: 1rem 1.5rem;
   border-radius: 10px;
   border: none;
-  top: 50%;
-  left: 50%;
-  transform: translate(275%, 230%);
+  top: 20%;
+  left: 35%;
   outline: none;
+  position: relative;
 }
 .number {
+  position: relative;
+
   padding: 1rem 1.5rem;
   border-radius: 10px;
   border: none;
-  top: 50%;
+  top: 20%;
   left: 50%;
-  transform: translate(280%, 230%);
   outline: none;
 }
 .fname {
+  position: relative;
+
   padding: 1rem 1.5rem;
   border-radius: 10px;
   border: none;
-  top: 50%;
-  left: 50%;
-  transform: translate(75%, 350%);
+  top: 31%;
+  left: 35%;
   outline: none;
 }
 .lname {
+  position: relative;
+
   padding: 1rem 1.5rem;
   border-radius: 10px;
   border: none;
-  top: 50%;
+  top: 31%;
   left: 50%;
-  transform: translate(80%, 350%);
   outline: none;
 }
 .mess {
+  position: relative;
   padding: 1rem 1.5rem;
   border-radius: 10px;
   border: none;
-  top: 50%;
-  left: 50%;
-  transform: translate(-70%, 500%);
+  top: 45%;
+  left: 42%;
   outline: none;
 }
 .mess .placeholder {
-  position: absolute;
+  position: relative;
   left: 12px;
 }
 .submit {
-  position: absolute;
-  display: flex;
+  position: relative;
   background-color: #15181b;
   white-space: nowrap;
   padding: 1rem 1rem;
@@ -63,11 +67,13 @@
   outline: none;
   border: none;
   cursor: pointer;
-
-  transform: translate(500%, 450%);
+  top: 60%;
+  left: 44%;
   transition: 0.5s;
   border-radius: 10px;
 }
 .submit:hover {
   background-color: #358b06;
+}
+@media screen and (max-width: 1130) {
 }
