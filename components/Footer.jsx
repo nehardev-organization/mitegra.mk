@@ -6,7 +6,7 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <>
-      <div className={style.wraper}>
+      {/* <div className={style.wraper}>
         <svg
           className={style.logo}
           width="104"
@@ -173,7 +173,7 @@ const Footer = () => {
             <span className={style.mit1}> nehardev.com</span>
           </Link>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };

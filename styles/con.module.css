@@ -1,0 +1,16 @@
+.contact {
+  position: relative;
+  width: 100%;
+  height: 600px;
+}
+.c1 {
+  white-space: nowrap;
+  font-size: 30px;
+  z-index: 2;
+  color: #0067ff;
+  position: absolute;
+  top: 50%;
+  left: 65%;
+  font-weight: bolder;
+  text-shadow: #0067ff;
+}

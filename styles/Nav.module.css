@@ -11,9 +11,9 @@
   left: 0;
   right: 0;
   z-index: 99;
-  background-color: #212529;
+  background-color: #0067ff;
   padding: 16px 32px;
-  border-bottom: 3px solid #0067ff;
+  border-bottom: 3px solid #212529;
 }
 .logo {
   margin-right: auto;
@@ -48,7 +48,7 @@
 }
 .hamburger:hover span:nth-child(2) {
   transform: translate(10px);
-  background-color: #0067ff;
+  background-color: #212529;
 }
 
 .hamburger.isActive span:nth-child(1) {
@@ -62,7 +62,7 @@
   transform: translate(-0.2rem, 0.55rem) rotate(-45deg);
 }
 .hamburger.isActive:hover span {
-  background-color: #0067ff;
+  background-color: #212529;
 }
 .mobileNav {
   display: block;
