@@ -1,10 +1,9 @@
 import React from "react";
 import Head from "next/head";
 import styles from "../styles/Plumber.module.css";
-import ar from "../images/arcon.png";
+import ve from "../images/ve.png";
 import Image from "next/image";
-
-const Air = () => {
+const Ventilation = () => {
   return (
     <div>
       <Head>
@@ -16,7 +15,7 @@ const Air = () => {
       </Head>
       <div className={styles.plumber}>
         <Image
-          src={ar}
+          src={ve}
           alt={"plumbing plumber"}
           objectFit="cover"
           objectPosition="top"
@@ -24,11 +23,11 @@ const Air = () => {
           placeholder="blur"
           layout="fill"
         />
-        <h1 className={styles.ps1}>AIR CONDITIONING</h1>
+        <h1 className={styles.ps1}>VENTILATION</h1>
       </div>
       <div className={styles.text}>
         <span className={styles.head1}>
-          EXPERT <span className={styles.head2}>AIR CONDITIONING</span>
+          EXPERT <span className={styles.head2}>VENTILATION</span>
         </span>
       </div>
       <div className={styles.span}>
@@ -50,4 +49,4 @@ const Air = () => {
   );
 };
 
-export default Air;
+export default Ventilation;
