@@ -306,6 +306,35 @@ export default function Home() {
         <div className={styles.spacer}>
           <span></span>
         </div>
+        <div className={styles.mp}>
+          <Image
+            src={mb}
+            alt={'plumbing plumber'}
+            objectFit='cover'
+            objectPosition='top'
+            blurDataURL='data:...'
+            placeholder='blur'
+            layout='fill'
+          />
+          <h1 className={styles.mv1}>VENTILATION</h1>
+          <h2 className={styles.mv2}>
+            {" "}
+            we can help to design, install, repair, and replace <br /> Air
+            Conditions, putting our skills to good use as <br /> part of
+            your improvement project. We’ve <br /> successfully worked on
+            Air conditions of all sizes <br />
+            within a wide range of properties and will be able <br />
+            to provide any expert assistance you require. <br />
+            We are prepared to handle any issues or <br /> challenges we
+            encounter.
+          </h2>
+          <Link href="/best-ventilation-installation-north-macedonia-debar">
+            <button className={styles.mvButton}>VENTILATION</button>
+          </Link>
+        </div>
+        <div className={styles.spacer}>
+          <span></span>
+        </div>
       </div>
     </div>
   );
