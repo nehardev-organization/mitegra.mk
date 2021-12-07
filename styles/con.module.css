@@ -3,6 +3,18 @@
   width: 100%;
   height: 600px;
 }
+@media screen and (min-width: 768px) {
+  .Mobile {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Desktop {
+    display: none;
+  }
+}
+
 .c1 {
   white-space: nowrap;
   font-size: 30px;
@@ -13,4 +25,9 @@
   left: 65%;
   font-weight: bolder;
   text-shadow: #0067ff;
+}
+.heroas {
+  position: relative;
+  width: 100%;
+  height: 200px;
 }

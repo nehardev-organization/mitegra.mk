@@ -13,7 +13,6 @@ import ma from "../images/mabg.png";
 import mb from "../images/mbbg.png";
 import mv from "../images/mvbg.png";
 import Link from "next/link";
-import Contact from "../components/Contact";
 export default function Home() {
   return (
     <div className={styles.HomePage}>
@@ -76,7 +75,7 @@ export default function Home() {
             covering everything from domestic appliances through to <br />{" "}
             specialist thermal stores and Saniflo macerators.
           </h2>
-          <Link href="/best-Plumber-in-North-Macedonia-plumbing">
+          <Link href="/best-Plumber-in-North-macedonia-plumbing">
             <button className={styles.pButton}>PLUMBING</button>
           </Link>
         </div>
