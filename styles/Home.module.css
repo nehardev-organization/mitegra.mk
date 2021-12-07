@@ -93,6 +93,11 @@
     transform: translate(-50%);
   }
 }
+@media screen and (max-width: 350px) {
+  .h1 {
+    font-size: 1.2rem;
+  }
+}
 
 .imc2 {
   position: relative;
@@ -631,7 +636,7 @@
   }
   .mpButton {
     font-size: 20px;
-    top: 240%;
+    top: 250%;
     left: 50%;
   }
 
@@ -646,7 +651,7 @@
 
   .mhButton {
     font-size: 20px;
-    top: 280%;
+    top: 285%;
     left: 50%;
   }
   .ma1 {
@@ -660,7 +665,7 @@
 
   .maButton {
     font-size: 20px;
-    top: 230%;
+    top: 240%;
     left: 50%;
   }
   .mc1 {
@@ -674,7 +679,7 @@
 
   .mcButton {
     font-size: 20px;
-    top: 260%;
+    top: 265%;
     left: 50%;
   }
   .mb1 {
@@ -688,7 +693,7 @@
 
   .mbButton {
     font-size: 20px;
-    top: 260%;
+    top: 265%;
     left: 50%;
   }
   .mv1 {
@@ -702,7 +707,83 @@
 
   .mvButton {
     font-size: 20px;
-    top: 260%;
+    top: 265%;
     left: 50%;
+  }
+}
+@media screen and (max-width: 350px) {
+  .mb1 {
+    height: 150px;
+  }
+  .mp1 {
+    font-size: 25px;
+    left: 33%;
+  }
+  .mp2 {
+    font-size: 12px;
+    left: 5%;
+  }
+  .mpButton {
+    font-size: 20px;
+    top: 250%;
+    left: 50%;
+  }
+
+  .mht {
+    font-size: 25px;
+    left: 33%;
+  }
+  .mht1 {
+    font-size: 15px;
+    left: 6%;
+  }
+
+  .mhButton {
+    font-size: 20px;
+    top: 285%;
+    left: 50%;
+  }
+
+  .mc1 {
+    font-size: 25px;
+    left: 19%;
+  }
+  .mc2 {
+    font-size: 14px;
+    left: 5%;
+  }
+
+  .mcButton {
+    font-size: 20px;
+    top: 265%;
+    left: 50%;
+  }
+  .mb1 {
+    font-size: 25px;
+    left: 27%;
+  }
+  .mb2 {
+    font-size: 13px;
+    left: 5%;
+  }
+
+  .mbButton {
+    font-size: 20px;
+    top: 265%;
+    left: 50%;
+  }
+  .mv1 {
+    font-size: 25px;
+    left: 25%;
+  }
+  .mv2 {
+    font-size: 13px;
+    left: 10%;
+  }
+
+  .mvButton {
+    font-size: 20px;
+    top: 265%;
+    left: 53%;
   }
 }

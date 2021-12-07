@@ -7,7 +7,7 @@ const Ventilation = () => {
   return (
     <div>
       <Head>
-        <title>Best air condition North Macedonia Debar</title>
+        <title>Best Ventilation In North Macedonia Debar</title>
         <meta
           name="description"
           content="you know when you need Air conditioning and cant find a good service, well bill had the same problem, bill went from store to store until he found us, he is very satisfied"
