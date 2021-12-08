@@ -1,6 +1,6 @@
 import React from "react";
 import Head from "next/head";
-import styles from "../styles/Plumber.module.css";
+import styles from "../styles/Ventilation.module.css";
 import ve from "../images/ve.png";
 import Image from "next/image";
 const Ventilation = () => {
