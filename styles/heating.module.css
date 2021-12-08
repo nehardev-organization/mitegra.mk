@@ -64,23 +64,23 @@
   width: 100%;
   height: 20rem;
 }
-.mp {
+.mh {
   position: relative;
   width: 100%;
   height: 150px;
 }
 
-.mp1 {
+.mh1 {
   white-space: nowrap;
   font-size: 30px;
   z-index: 2;
   color: #0067ff;
   position: absolute;
   top: 120%;
-  left: 20%;
+  left: 25%;
 }
 
-.mp2 {
+.mh2 {
   color: white;
   position: absolute;
   white-space: nowrap;

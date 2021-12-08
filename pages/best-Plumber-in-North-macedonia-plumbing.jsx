@@ -65,7 +65,8 @@ const Plumber = () => {
             placeholder="blur"
             layout="fill"
           />
-          <h1 className={styles.mp1}>PLUMBING</h1>
+
+          <span className={styles.mp1}> EXPERT PLUMBING SERVICES</span>
           <h1 className={styles.mp2}>
             we’ve provided a wide range of professional and efficient plumbing{" "}
             <br />
@@ -84,9 +85,6 @@ const Plumber = () => {
             <br />
             your property require.
           </h1>
-          <Link href="/best-Plumber-in-North-macedonia-plumbing">
-            <button className={styles.mpButton}>PLUMBING</button>
-          </Link>
         </div>
         <div className={styles.mheb}></div>
       </div>
