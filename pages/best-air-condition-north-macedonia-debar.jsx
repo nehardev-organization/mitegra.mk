@@ -1,6 +1,6 @@
 import React from "react";
 import Head from "next/head";
-import styles from "../styles/heating.module.css";
+import styles from "../styles/air.module.css";
 import ar from "../images/arcon.png";
 import mar from "../images/mabg.png";
 import Image from "next/image";
@@ -52,7 +52,7 @@ const Air = () => {
       </div>
 
       <div className={styles.Mobile}>
-        <div className={styles.mp}>
+        <div className={styles.ma}>
           <Image
             src={mar}
             alt={"plumbing plumber"}
@@ -63,8 +63,8 @@ const Air = () => {
             layout="fill"
           />
 
-          <span className={styles.mp1}> EXPERT AIR CONDITION </span>
-          <h1 className={styles.mp2}>
+          <span className={styles.ma1}> EXPERT AIR CONDITION </span>
+          <h1 className={styles.ma2}>
             We’ve provided high-quality air conditioning services to residential{" "}
             <br />
             and commercial customers. Our knowledgeable engineers have built up{" "}

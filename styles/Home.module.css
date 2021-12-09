@@ -577,7 +577,7 @@
   border: none;
   cursor: pointer;
   left: 46%;
-  top: 250%;
+  top: 260%;
   transform: translate(-50%, -50%);
   transition: 0.5s;
   border-radius: 10px;
@@ -641,7 +641,7 @@
   }
   .mp2 {
     font-size: 13px;
-    left: 4%;
+    left: 10%;
   }
   .mpButton {
     font-size: 20px;
@@ -669,7 +669,7 @@
   }
   .ma2 {
     font-size: 15px;
-    left: 5%;
+    left: 10%;
   }
 
   .maButton {
@@ -683,7 +683,7 @@
   }
   .mc2 {
     font-size: 15px;
-    left: 2%;
+    left: 10%;
   }
 
   .mcButton {
@@ -697,7 +697,7 @@
   }
   .mb2 {
     font-size: 15px;
-    left: 1%;
+    left: 10%;
   }
 
   .mbButton {
@@ -711,7 +711,7 @@
   }
   .mv2 {
     font-size: 15px;
-    left: 5%;
+    left: 10%;
   }
 
   .mvButton {

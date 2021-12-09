@@ -64,13 +64,13 @@
   width: 100%;
   height: 20rem;
 }
-.mp {
+.ma {
   position: relative;
   width: 100%;
   height: 150px;
 }
 
-.mp1 {
+.ma1 {
   white-space: nowrap;
   font-size: 30px;
   z-index: 2;
@@ -80,7 +80,7 @@
   left: 20%;
 }
 
-.mp2 {
+.ma2 {
   color: white;
   position: absolute;
   white-space: nowrap;
@@ -91,29 +91,29 @@
 }
 
 @media screen and (max-width: 450px) {
-  .mb {
+  .ma {
     height: 150px;
   }
-  .mp1 {
+  .ma1 {
     font-size: 25px;
     left: 10%;
   }
-  .mp2 {
+  .ma2 {
     font-size: 10px;
     left: 10%;
   }
 }
 @media screen and (max-width: 320px) {
-  .mb {
+  .ma {
     height: 150px;
   }
 
-  .mp1 {
+  .ma1 {
     font-size: 15px;
     left: 9%;
   }
-  .mp2 {
+  .ma2 {
     font-size: 9px;
-    left: 1%;
+    left: 0%;
   }
 }
