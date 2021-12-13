@@ -45,7 +45,7 @@
 .spacer {
   position: relative;
   width: 100%;
-  height: 30rem;
+  height: 10rem;
 }
 @media screen and (min-width: 768px) {
   .Mobile {
@@ -116,4 +116,87 @@
     font-size: 9px;
     left: 0%;
   }
+}
+/* Gallery css */
+
+.gallery {
+  --webkit-column-count: 3;
+  --maz-column-count: 3;
+  column-count: 3;
+  --webkit-column-width: 33%;
+  --maz-column-width: 33%;
+  column-width: 33%;
+  padding: 0 12px;
+}
+.gallery .pics {
+  -webkit-trasintion: all 350ms ease;
+  transform: all 350ms ease;
+  cursor: pointer;
+  margin-bottom: 12px;
+}
+.gallery .pics:hover {
+  filter: opacity(0.8);
+}
+@media (max-width: 991px) {
+  .gallery {
+    --webkit-column-count: 2;
+    --maz-column-count: 2;
+    column-count: 2;
+  }
+}
+@media (max-width: 480px) {
+  .gallery {
+    --webkit-column-count: 1;
+    --maz-column-count: 1;
+    column-count: 1;
+    --webkit-column-width: 100%;
+    --maz-column-width: 100%;
+    column-width: 100%;
+  }
+}
+/* module */
+
+.model {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 60%);
+  transition: opacity 0.4s ease, visibility 4s ease, trasnfrom 0.5s ease-in-out;
+  visibility: hidden;
+  opacity: 0;
+  transform: scale(0);
+  overflow: hidden;
+  z-index: 999;
+}
+.modelOpen {
+  visibility: visible;
+  opacity: 1;
+  transform: scale(1);
+}
+.model .img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  line-height: 9;
+  box-sizing: border-box;
+  padding: 20px 0 20px;
+  margin: 0 auto;
+}
+
+.modelOpen svg {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  width: 2rem;
+  height: 2rem;
+  padding: 5px;
+  cursor: pointer;
+  background-color: black;
+  border-radius: 20px;
 }

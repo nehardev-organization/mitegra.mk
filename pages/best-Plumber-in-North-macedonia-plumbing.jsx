@@ -333,8 +333,7 @@ let Plumber = () => {
             ]
           : null}
         <svg
-          onC
-          lick={() => setModel(false)}
+          onClick={() => setModel(false)}
           xmlns="http://www.w3.org/2000/svg"
           width="24"
           height="24"
