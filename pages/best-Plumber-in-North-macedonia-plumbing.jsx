@@ -257,16 +257,6 @@ let Plumber = () => {
       </Head>
       <div className={styles.Desktop}>
         <div className={styles.plumber}>
-          <Image
-            src={plumber}
-            alt={"plumbing plumber"}
-            objectFit="cover"
-            objectPosition="top"
-            blurDataURL="data:..."
-            placeholder="blur"
-            layout="fill"
-          />
-
           <h1 className={styles.ps1}> PLUMBING SERVICES</h1>
         </div>
         <div className={styles.text}>
@@ -328,16 +318,21 @@ let Plumber = () => {
         </div>
         <div className={styles.mheb}></div>
       </div>
-      <div className={`${model ? styles.modelOpen : ""}${styles.model}`}>
-        <Image
-          src={tempimgSrc}
-          width={400}
-          height={400}
-          objectFit="cover"
-          objectPosition="top"
-          blurDataURL="data:..."
-          placeholder="blur"
-        />
+      <div className={`${model ? styles.model : ""} ${styles.modelOpen}`}>
+        {tempimgSrc
+          ? [
+              <Image
+                src={tempimgSrc}
+                className={styles.img}
+                width={400}
+                height={400}
+                objectFit="cover"
+                objectPosition="top"
+                blurDataURL="data:..."
+                placeholder="blur"
+              />,
+            ]
+          : null}
       </div>
       <div className={styles.gallery}>
         {data.map((item, imgSrc) => (
