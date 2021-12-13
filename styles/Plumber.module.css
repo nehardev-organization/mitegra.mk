@@ -166,7 +166,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 60%);
   transition: opacity 0.4s ease, visibility 4s ease, trasnfrom 0.5s ease-in-out;
   visibility: hidden;
   opacity: 0;
@@ -179,7 +179,7 @@
   opacity: 1;
   transform: scale(1);
 }
-.model img {
+.model .img {
   width: auto;
   max-width: 100%;
   height: auto;
@@ -188,4 +188,16 @@
   box-sizing: border-box;
   padding: 20px 0 20px;
   margin: 0 auto;
+}
+
+.modelOpen svg {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  width: 2rem;
+  height: 2rem;
+  padding: 5px;
+  cursor: pointer;
+  background-color: black;
+  border-radius: 20px;
 }
