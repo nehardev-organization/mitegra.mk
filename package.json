@@ -6,7 +6,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "postbuild": "npx next-sitemap"
+    "postbuild": "next-sitemap"
   },
   "dependencies": {
     "emailjs-com": "^3.2.0",
