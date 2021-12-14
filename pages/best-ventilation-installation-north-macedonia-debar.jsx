@@ -291,15 +291,15 @@ const Ventilation = () => {
         </svg>
       </div>
       <div className={styles.gallery}>
-        {data.map((item, imgSrc) => (
+        {data.map((item, index) => (
           <div
             className={styles.pics}
-            key={imgSrc}
+            key={index}
             onClick={() => getImg(item.imgSrc)}
           >
             <Image
               src={item.imgSrc}
-              alt="ventilation"
+              alt="air contition"
               width={400}
               height={400}
               objectFit="cover"

@@ -525,10 +525,10 @@ const Bathroom = () => {
         </svg>
       </div>
       <div className={styles.gallery}>
-        {data.map((item, imgSrc) => (
+        {data.map((item, index) => (
           <div
             className={styles.pics}
-            key={imgSrc}
+            key={index}
             onClick={() => getImg(item.imgSrc)}
           >
             <Image
