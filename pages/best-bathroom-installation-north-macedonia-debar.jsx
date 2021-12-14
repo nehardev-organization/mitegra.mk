@@ -4,8 +4,6 @@ import styles from "../styles/bathroom.module.css";
 import bt from "../images/bat.png";
 import mb from "../images/mbbg.png";
 import Image from "next/image";
-import Gallery from "../components/Gallery";
-
 import B1 from "../images/B/B1.jpg";
 import B2 from "../images/B/B2.jpg";
 import B3 from "../images/B/B3.jpg";
