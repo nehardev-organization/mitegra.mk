@@ -8,8 +8,6 @@ import Link from "next/link";
 
 import P1 from "../images/P/P1.jpg";
 import P2 from "../images/P/P2.jpg";
-import P3 from "../images/P/P3.jpg";
-import P4 from "../images/P/P4.jpg";
 import P5 from "../images/P/P5.jpg";
 import P6 from "../images/P/P6.jpg";
 import P7 from "../images/P/P7.jpg";
@@ -61,14 +59,7 @@ let Plumber = () => {
       id: 2,
       imgSrc: P2,
     },
-    {
-      id: 3,
-      imgSrc: P3,
-    },
-    {
-      id: 4,
-      imgSrc: P4,
-    },
+
     {
       id: 5,
       imgSrc: P5,
@@ -257,6 +248,15 @@ let Plumber = () => {
       </Head>
       <div className={styles.Desktop}>
         <div className={styles.plumber}>
+          <Image
+            src={plumber}
+            alt={"plumbing plumber"}
+            objectFit="cover"
+            objectPosition="top"
+            placeholder="blur"
+            layout="fill"
+          />
+
           <h1 className={styles.ps1}> PLUMBING SERVICES</h1>
         </div>
         <div className={styles.text}>
@@ -318,14 +318,14 @@ let Plumber = () => {
         </div>
         <div className={styles.mheb}></div>
       </div>
-      <div className={`${model ? styles.model : ""} ${styles.modelOpen}`}>
+      <div className={`${model ? styles.modelOpen : ""} ${styles.model}`}>
         {tempimgSrc
           ? [
               <Image
                 src={tempimgSrc}
                 className={styles.img}
-                width={500}
-                height={500}
+                width={600}
+                height={600}
                 objectFit="cover"
                 objectPosition="top"
                 placeholder="blur"

@@ -25,6 +25,8 @@ import H17 from "../images/H/H17.jpg";
 import H18 from "../images/H/H18.jpg";
 import H19 from "../images/H/H19.jpg";
 import H20 from "../images/H/H20.jpg";
+import H21 from "../images/H/H21.jpg";
+import H22 from "../images/H/H22.jpg";
 
 const Heating = () => {
   let data = [
@@ -107,6 +109,14 @@ const Heating = () => {
     {
       id: 20,
       imgSrc: H20,
+    },
+    {
+      id: 21,
+      imgSrc: H21,
+    },
+    {
+      id: 22,
+      imgSrc: H22,
     },
   ];
   const [model, setModel] = useState(false);
@@ -194,14 +204,14 @@ const Heating = () => {
         </div>
         <div className={styles.mheb}></div>
       </div>
-      <div className={`${model ? styles.model : ""} ${styles.modelOpen}`}>
+      <div className={`${model ? styles.modelOpen : ""} ${styles.model}`}>
         {tempimgSrc
           ? [
               <Image
                 src={tempimgSrc}
                 className={styles.img}
-                width={500}
-                height={500}
+                width={600}
+                height={600}
                 objectFit="cover"
                 objectPosition="top"
                 placeholder="blur"
