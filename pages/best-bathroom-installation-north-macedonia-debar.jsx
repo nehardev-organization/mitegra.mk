@@ -431,7 +431,7 @@ const Bathroom = () => {
         <div className={styles.plumber}>
           <Image
             src={bt}
-            alt={"plumbing plumber"}
+            alt={"bathroom installation"}
             objectFit="cover"
             objectPosition="top"
             blurDataURL="data:..."
@@ -467,7 +467,7 @@ const Bathroom = () => {
         <div className={styles.mb}>
           <Image
             src={mb}
-            alt={"plumbing plumber"}
+            alt={"bathroom installation"}
             objectFit="cover"
             objectPosition="top"
             blurDataURL="data:..."

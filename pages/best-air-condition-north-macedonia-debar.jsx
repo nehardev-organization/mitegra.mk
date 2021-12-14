@@ -80,7 +80,7 @@ const Air = () => {
         <div className={styles.plumber}>
           <Image
             src={ar}
-            alt={"plumbing plumber"}
+            alt={"air condition"}
             objectFit="cover"
             objectPosition="top"
             blurDataURL="data:..."
@@ -116,7 +116,7 @@ const Air = () => {
         <div className={styles.ma}>
           <Image
             src={mar}
-            alt={"plumbing plumber"}
+            alt={"air condition"}
             objectFit="cover"
             objectPosition="top"
             blurDataURL="data:..."

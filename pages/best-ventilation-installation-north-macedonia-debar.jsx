@@ -198,14 +198,14 @@ const Ventilation = () => {
         <title>Best Ventilation In North Macedonia Debar</title>
         <meta
           name="description"
-          content="you know when you need Air conditioning and cant find a good service, well bill had the same problem, bill went from store to store until he found us, he is very satisfied"
+          content="you know when you need ventilation and cant find a good service, well bill had the same problem, bill went from store to store until he found us, he is very satisfied"
         />
       </Head>
       <div className={styles.Desktop}>
         <div className={styles.plumber}>
           <Image
             src={ve}
-            alt={"plumbing plumber"}
+            alt={"ventilation"}
             objectFit="cover"
             objectPosition="top"
             blurDataURL="data:..."

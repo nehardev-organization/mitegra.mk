@@ -138,7 +138,7 @@ const Heating = () => {
         <div className={styles.plumber}>
           <Image
             src={ht}
-            alt={"plumbing plumber"}
+            alt={"central heating"}
             objectFit="cover"
             objectPosition="top"
             blurDataURL="data:..."
@@ -175,7 +175,7 @@ const Heating = () => {
         <div className={styles.mh}>
           <Image
             src={mh}
-            alt={"plumbing plumber"}
+            alt={"central heating"}
             objectFit="cover"
             objectPosition="top"
             blurDataURL="data:..."
