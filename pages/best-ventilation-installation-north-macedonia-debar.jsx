@@ -265,7 +265,6 @@ const Ventilation = () => {
         {tempimgSrc
           ? [
               <Image
-                key={imgSrc}
                 src={tempimgSrc}
                 className={styles.img}
                 alt="ventilation"

@@ -322,7 +322,6 @@ let Plumber = () => {
         {tempimgSrc
           ? [
               <Image
-                key={imgSrc}
                 src={tempimgSrc}
                 className={styles.img}
                 alt="plumber"
