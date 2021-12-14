@@ -208,8 +208,10 @@ const Heating = () => {
         {tempimgSrc
           ? [
               <Image
+                key={imgSrc}
                 src={tempimgSrc}
                 className={styles.img}
+                alt="heating"
                 width={600}
                 height={600}
                 objectFit="cover"
@@ -241,6 +243,7 @@ const Heating = () => {
           >
             <Image
               src={item.imgSrc}
+              alt="heating"
               width={400}
               height={400}
               objectFit="cover"

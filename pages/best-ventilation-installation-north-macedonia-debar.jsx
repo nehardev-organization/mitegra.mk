@@ -265,8 +265,10 @@ const Ventilation = () => {
         {tempimgSrc
           ? [
               <Image
+                key={imgSrc}
                 src={tempimgSrc}
                 className={styles.img}
+                alt="ventilation"
                 width={600}
                 height={600}
                 objectFit="cover"
@@ -298,6 +300,7 @@ const Ventilation = () => {
           >
             <Image
               src={item.imgSrc}
+              alt="ventilation"
               width={400}
               height={400}
               objectFit="cover"

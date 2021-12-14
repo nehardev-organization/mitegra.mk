@@ -499,8 +499,10 @@ const Bathroom = () => {
         {tempimgSrc
           ? [
               <Image
+                key={imgSrc}
                 src={tempimgSrc}
                 className={styles.img}
+                alt="bathroom"
                 width={600}
                 height={600}
                 objectFit="cover"
@@ -532,6 +534,7 @@ const Bathroom = () => {
           >
             <Image
               src={item.imgSrc}
+              alt="bathroom"
               width={400}
               height={400}
               objectFit="cover"

@@ -322,8 +322,10 @@ let Plumber = () => {
         {tempimgSrc
           ? [
               <Image
+                key={imgSrc}
                 src={tempimgSrc}
                 className={styles.img}
+                alt="plumber"
                 width={600}
                 height={600}
                 objectFit="cover"
@@ -355,6 +357,7 @@ let Plumber = () => {
           >
             <Image
               src={item.imgSrc}
+              alt="plumber"
               width={400}
               height={400}
               objectFit="cover"
