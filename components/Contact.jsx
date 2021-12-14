@@ -40,7 +40,7 @@ const Contact = () => {
               <div className={style.formBox}>
                 <div className={style.row50}>
                   <div className={style.inputBox}>
-                    <span>Frist Name</span>
+                    <span>First Name</span>
                     <input
                       type="text"
                       className={style.fname}

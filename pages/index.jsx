@@ -122,7 +122,7 @@ export default function Home() {
             ducted air handling <br /> units. The wall mounted split systems are
             designed <br /> to air condition small and medium size areas and{" "}
             <br /> are ideal for office shops or domestic applications, <br />{" "}
-            They are generally operated by a remote infra-red control.
+            They are generally operated by a remote <br /> infra-red control.
           </h2>
           <Link href="/best-air-condition-north-macedonia-debar">
             <button className={styles.aButton}>AIR CONDITION</button>
@@ -254,7 +254,7 @@ export default function Home() {
             package on all manner of split air <br /> conditioning systems and
             ducted air handling <br /> units. The wall mounted split systems are
             designed <br /> to air condition small and medium size areas and{" "}
-            <br /> are ideal for office shops or domestic applications, <br />{" "}
+            <br /> are ideal for office shops or domestic applications. <br />{" "}
             They are generally operated by a remote <br /> infra-red control.
           </h2>
           <Link href="/best-air-condition-north-macedonia-debar">
@@ -278,7 +278,7 @@ export default function Home() {
           <div className={styles.mheb}></div>
           <h1 className={styles.mb1}>BATHROOM</h1>
           <h2 className={styles.mb2}>
-            As experienced plumbers, we can help to design, <br /> install,
+            As experienced plumbers, e can help to design, <br /> install,
             repair, and replace bathrooms, putting <br /> our skills to good use
             as part of your home <br /> improvement project. We’ve successfully{" "}
             <br />
@@ -307,7 +307,7 @@ export default function Home() {
           <h1 className={styles.mv1}>VENTILATION</h1>
           <h2 className={styles.mv2}>
             {" "}
-            we can help to design, install, repair, and replace <br /> Air
+            We can help to design, install, repair, and replace <br /> Air
             Conditions, putting our skills to good use as <br /> part of your
             improvement project. We’ve <br /> successfully worked on Air
             conditions of all sizes <br />
