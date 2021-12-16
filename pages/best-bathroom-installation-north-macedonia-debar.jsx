@@ -9,6 +9,7 @@ import B2 from "../images/B/B2.jpg";
 import B3 from "../images/B/B3.jpg";
 import B4 from "../images/B/B4.jpg";
 import B5 from "../images/B/B5.jpg";
+import B6 from "../images/B/B6.jpg";
 import B7 from "../images/B/B7.jpg";
 import B8 from "../images/B/B8.jpg";
 import B9 from "../images/B/B9.jpg";
@@ -41,7 +42,6 @@ import B35 from "../images/B/B35.jpg";
 import B36 from "../images/B/B36.jpg";
 import B37 from "../images/B/B37.jpg";
 import B38 from "../images/B/B38.jpg";
-import B39 from "../images/B/B39.jpg";
 import B40 from "../images/B/B40.jpg";
 import B41 from "../images/B/B41.jpg";
 import B42 from "../images/B/B42.jpg";
@@ -57,32 +57,6 @@ import B51 from "../images/B/B51.jpg";
 import B52 from "../images/B/B52.jpg";
 import B53 from "../images/B/B53.jpg";
 import B54 from "../images/B/B54.jpg";
-import B55 from "../images/B/B55.jpg";
-import B56 from "../images/B/B56.jpg";
-import B57 from "../images/B/B57.jpg";
-import B58 from "../images/B/B58.jpg";
-import B59 from "../images/B/B59.jpg";
-import B60 from "../images/B/B60.jpg";
-import B61 from "../images/B/B61.jpg";
-import B62 from "../images/B/B62.jpg";
-import B63 from "../images/B/B63.jpg";
-import B64 from "../images/B/B64.jpg";
-import B65 from "../images/B/B65.jpg";
-import B66 from "../images/B/B66.jpg";
-import B67 from "../images/B/B67.jpg";
-import B68 from "../images/B/B68.jpg";
-import B69 from "../images/B/B69.jpg";
-import B70 from "../images/B/B70.jpg";
-import B71 from "../images/B/B71.jpg";
-import B72 from "../images/B/B72.jpg";
-import B73 from "../images/B/B73.jpg";
-import B74 from "../images/B/B74.jpg";
-import B75 from "../images/B/B75.jpg";
-import B76 from "../images/B/B76.jpg";
-import B77 from "../images/B/B77.jpg";
-import B78 from "../images/B/B78.jpg";
-import B79 from "../images/B/B79.jpg";
-import B80 from "../images/B/B80.jpg";
 
 const Bathroom = () => {
   let data = [
@@ -240,10 +214,6 @@ const Bathroom = () => {
     },
 
     {
-      id: 39,
-      imgSrc: B38,
-    },
-    {
       id: 40,
       imgSrc: B40,
     },
@@ -304,112 +274,6 @@ const Bathroom = () => {
     {
       id: 54,
       imgSrc: B54,
-    },
-    {
-      id: 55,
-      imgSrc: B55,
-    },
-    {
-      id: 56,
-      imgSrc: B56,
-    },
-    {
-      id: 57,
-      imgSrc: B57,
-    },
-    {
-      id: 58,
-      imgSrc: B58,
-    },
-    {
-      id: 59,
-      imgSrc: B59,
-    },
-    {
-      id: 60,
-      imgSrc: B60,
-    },
-    {
-      id: 61,
-      imgSrc: B61,
-    },
-    {
-      id: 62,
-      imgSrc: B62,
-    },
-    {
-      id: 63,
-      imgSrc: B63,
-    },
-    {
-      id: 64,
-      imgSrc: B64,
-    },
-    {
-      id: 65,
-      imgSrc: B65,
-    },
-
-    {
-      id: 66,
-      imgSrc: B66,
-    },
-    {
-      id: 67,
-      imgSrc: B67,
-    },
-    {
-      id: 68,
-      imgSrc: B68,
-    },
-    {
-      id: 69,
-      imgSrc: B69,
-    },
-    {
-      id: 70,
-      imgSrc: B70,
-    },
-    {
-      id: 71,
-      imgSrc: B71,
-    },
-    {
-      id: 72,
-      imgSrc: B72,
-    },
-    {
-      id: 73,
-      imgSrc: B73,
-    },
-
-    {
-      id: 74,
-      imgSrc: B74,
-    },
-    {
-      id: 75,
-      imgSrc: B75,
-    },
-    {
-      id: 76,
-      imgSrc: B76,
-    },
-    {
-      id: 77,
-      imgSrc: B77,
-    },
-    {
-      id: 78,
-      imgSrc: B78,
-    },
-    {
-      id: 79,
-      imgSrc: B79,
-    },
-    {
-      id: 80,
-      imgSrc: B80,
     },
   ];
   const [model, setModel] = useState(false);
