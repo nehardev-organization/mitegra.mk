@@ -162,8 +162,10 @@ const Footer = () => {
                       />
                     </svg>
                   </span>
-                  <span>+38946791241</span>
-                  <span>+38972735307</span>
+                  <span>
+                    +38946791241 <br />
+                    38972735307
+                  </span>
                 </li>
               </ul>
             </div>
