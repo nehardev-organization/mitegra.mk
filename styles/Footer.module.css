@@ -99,3 +99,34 @@
 .contact .info li span {
   color: #999;
 }
+.copyrightText {
+  width: 100%;
+  background: #181818;
+  padding: 8px 100px;
+  text-align: center;
+  color: white;
+}
+.mit1 {
+  color: #0067ff;
+  cursor: pointer;
+}
+@media (max-width: 911px) {
+  .footer {
+    padding: 40px;
+  }
+  .footer .container {
+    flex-direction: column;
+  }
+  .footer .container .aboutus {
+    margin-right: 0;
+    margin-bottom: 40px;
+    width: 100%;
+  }
+  .quickLinks,
+  .contact {
+    width: 100%;
+  }
+  .copyrightText {
+    padding: 8px 40px;
+  }
+}

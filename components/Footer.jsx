@@ -12,10 +12,9 @@ const Footer = () => {
             <div className={style.aboutus}>
               <h2>About Us</h2>
               <p>
-                our expert team provides the <br /> professional maintenance and{" "}
-                <br /> installation support that you and <br /> your property
-                require. We are <br /> plumbing, heating, and drainage <br />{" "}
-                experts.
+                our expert team provides the professional maintenance and{" "}
+                installation support that you and your property require. We are
+                plumbing, heating, and drainage experts.
               </p>
               <ul className={style.sci}>
                 <Link href="https://www.facebook.com/mitegra.mk/">
@@ -163,13 +162,23 @@ const Footer = () => {
                       />
                     </svg>
                   </span>
-                  <span>+38946791241 </span>
+                  <span>+38946791241</span>
                   <span>+38972735307</span>
                 </li>
               </ul>
             </div>
           </div>
         </footer>
+
+        <div className={style.copyrightText}>
+          <p>
+            Copyright @ 2021 Mitegra Technology System. All Rights Reserved.
+            website made by
+            <Link href="https:nehardev.com">
+              <span className={style.mit1}> nehardev.com</span>
+            </Link>
+          </p>
+        </div>
       </div>
     </>
   );
