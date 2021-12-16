@@ -13,7 +13,19 @@ import ma from "../images/mabg.png";
 import mb from "../images/mbbg.png";
 import mv from "../images/mvbg.png";
 import Link from "next/link";
+// import { useRouter } from "next/router";
+
 export default function Home() {
+  // let router = useRouter();
+
+  // let hero =
+  //   router.locale === "en"
+  //     ? "Mitegra, From plumbing to heating"
+  //     : router.locale === "mk"
+  //     ? "Митегра, Од водовод до греење"
+  //     : router.locale === "al"
+  //     ? "Mitegra, Nga hidraulika te ngrohja"
+  //     : "";
   return (
     <div className={styles.HomePage}>
       <Head>

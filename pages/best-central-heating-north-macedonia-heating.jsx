@@ -5,9 +5,6 @@ import ht from "../images/hea.png";
 import mh from "../images/mhbg.png";
 import Image from "next/image";
 
-import H1 from "../images/H/H1.jpg";
-import H2 from "../images/H/H2.jpg";
-import H3 from "../images/H/H3.jpg";
 import H4 from "../images/H/H4.jpg";
 import H5 from "../images/H/H5.jpg";
 import H6 from "../images/H/H6.jpg";
@@ -27,21 +24,13 @@ import H19 from "../images/H/H19.jpg";
 import H20 from "../images/H/H20.jpg";
 import H21 from "../images/H/H21.jpg";
 import H22 from "../images/H/H22.jpg";
+import H23 from "../images/H/H23.jpg";
+import H24 from "../images/H/H24.jpg";
+import H25 from "../images/H/H25.jpg";
+import H26 from "../images/H/H26.jpg";
 
 const Heating = () => {
   let data = [
-    {
-      id: 1,
-      imgSrc: H1,
-    },
-    {
-      id: 2,
-      imgSrc: H2,
-    },
-    {
-      id: 3,
-      imgSrc: H3,
-    },
     {
       id: 4,
       imgSrc: H4,
@@ -117,6 +106,22 @@ const Heating = () => {
     {
       id: 22,
       imgSrc: H22,
+    },
+    {
+      id: 23,
+      imgSrc: H23,
+    },
+    {
+      id: 24,
+      imgSrc: H24,
+    },
+    {
+      id: 25,
+      imgSrc: H25,
+    },
+    {
+      id: 26,
+      imgSrc: H26,
     },
   ];
   const [model, setModel] = useState(false);

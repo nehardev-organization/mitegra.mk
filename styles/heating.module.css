@@ -62,7 +62,7 @@
 .mheb {
   background-color: #212529;
   width: 100%;
-  height: 20rem;
+  height: 15rem;
 }
 .mh {
   position: relative;
@@ -99,22 +99,50 @@
     left: 10%;
   }
   .mh2 {
-    font-size: 10px;
-    left: 10%;
+    font-size: 13px;
+    left: 6%;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 400px) {
   .mh {
     height: 150px;
   }
 
   .mh1 {
-    font-size: 15px;
-    left: 9%;
+    font-size: 20px;
+    left: 17%;
+  }
+  .mh2 {
+    font-size: 12px;
+    left: 4%;
+  }
+}
+@media screen and (max-width: 350px) {
+  .mh {
+    height: 150px;
+  }
+
+  .mh1 {
+    font-size: 20px;
+    left: 13%;
+  }
+  .mh2 {
+    font-size: 11px;
+    left: 2%;
+  }
+}
+@media screen and (max-width: 300px) {
+  .mh {
+    height: 150px;
+  }
+
+  .mh1 {
+    font-size: 18px;
+    left: 13%;
   }
   .mh2 {
     font-size: 9px;
-    left: 0%;
+    left: 5%;
   }
 }
 
@@ -127,7 +155,7 @@
   --webkit-column-width: 33%;
   --maz-column-width: 33%;
   column-width: 33%;
-  padding: 0 12px;
+  padding: 0 20px;
 }
 .gallery .pics {
   -webkit-trasintion: all 350ms ease;
