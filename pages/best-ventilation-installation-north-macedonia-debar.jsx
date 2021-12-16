@@ -7,6 +7,8 @@ import Image from "next/image";
 
 import V1 from "../images/V/V1.jpg";
 import V2 from "../images/V/V2.jpg";
+import V3 from "../images/V/V2.jpg";
+import V4 from "../images/V/V2.jpg";
 import V5 from "../images/V/V5.jpg";
 import V6 from "../images/V/V6.jpg";
 import V7 from "../images/V/V7.jpg";
@@ -19,7 +21,6 @@ import V13 from "../images/V/V13.jpg";
 import V14 from "../images/V/V14.jpg";
 import V15 from "../images/V/V15.jpg";
 import V16 from "../images/V/V17.jpg";
-import V17 from "../images/V/V17.jpg";
 import V18 from "../images/V/V18.jpg";
 import V19 from "../images/V/V19.jpg";
 import V20 from "../images/V/V20.jpg";
@@ -99,10 +100,7 @@ const Ventilation = () => {
       id: 16,
       imgSrc: V16,
     },
-    {
-      id: 17,
-      imgSrc: V17,
-    },
+
     {
       id: 18,
       imgSrc: V18,
