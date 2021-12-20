@@ -291,7 +291,6 @@ let Plumber = () => {
             alt={"plumbing plumber"}
             objectFit="cover"
             objectPosition="top"
-            blurDataURL="data:..."
             placeholder="blur"
             layout="fill"
           />
@@ -361,7 +360,6 @@ let Plumber = () => {
               height={400}
               objectFit="cover"
               objectPosition="top"
-              blurDataURL="data:..."
               placeholder="blur"
             />
           </div>

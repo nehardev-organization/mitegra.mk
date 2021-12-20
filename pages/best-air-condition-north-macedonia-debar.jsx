@@ -83,7 +83,6 @@ const Air = () => {
             alt={"air condition"}
             objectFit="cover"
             objectPosition="top"
-            blurDataURL="data:..."
             placeholder="blur"
             layout="fill"
           />
@@ -119,7 +118,6 @@ const Air = () => {
             alt={"air condition"}
             objectFit="cover"
             objectPosition="top"
-            blurDataURL="data:..."
             placeholder="blur"
             layout="fill"
           />
@@ -186,7 +184,6 @@ const Air = () => {
               height={400}
               objectFit="cover"
               objectPosition="top"
-              blurDataURL="data:..."
               placeholder="blur"
             />
           </div>

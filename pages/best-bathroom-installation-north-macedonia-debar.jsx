@@ -298,7 +298,6 @@ const Bathroom = () => {
             alt={"bathroom installation"}
             objectFit="cover"
             objectPosition="top"
-            blurDataURL="data:..."
             placeholder="blur"
             layout="fill"
           />
@@ -334,7 +333,6 @@ const Bathroom = () => {
             alt={"bathroom installation"}
             objectFit="cover"
             objectPosition="top"
-            blurDataURL="data:..."
             placeholder="blur"
             layout="fill"
           />
@@ -402,7 +400,6 @@ const Bathroom = () => {
               height={400}
               objectFit="cover"
               objectPosition="top"
-              blurDataURL="data:..."
               placeholder="blur"
             />
           </div>

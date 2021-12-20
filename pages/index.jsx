@@ -57,7 +57,6 @@ export default function Home() {
           objectFit="cover"
           objectPosition="top"
           layout="fill"
-          blurDataURL="data:..."
           placeholder="blur"
           priority
         />
@@ -74,7 +73,6 @@ export default function Home() {
             layout="fill"
             objectFit="cover"
             objectPosition="top"
-            blurDataURL="data:..."
             placeholder="blur"
           />
           <h1 className={styles.Ph1}>PLUMBING</h1>
@@ -97,7 +95,6 @@ export default function Home() {
             objectFit="cover"
             objectPosition="top"
             alt={"Central heating image"}
-            blurDataURL="data:..."
             placeholder="blur"
             layout="fill"
           />
@@ -123,7 +120,6 @@ export default function Home() {
             alt={"air conditioning "}
             objectFit="cover"
             objectPosition="top"
-            blurDataURL="data:..."
             placeholder="blur"
             layout="fill"
           />
@@ -146,7 +142,6 @@ export default function Home() {
             alt={"bathroom installation bathroom design"}
             objectFit="cover"
             objectPosition="top"
-            blurDataURL="data:..."
             placeholder="blur"
             layout="fill"
           />
@@ -170,7 +165,6 @@ export default function Home() {
             alt={"Ventilation installation"}
             objectFit="cover"
             objectPosition="top"
-            blurDataURL="data:..."
             placeholder="blur"
             layout="fill"
           />
@@ -198,7 +192,6 @@ export default function Home() {
             alt={"plumbing plumber"}
             objectFit="cover"
             objectPosition="top"
-            blurDataURL="data:..."
             placeholder="blur"
             layout="fill"
           />
@@ -226,7 +219,6 @@ export default function Home() {
             alt={"Central heating"}
             objectFit="cover"
             objectPosition="top"
-            blurDataURL="data:..."
             placeholder="blur"
             layout="fill"
           />
@@ -256,7 +248,6 @@ export default function Home() {
             alt={"Air conditioning"}
             objectFit="cover"
             objectPosition="top"
-            blurDataURL="data:..."
             placeholder="blur"
             layout="fill"
           />
@@ -283,7 +274,6 @@ export default function Home() {
             alt={"bathroom installation bathroom design"}
             objectFit="cover"
             objectPosition="top"
-            blurDataURL="data:..."
             placeholder="blur"
             layout="fill"
           />
@@ -312,7 +302,6 @@ export default function Home() {
             alt={"ventilation installation"}
             objectFit="cover"
             objectPosition="top"
-            blurDataURL="data:..."
             placeholder="blur"
             layout="fill"
           />

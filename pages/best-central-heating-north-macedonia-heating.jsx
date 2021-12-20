@@ -146,7 +146,6 @@ const Heating = () => {
             alt={"central heating"}
             objectFit="cover"
             objectPosition="top"
-            blurDataURL="data:..."
             placeholder="blur"
             layout="fill"
           />
@@ -183,7 +182,6 @@ const Heating = () => {
             alt={"central heating"}
             objectFit="cover"
             objectPosition="top"
-            blurDataURL="data:..."
             placeholder="blur"
             layout="fill"
           />
@@ -252,7 +250,6 @@ const Heating = () => {
               height={400}
               objectFit="cover"
               objectPosition="top"
-              blurDataURL="data:..."
               placeholder="blur"
             />
           </div>

@@ -56,10 +56,9 @@ const about = () => {
         <div className={styles.mp}>
           <Image
             src={hero}
-            alt={"plumbing plumber"}
+            alt={"Mitegra hero image"}
             objectFit="cover"
             objectPosition="top"
-            blurDataURL="data:..."
             placeholder="blur"
             layout="fill"
           />

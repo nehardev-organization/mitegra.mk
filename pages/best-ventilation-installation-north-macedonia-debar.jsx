@@ -206,7 +206,6 @@ const Ventilation = () => {
             alt={"ventilation"}
             objectFit="cover"
             objectPosition="top"
-            blurDataURL="data:..."
             placeholder="blur"
             layout="fill"
           />
@@ -240,7 +239,6 @@ const Ventilation = () => {
             alt={"plumbing plumber"}
             objectFit="cover"
             objectPosition="top"
-            blurDataURL="data:..."
             placeholder="blur"
             layout="fill"
           />
@@ -302,7 +300,6 @@ const Ventilation = () => {
               height={400}
               objectFit="cover"
               objectPosition="top"
-              blurDataURL="data:..."
               placeholder="blur"
             />
           </div>

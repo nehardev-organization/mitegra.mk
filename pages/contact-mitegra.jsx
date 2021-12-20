@@ -16,10 +16,9 @@ const Contact = () => {
         <div className={styles.contact}>
           <Image
             src={Contactpng}
-            alt={"plumbing plumber"}
+            alt={"Contact mitegra"}
             objectFit="cover"
             objectPosition="top"
-            blurDataURL="data:..."
             placeholder="blur"
             layout="fill"
           />
@@ -35,7 +34,6 @@ const Contact = () => {
             objectFit="cover"
             objectPosition="top"
             layout="fill"
-            blurDataURL="data:..."
             placeholder="blur"
           />
         </div>
