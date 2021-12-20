@@ -44,7 +44,7 @@ export default function Home() {
             `,
           }}
         />
-        <title>Mitegra Best Plumbers in North Macedonia</title>
+        <title>Mitegra Technology system,</title>
         <meta
           name="description"
           content="You know when you have a leak and you have to wait hours to get it fixed, Bill had the same issue but he called Mitegra and he got it fixed in 10 minutes!"
@@ -61,9 +61,12 @@ export default function Home() {
           priority
         />
         <Link href="/contact-mitegra">
-          <button className={styles.heroButton}>Work with us</button>
+          <button className={styles.heroButton}>Why us?</button>
         </Link>
-        <h1 className={styles.h1}>Mitegra, From plumbing to heating</h1>
+        <h1 className={styles.h1}>
+          We work with real estate companies that need safe and healthy <br />
+          Plumbing services order to have a safe environment for their customers
+        </h1>
       </div>
       <div className={styles.Desktop}>
         <div className={styles.imc2}>

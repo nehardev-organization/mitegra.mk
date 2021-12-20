@@ -7,36 +7,60 @@ import hero from "../images/hebg.png";
 const Contact = () => {
   return (
     <div>
+      <Head>
+        <title>best Heating Services in North macedonia plumbing</title>
+        <meta
+          name="description"
+          content="You know when you need heating but you cant find the right guy, Bill had the same problem, he asked his friends and they told him about mitegra, bill said that he will only use mitegra from now on"
+        />
+      </Head>
       <div className={styles.Desktop}>
-        <Head>
-          <title>Contact Mitegra</title>
-          <meta name="description" content="Work with Mitegra best plumbers" />
-        </Head>
-
-        <div className={styles.contact}>
-          <Image
-            src={Contactpng}
-            alt={"Contact mitegra"}
-            objectFit="cover"
-            objectPosition="top"
-            placeholder="blur"
-            layout="fill"
-          />
-
-          <h1 className={styles.c1}>WORK WITH US</h1>
-        </div>
-      </div>
-      <div className={styles.Mobile}>
-        <div className={styles.heroas}>
+        <div className={styles.plumber}>
           <Image
             src={hero}
-            alt={"hero image mitegra"}
+            alt={"MItegra hero "}
             objectFit="cover"
             objectPosition="top"
-            layout="fill"
             placeholder="blur"
+            layout="fill"
           />
         </div>
+        <div className={styles.text}>
+          <span className={styles.head2}> WHY US?</span>
+        </div>
+        <div className={styles.span}>
+          <span className={styles.span1}>
+            We ensure that the materials we use are tested and the best, we give
+            longer guarentee, we give the highest quallity of products, and
+            finally we give you the best experience
+          </span>
+        </div>
+        <div className={styles.spacer}>
+          <span></span>
+        </div>
+      </div>
+
+      <div className={styles.Mobile}>
+        <div className={styles.mh}>
+          <Image
+            src={hero}
+            alt={"Mitegra hero"}
+            objectFit="cover"
+            objectPosition="top"
+            placeholder="blur"
+            layout="fill"
+          />
+
+          <span className={styles.mh1}> WHY US?</span>
+          <h1 className={styles.mh2}>
+            We ensure that the materials we use are tested and the best, we give{" "}
+            <br />
+            longer guarentee, we give the highest quallity of products, and{" "}
+            <br />
+            finally we give you the best experience <br />
+          </h1>
+        </div>
+        <div className={styles.mheb}></div>
       </div>
     </div>
   );
