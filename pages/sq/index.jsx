@@ -74,7 +74,7 @@ export default function Home() {
             objectPosition="top"
             placeholder="blur"
           />
-          <h1 className={styles.Ph1}>HINDALIK</h1>
+          <h1 className={styles.Ph1}>HIDRAULIK</h1>
           <h2 className={styles.Ph2}>
             Hidraulikët tanë të miratuar mund të ndihmojnë me të gjitha
             hidraulikun tuaj <br /> kërkesave, duke ofruar një përgjigje efikase
@@ -86,7 +86,7 @@ export default function Home() {
             specializuara termike dhe maceratorë Saniflo.
           </h2>
           <Link href={t.pLink}>
-            <button className={styles.pButton}>HINDALIK</button>
+            <button className={styles.pButton}>HIDRAULIK</button>
           </Link>
         </div>
         <div className={styles.imc3}>
@@ -124,17 +124,22 @@ export default function Home() {
             placeholder="blur"
             layout="fill"
           />
-          <h1 className={styles.aH1}>AIR CONDITIONING</h1>
+          <h1 className={styles.aH1}>KONDICIONER</h1>
           <h2 className={styles.aH2}>
-            We can offer a complete Design, Manufacture <br /> and Install
-            package on all manner of split air <br /> conditioning systems and
-            ducted air handling <br /> units. The wall mounted split systems are
-            designed <br /> to air condition small and medium size areas and{" "}
-            <br /> are ideal for office shops or domestic applications, <br />{" "}
-            They are generally operated by a remote <br /> infra-red control.
+            Ne mund të ofrojmë një dizajn të plotë, prodhim dhe instalim paketë{" "}
+            <br />
+            për të gjitha llojet e sistemeve të kondicionimit të ajrit të ndarë
+            <br />
+            dhe njësi për trajtimin e ajrit me kanal. Sistemet e ndarjes së
+            <br />
+            montuar në mur janë projektuar për të ajrosur zona të vogla dhe të
+            <br />
+            mesme dhe janë ideale për dyqane zyre ose aplikacione shtëpiake, Ata
+            <br />
+            zakonisht operohen nga një telekomandë infra-kuqe.
           </h2>
           <Link href="/best-air-condition-north-macedonia-debar">
-            <button className={styles.aButton}>AIR CONDITION</button>
+            <button className={styles.aButton}>KONDICIONER</button>
           </Link>
         </div>
         <div className={styles.imc5}>
@@ -146,18 +151,24 @@ export default function Home() {
             placeholder="blur"
             layout="fill"
           />
-          <h1 className={styles.bH1}>BATHROOM</h1>
+          <h1 className={styles.bH1}>BANJO</h1>
           <h2 className={styles.bH2}>
-            As experienced plumbers, we can help to design, <br /> install,
-            repair, and replace bathrooms, putting our <br /> skills to good use
-            as part of your home improvement <br /> project. We’ve successfully
-            worked on bathrooms of <br /> all sizes within a wide range of
-            properties and will be <br /> able to provide any expert assistance
-            you require. <br /> We are prepared to handle any issues or
-            challenges <br /> we encounter.
+            Si hidraulikë me përvojë, ne mund të ndihmojmë në projektimin,
+            <br />
+            instalimin, riparoni dhe zëvendësoni banjat, duke vënë në
+            <br /> përdorim aftësitë tona si pjesë e projektit të përmirësimit
+            të
+            <br /> shtëpisë tuaj . Ne kemi sukses punuar në banja të të gjitha
+            madhësive <br />
+            brenda një game të gjerë të pronat dhe do të jetë në gjendje të
+            <br /> ofrojë çdo ndihmë eksperti ju kerkoni. Ne jemi të përgatitur
+            të
+            <br /> trajtojmë çdo
+            <br />
+            çështje ose sfidat që hasim.
           </h2>
           <Link href="/best-bathroom-installation-north-macedonia-debar">
-            <button className={styles.bButton}>BATHROOM</button>
+            <button className={styles.bButton}>BANJO</button>
           </Link>
         </div>
         <div className={styles.imc6}>
@@ -169,20 +180,24 @@ export default function Home() {
             placeholder="blur"
             layout="fill"
           />
-          <h1 className={styles.bv1}>VENTILATION</h1>
+          <h1 className={styles.bv1}>VENTILIMI</h1>
           <h2 className={styles.bv2}>
-            {" "}
-            we can help to design, install, repair, and replace <br /> Air
-            Conditions, putting our skills to good use as <br /> part of your
-            improvement project. We’ve <br /> successfully worked on Air
-            conditions of all sizes <br />
-            within a wide range of properties and will be able <br />
-            to provide any expert assistance you require. <br />
-            We are prepared to handle any issues or <br /> challenges we
-            encounter.
+            ne mund të ndihmojmë në projektimin, instalimin, riparimin dhe{" "}
+            <br />
+            zëvendësimin e Air Kushtet, duke i vënë në përdorim aftësitë tona si
+            <br />
+            pjesë e juaja projekt përmirësimi. Ne kemi punuar me sukses në Air
+            <br />
+            kushtet e të gjitha madhësive brenda një game të gjerë pronash dhe
+            <br />
+            do të jetë në gjendje për të ofruar çdo ndihmë eksperte që ju
+            <br />
+            nevojitet. Ne jemi të përgatitur për të trajtuar çdo çështje apo
+            <br />
+            sfidë ne takim.
           </h2>
           <Link href="/best-ventilation-installation-north-macedonia-debar">
-            <button className={styles.vButton}>VENTILATION</button>
+            <button className={styles.vButton}>VENTILIMI</button>
           </Link>
         </div>
       </div>
@@ -308,7 +323,6 @@ export default function Home() {
           />
           <h1 className={styles.mv1}>VENTILATION</h1>
           <h2 className={styles.mv2}>
-            {" "}
             We can help to design, install, repair, and replace <br /> Air
             Conditions, putting our skills to good use as <br /> part of your
             improvement project. We’ve <br /> successfully worked on Air
