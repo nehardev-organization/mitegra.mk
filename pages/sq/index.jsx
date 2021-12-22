@@ -1,22 +1,26 @@
 import Head from "next/head";
 import Image from "next/image";
-import styles from "../styles/Home.module.css";
-import hero from "../images/hebg.png";
-import plumber from "../images/pbg.png";
-import Heating from "../images/hbg.png";
-import airCon from "../images/abg.png";
-import bathroom from "../images/bbg.png";
-import ventilation from "../images/vbg.png";
-import mp from "../images/mpbg.png";
-import mh from "../images/mhbg.png";
-import ma from "../images/mabg.png";
-import mb from "../images/mbbg.png";
-import mv from "../images/mvbg.png";
+import styles from "/styles/Home.module.css";
+import hero from "/images/hebg.png";
+import plumber from "/images/pbg.png";
+import Heating from "/images/hbg.png";
+import airCon from "/images/abg.png";
+import bathroom from "/images/bbg.png";
+import ventilation from "/images/vbg.png";
+import mp from "/images/mpbg.png";
+import mh from "/images/mhbg.png";
+import ma from "/images/mabg.png";
+import mb from "/images/mbbg.png";
+import mv from "/images/mvbg.png";
 import Link from "next/link";
 import { useRouter } from "next/router";
+import { al } from "/locales/al.js";
 
 export default function Home() {
   const router = useRouter();
+  const languages = { al };
+  const t = languages[router.locale];
+
   return (
     <div className={styles.HomePage}>
       <Head>
@@ -52,11 +56,12 @@ export default function Home() {
           priority
         />
         <Link href="/contact-mitegra">
-          <button className={styles.heroButton}>Why us?</button>
+          <button className={styles.heroButton}>Pse ne?</button>
         </Link>
         <h1 className={styles.h1}>
-          We work with real estate companies that need safe and healthy <br />
-          Plumbing services order to have a safe environment for their customers
+          Ne punojmë me kompani të pasurive të paluajtshme që kanë nevojë
+          <br />
+          për Shërbime hidraulike të sigurta edhe të shëndetshme
         </h1>
       </div>
       <div className={styles.Desktop}>
@@ -69,18 +74,19 @@ export default function Home() {
             objectPosition="top"
             placeholder="blur"
           />
-          <h1 className={styles.Ph1}>PLUMBING</h1>
+          <h1 className={styles.Ph1}>HINDALIK</h1>
           <h2 className={styles.Ph2}>
-            Our approved plumbers can help with all your plumbing <br />{" "}
-            requirements, providing an efficient response to issues such <br />{" "}
-            as leaks, blockages, and broken toilets. Drawing on their <br />{" "}
-            extensive hands-on experience, our team can also carry out <br /> a
-            wide range of professional plumbing installation services, <br />{" "}
-            covering everything from domestic appliances through to <br />{" "}
-            specialist thermal stores and Saniflo macerators.
+            Hidraulikët tanë të miratuar mund të ndihmojnë me të gjitha
+            hidraulikun tuaj <br /> kërkesave, duke ofruar një përgjigje efikase
+            për çështje të tilla <br /> si rrjedhje, bllokime dhe tualete të
+            prishura. Duke vizatuar në <br /> e tyre përvojë e gjerë praktike,
+            ekipi ynë mund të kryejë gjithashtu <br /> a një gamë e gjerë
+            shërbimesh profesionale të instalimit hidraulik, <br /> duke mbuluar
+            gjithçka nga pajisjet shtëpiake deri te <br /> dyqane të
+            specializuara termike dhe maceratorë Saniflo.
           </h2>
-          <Link href="/best-Plumber-in-North-macedonia-plumbing">
-            <button className={styles.pButton}>PLUMBING</button>
+          <Link href={t.pLink}>
+            <button className={styles.pButton}>HINDALIK</button>
           </Link>
         </div>
         <div className={styles.imc3}>
@@ -92,19 +98,20 @@ export default function Home() {
             placeholder="blur"
             layout="fill"
           />
-          <h1 className={styles.hH1}>HEATING</h1>
+          <h1 className={styles.hH1}>NGROHJE</h1>
           <h2 className={styles.hH2}>
-            We provide specialist heating services that <br /> promote a number
-            of alternative heating <br /> options. Our engineers can introduce
-            you to <br /> the benefits of underfloor heating and heat <br />{" "}
-            interface units, helping you to make an <br /> informed decision on
-            whether they’re a good <br /> fit for your property. We also carry
-            out <br /> professional buyer’s reports and <br /> powerflushing
-            services that focus on the <br /> health of your central heating
-            system.
+            Ne ofrojmë shërbime të specializuara të ngrohjes që <br />{" "}
+            promovojnë një numër opsionet e ngrohjes alternative <br />.
+            Inxhinierët tanë mund të prezantojnë ju të <br /> përfitimet e
+            ngrohjes nën dysheme dhe ngrohjes <br /> njësitë e ndërfaqes, që ju
+            ndihmojnë të merrni një vendim <br /> të informuar mbi nëse janë një{" "}
+            <br /> i përshtatshëm për pronën tuaj. Ne gjithashtu mbajmë nxjerr{" "}
+            <br /> raportet profesionale të blerësve dhe <br /> powerflushing
+            shërbime që fokusohen në shëndetin <br /> të ngrohjes suaj qendrore
+            sistemi.
           </h2>
-          <Link href="/best-central-heating-north-macedonia-heating">
-            <button className={styles.hButton}>HEATING</button>
+          <Link href={t.hLink}>
+            <button className={styles.hButton}>NGROHJE</button>
           </Link>
         </div>
 

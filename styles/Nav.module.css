@@ -64,6 +64,30 @@
 .hamburger.isActive:hover span {
   background-color: #212529;
 }
+
+.Trigger {
+  background-color: transparent;
+  text-decoration: none;
+  border-radius: 50px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.content {
+  background-color: #212529;
+  box-shadow: 0 0 20px solid #212529;
+}
+.item {
+  padding: 5px 4px;
+}
+.item:focus {
+  background-color: #358b06;
+
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
 .mobileNav {
   display: block;
   position: fixed;
@@ -129,4 +153,33 @@
   .menu {
     display: flex;
   }
+}
+.dropdown {
+  position: relative;
+  left: 47%;
+}
+.mTrigger {
+  background-color: transparent;
+  text-decoration: none;
+  border-radius: 50px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.mcontent {
+  background-color: #0067ff;
+  box-shadow: 0 0 20px solid #0067ff;
+  transition: 0.5s;
+}
+.mitem {
+  padding: 5px 4px;
+  transition: 0.5s;
+}
+.mitem:focus {
+  background-color: #358b06;
+
+  outline: none;
+  border: none;
+  cursor: pointer;
 }

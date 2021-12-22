@@ -1,17 +1,17 @@
 import Head from "next/head";
 import Image from "next/image";
-import styles from "../styles/Home.module.css";
-import hero from "../images/hebg.png";
-import plumber from "../images/pbg.png";
-import Heating from "../images/hbg.png";
-import airCon from "../images/abg.png";
-import bathroom from "../images/bbg.png";
-import ventilation from "../images/vbg.png";
-import mp from "../images/mpbg.png";
-import mh from "../images/mhbg.png";
-import ma from "../images/mabg.png";
-import mb from "../images/mbbg.png";
-import mv from "../images/mvbg.png";
+import styles from "/styles/Home.module.css";
+import hero from "/images/hebg.png";
+import plumber from "/images/pbg.png";
+import Heating from "/images/hbg.png";
+import airCon from "/images/abg.png";
+import bathroom from "/images/bbg.png";
+import ventilation from "/images/vbg.png";
+import mp from "/images/mpbg.png";
+import mh from "/images/mhbg.png";
+import ma from "/images/mabg.png";
+import mb from "/images/mbbg.png";
+import mv from "/images/mvbg.png";
 import Link from "next/link";
 import { useRouter } from "next/router";
 
@@ -55,8 +55,9 @@ export default function Home() {
           <button className={styles.heroButton}>Why us?</button>
         </Link>
         <h1 className={styles.h1}>
-          We work with real estate companies that need safe and healthy <br />
-          Plumbing services order to have a safe environment for their customers
+          Работиме со компании за недвижнини кои имаат потреба
+          <br />
+          за безбедни и здрави хидраулични услуги
         </h1>
       </div>
       <div className={styles.Desktop}>

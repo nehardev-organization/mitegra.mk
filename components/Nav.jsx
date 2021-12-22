@@ -1,7 +1,20 @@
 import navStyles from "../styles/Nav.module.css";
 import React, { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
+import usa from "../images/usa.png";
+import alb from "../images/alb.png";
+import mkd from "../images/mkd.png";
+import * as DropdownMenu from "@radix-ui/react-dropdown-menu";
+import { useRouter } from "next/router";
+import { al } from "../locales/al.js";
+import { en } from "../locales/en.js";
+import { mk } from "../locales/mk.js";
 const Nav = () => {
+  const router = useRouter();
+  const languages = { en, al, mk };
+  const t = languages[router.locale];
+
   const [hamburger, setHamburger] = useState(false);
 
   return (
@@ -40,15 +53,69 @@ const Nav = () => {
         </svg>
 
         <div className={navStyles.menu}>
-          <Link href="/">
-            <a>Home</a>
+          <Link href={t.lHome}>
+            <a>{t.home}</a>
           </Link>
-          <Link href="about-mitegra">
-            <a>About</a>
+          <Link href={t.lAbout}>
+            <a>{t.about}</a>
           </Link>
-          <Link href="contact-mitegra">
-            <a>Contact</a>
+          <Link href={t.lContact}>
+            <a>{t.contact}</a>
           </Link>
+          <DropdownMenu.Root className={navStyles.Root}>
+            <DropdownMenu.Trigger className={navStyles.Trigger}>
+              <Image
+                src={usa}
+                alt={"usa flag"}
+                objectFit="cover"
+                objectPosition="top"
+                placeholder="blur"
+                width="20"
+                height="20"
+              />
+            </DropdownMenu.Trigger>
+            <DropdownMenu.Content className={navStyles.content}>
+              <DropdownMenu.Item className={navStyles.item}>
+                <Link href="en/">
+                  <Image
+                    src={usa}
+                    alt={"usa flag"}
+                    objectFit="cover"
+                    objectPosition="top"
+                    placeholder="blur"
+                    width="20"
+                    height="20"
+                  />
+                </Link>
+              </DropdownMenu.Item>
+              <DropdownMenu.Item className={navStyles.item}>
+                <Link href="al/sq">
+                  <Image
+                    src={alb}
+                    alt={"albanian flag"}
+                    objectFit="cover"
+                    objectPosition="top"
+                    placeholder="blur"
+                    width="20"
+                    height="20"
+                  />
+                </Link>
+              </DropdownMenu.Item>
+              <DropdownMenu.Item className={navStyles.item}>
+                <Link href="mk/ma">
+                  <Image
+                    src={mkd}
+                    alt={"macedonian flag"}
+                    objectFit="cover"
+                    objectPosition="top"
+                    placeholder="blur"
+                    width="20"
+                    height="20"
+                  />
+                </Link>
+              </DropdownMenu.Item>
+            </DropdownMenu.Content>
+          </DropdownMenu.Root>
         </div>
         <button
           onClick={() => setHamburger(!hamburger)}
@@ -66,18 +133,78 @@ const Nav = () => {
             hamburger ? navStyles.isActiveM : ""
           }`}
         >
-          <Link href="/">
-            <a>Home</a>
+          <Link href={t.lHome}>
+            <a>{t.home}</a>
           </Link>
-          <Link href="about-mitegra">
-            <a>About</a>
+          <Link href={t.lAbout}>
+            <a>{t.about}</a>
           </Link>
-          <Link href="contact-mitegra">
-            <a>Contact</a>
+          <Link href={t.lContact}>
+            <a>{t.contact}</a>
           </Link>
+          <div className={navStyles.dropdown}>
+            <DropdownMenu.Root className={navStyles.mRoot}>
+              <DropdownMenu.Trigger className={navStyles.mTrigger}>
+                <Image
+                  src={usa}
+                  alt={"usa flag"}
+                  objectFit="cover"
+                  objectPosition="top"
+                  placeholder="blur"
+                  width="20"
+                  height="20"
+                />
+              </DropdownMenu.Trigger>
+              <DropdownMenu.Content className={navStyles.mcontent}>
+                <DropdownMenu.Item className={navStyles.mitem}>
+                  <Link href="/en">
+                    <Image
+                      src={usa}
+                      alt={"usa flag"}
+                      objectFit="cover"
+                      objectPosition="top"
+                      placeholder="blur"
+                      width="20"
+                      height="20"
+                    />
+                  </Link>
+                </DropdownMenu.Item>
+
+                <DropdownMenu.Item className={navStyles.mitem}>
+                  {" "}
+                  <Link href="/al/sq">
+                    <Image
+                      src={alb}
+                      alt={"albanian flag"}
+                      objectFit="cover"
+                      objectPosition="top"
+                      placeholder="blur"
+                      width="20"
+                      height="20"
+                    />
+                  </Link>
+                </DropdownMenu.Item>
+                <DropdownMenu.Item className={navStyles.mitem}>
+                  <Link href="/mk/ma">
+                    <Image
+                      src={mkd}
+                      alt={"macedonian flag"}
+                      objectFit="cover"
+                      objectPosition="top"
+                      placeholder="blur"
+                      width="20"
+                      height="20"
+                    />
+                  </Link>
+                </DropdownMenu.Item>
+              </DropdownMenu.Content>
+            </DropdownMenu.Root>
+          </div>
         </div>
       </div>
     </nav>
   );
 };
+const fetcher = (...args) => fetch(...args).then((res) => res.json());
+
 export default Nav;
