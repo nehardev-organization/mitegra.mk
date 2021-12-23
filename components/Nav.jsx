@@ -69,7 +69,6 @@ const Nav = () => {
                 alt={"usa flag"}
                 objectFit="cover"
                 objectPosition="top"
-                placeholder="blur"
                 width="20"
                 height="20"
               />
@@ -82,7 +81,6 @@ const Nav = () => {
                     alt={"usa flag"}
                     objectFit="cover"
                     objectPosition="top"
-                    placeholder="blur"
                     width="20"
                     height="20"
                   />
@@ -95,7 +93,6 @@ const Nav = () => {
                     alt={"albanian flag"}
                     objectFit="cover"
                     objectPosition="top"
-                    placeholder="blur"
                     width="20"
                     height="20"
                   />
@@ -108,7 +105,6 @@ const Nav = () => {
                     alt={"macedonian flag"}
                     objectFit="cover"
                     objectPosition="top"
-                    placeholder="blur"
                     width="20"
                     height="20"
                   />
@@ -150,7 +146,6 @@ const Nav = () => {
                   alt={"usa flag"}
                   objectFit="cover"
                   objectPosition="top"
-                  placeholder="blur"
                   width="20"
                   height="20"
                 />
@@ -163,7 +158,6 @@ const Nav = () => {
                       alt={"usa flag"}
                       objectFit="cover"
                       objectPosition="top"
-                      placeholder="blur"
                       width="20"
                       height="20"
                     />
@@ -178,7 +172,6 @@ const Nav = () => {
                       alt={"albanian flag"}
                       objectFit="cover"
                       objectPosition="top"
-                      placeholder="blur"
                       width="20"
                       height="20"
                     />
@@ -191,7 +184,6 @@ const Nav = () => {
                       alt={"macedonian flag"}
                       objectFit="cover"
                       objectPosition="top"
-                      placeholder="blur"
                       width="20"
                       height="20"
                     />

@@ -85,7 +85,7 @@ export default function Home() {
             gjithçka nga pajisjet shtëpiake deri te <br /> dyqane të
             specializuara termike dhe maceratorë Saniflo.
           </h2>
-          <Link href={t.pLink}>
+          <Link href="/al/sq/hidraulik">
             <button className={styles.pButton}>HIDRAULIK</button>
           </Link>
         </div>
@@ -110,7 +110,7 @@ export default function Home() {
             shërbime që fokusohen në shëndetin <br /> të ngrohjes suaj qendrore
             sistemi.
           </h2>
-          <Link href={t.hLink}>
+          <Link href="/al/sq/ngrohje-qendrore">
             <button className={styles.hButton}>NGROHJE</button>
           </Link>
         </div>
@@ -138,7 +138,7 @@ export default function Home() {
             <br />
             zakonisht operohen nga një telekomandë infra-kuqe.
           </h2>
-          <Link href="/best-air-condition-north-macedonia-debar">
+          <Link href="/al/sq/kondicioner">
             <button className={styles.aButton}>KONDICIONER</button>
           </Link>
         </div>
@@ -163,11 +163,9 @@ export default function Home() {
             brenda një game të gjerë të pronat dhe do të jetë në gjendje të
             <br /> ofrojë çdo ndihmë eksperti ju kerkoni. Ne jemi të përgatitur
             të
-            <br /> trajtojmë çdo
-            <br />
-            çështje ose sfidat që hasim.
+            <br /> trajtojmë çdo çështje ose sfidat që hasim.
           </h2>
-          <Link href="/best-bathroom-installation-north-macedonia-debar">
+          <Link href="/al/sq/banjo">
             <button className={styles.bButton}>BANJO</button>
           </Link>
         </div>
@@ -196,7 +194,7 @@ export default function Home() {
             <br />
             sfidë ne takim.
           </h2>
-          <Link href="/best-ventilation-installation-north-macedonia-debar">
+          <Link href="/al/sq/ventilim">
             <button className={styles.vButton}>VENTILIMI</button>
           </Link>
         </div>

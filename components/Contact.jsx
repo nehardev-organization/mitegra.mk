@@ -2,9 +2,17 @@ import React, { useState, useRef } from "react";
 import emailjs from "emailjs-com";
 import style from "../styles/Contact.module.css";
 import Link from "next/link";
-
+import { useRouter } from "next/router";
+import { al } from "../locales/al.js";
+import { en } from "../locales/en.js";
+import { mk } from "../locales/mk.js";
 const Contact = () => {
+  const router = useRouter();
+  const languages = { en, al, mk };
+  const t = languages[router.locale];
+
   const form = useRef();
+
   function sendEmail(e) {
     e.preventDefault();
 
@@ -30,17 +38,17 @@ const Contact = () => {
     <>
       <div className={style.contacatUs}>
         <div className={style.title}>
-          <h2>Work with Mitegra</h2>
+          <h2>{t.chero}</h2>
         </div>
         <div className={style.box}>
           <div className={`${style.contact} ${style.form}`}>
-            <h3>Get in Touch</h3>
+            <h3>{t.get}</h3>
 
             <form ref={form} onSubmit={sendEmail}>
               <div className={style.formBox}>
                 <div className={style.row50}>
                   <div className={style.inputBox}>
-                    <span>First Name</span>
+                    <span>{t.FristName}</span>
                     <input
                       type="text"
                       className={style.fname}
@@ -48,7 +56,7 @@ const Contact = () => {
                     />
                   </div>
                   <div className={style.inputBox}>
-                    <span>Last Name</span>
+                    <span>{t.LastName}</span>
                     <input
                       type="text"
                       className={style.lname}
@@ -58,18 +66,18 @@ const Contact = () => {
                 </div>
                 <div className={style.row50}>
                   <div className={style.inputBox}>
-                    <span>Email</span>
+                    <span>{t.email}</span>
                     <input type="text" className={style.email} name="email" />
                   </div>
 
                   <div className={style.inputBox}>
-                    <span>Number</span>
+                    <span>{t.number}</span>
                     <input type="text" className={style.number} name="number" />
                   </div>
                 </div>
                 <div className={style.row100}>
                   <div className={style.inputBox}>
-                    <span>Message</span>
+                    <span>{t.message}</span>
                     <textarea
                       name="message"
                       id=""
@@ -82,7 +90,7 @@ const Contact = () => {
                       <input
                         type="submit"
                         className={style.submit}
-                        value="Send"
+                        value={t.send}
                       />
                     </div>
                   </div>
@@ -91,7 +99,7 @@ const Contact = () => {
             </form>
           </div>
           <div className={`${style.contact} ${style.info}`}>
-            <h3>Contact info</h3>
+            <h3>{t.cIfno}</h3>
             <div className={style.infoBox}>
               <div>
                 <span>
@@ -115,7 +123,7 @@ const Contact = () => {
                     </defs>
                   </svg>
                 </span>
-                <p>UL. AMDI LESHI No. 2 Debar</p>
+                <p>{t.adress}</p>
               </div>
             </div>
             <div className={style.infoBox}>
@@ -225,16 +233,3 @@ const Contact = () => {
 };
 
 export default Contact;
-
-/* <div className={style.container}>
-<div className={style.text}>Work with  Mitegra</div>
-<form  ref={form} onSubmit={sendEmail}>
-<input type="text" className={style.email} name="email" />
-<input type="text" className={style.number} placeholder="Number" name="number" />
-<input type="text" className={style.fname} placeholder="Frist name" name="FristName" />
-<input type="text" className={style.lname} placeholder="Last Name" name="lastName" />
-<input type="text" className={style.mess} placeholder="Message" name="message" />
-<input type="submit" className={style.submit} value="Contact Us" />
-</form>
-
-</div>  */
