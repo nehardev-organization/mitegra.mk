@@ -79,7 +79,7 @@ export default function Home() {
             covering everything from domestic appliances through to <br />{" "}
             specialist thermal stores and Saniflo macerators.
           </h2>
-          <Link href="/best-Plumber-in-North-macedonia-plumbing">
+          <Link href="/plumber-in-North-macedonia">
             <button className={styles.pButton}>PLUMBING</button>
           </Link>
         </div>
@@ -103,7 +103,7 @@ export default function Home() {
             services that focus on the <br /> health of your central heating
             system.
           </h2>
-          <Link href="/best-central-heating-north-macedonia-heating">
+          <Link href="/central-heating-north-macedonia">
             <button className={styles.hButton}>HEATING</button>
           </Link>
         </div>
@@ -126,7 +126,7 @@ export default function Home() {
             <br /> are ideal for office shops or domestic applications, <br />{" "}
             They are generally operated by a remote <br /> infra-red control.
           </h2>
-          <Link href="/best-air-condition-north-macedonia-debar">
+          <Link href="/air-condition-north-macedonia">
             <button className={styles.aButton}>AIR CONDITION</button>
           </Link>
         </div>
@@ -149,7 +149,7 @@ export default function Home() {
             you require. <br /> We are prepared to handle any issues or
             challenges <br /> we encounter.
           </h2>
-          <Link href="/best-bathroom-installation-north-macedonia-debar">
+          <Link href="/bathroom-installation-north-macedonia">
             <button className={styles.bButton}>BATHROOM</button>
           </Link>
         </div>
@@ -174,7 +174,7 @@ export default function Home() {
             We are prepared to handle any issues or <br /> challenges we
             encounter.
           </h2>
-          <Link href="/best-ventilation-installation-north-macedonia-debar">
+          <Link href="/ventilation-installation-north-macedonia">
             <button className={styles.vButton}>VENTILATION</button>
           </Link>
         </div>
@@ -199,7 +199,7 @@ export default function Home() {
             covering everything from domestic appliances through to <br />{" "}
             specialist thermal stores and Saniflo macerators.
           </h1>
-          <Link href="/best-Plumber-in-North-macedonia-plumbing">
+          <Link href="/plumber-in-North-macedonia">
             <button className={styles.mpButton}>PLUMBING</button>
           </Link>
         </div>
@@ -228,7 +228,7 @@ export default function Home() {
             services that focus on the <br /> health of your central heating
             system.
           </h2>
-          <Link href="/best-central-heating-north-macedonia-heating">
+          <Link href="/central-heating-north-macedonia">
             <button className={styles.mhButton}>HEATING</button>
           </Link>
         </div>
@@ -254,7 +254,7 @@ export default function Home() {
             <br /> are ideal for office shops or domestic applications. <br />{" "}
             They are generally operated by a remote <br /> infra-red control.
           </h2>
-          <Link href="/best-air-condition-north-macedonia-debar">
+          <Link href="/air-condition-north-macedonia">
             <button className={styles.mcButton}>AIR CONDITION</button>
           </Link>
         </div>
@@ -283,7 +283,7 @@ export default function Home() {
             you require. <br /> We are prepared to handle any issues or
             challenges <br /> we encounter.
           </h2>
-          <Link href="/best-bathroom-installation-north-macedonia-debar">
+          <Link href="/bathroom-installation-north-macedonia">
             <button className={styles.mbButton}>BATHROOM</button>
           </Link>
         </div>
@@ -311,7 +311,7 @@ export default function Home() {
             We are prepared to handle any issues or <br /> challenges we
             encounter.
           </h2>
-          <Link href="/best-ventilation-installation-north-macedonia-debar">
+          <Link href="/ventilation-installation-north-macedonia">
             <button className={styles.mvButton}>VENTILATION</button>
           </Link>
         </div>
