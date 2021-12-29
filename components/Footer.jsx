@@ -2,20 +2,23 @@ import navStyles from "../styles/Nav.module.css";
 import React, { useState } from "react";
 import style from "../styles/Footer.module.css";
 import Link from "next/link";
-
+import { useRouter } from "next/router";
+import { al } from "../locales/al.js";
+import { en } from "../locales/en.js";
+import { mk } from "../locales/mk.js";
 const Footer = () => {
+  const router = useRouter();
+  const languages = { en, al, mk };
+  const t = languages[router.locale];
+
   return (
     <>
       <div className={style.body1}>
         <footer className={style.footer}>
           <div className={style.container}>
             <div className={style.aboutus}>
-              <h2>About Us</h2>
-              <p>
-                our expert team provides the professional maintenance and{" "}
-                installation support that you and your property require. We are
-                plumbing, heating, and drainage experts.
-              </p>
+              <h2>{t.fabout}</h2>
+              <p>{t.fhero}</p>
               <ul className={style.sci}>
                 <Link href="https://www.facebook.com/mitegra.mk/">
                   <a>
@@ -68,42 +71,42 @@ const Footer = () => {
               </ul>
             </div>
             <div className={style.quickLinks}>
-              <h2>Quick Links</h2>
+              <h2>{t.quickLinks}</h2>
               <ul>
                 <li>
                   {" "}
-                  <Link href="/best-Plumber-in-North-macedonia-plumbing">
+                  <Link href={t.fp}>
                     <a>Plumbing</a>
                   </Link>
                 </li>
                 <li>
                   {" "}
-                  <Link href="/best-central-heating-north-macedonia-heating">
+                  <Link href={t.fv}>
                     <a>Heating</a>
                   </Link>
                 </li>
                 <li>
                   {" "}
-                  <Link href="/best-air-condition-north-macedonia-debar">
+                  <Link href={t.fb}>
                     <a>Bathrooms</a>
                   </Link>
                 </li>
                 <li>
                   {" "}
-                  <Link href="/contact-mitegra">
-                    <a>Contact</a>
+                  <Link href={t.fbc}>
+                    <a>{t.fcontact}</a>
                   </Link>
                 </li>
                 <li>
                   {" "}
-                  <Link href="/about-mitegra">
-                    <a>About Us</a>
+                  <Link href={t.fa}>
+                    <a>{t.fabout}</a>
                   </Link>
                 </li>
               </ul>
             </div>
             <div className={style.contact}>
-              <h2>Contact info</h2>
+              <h2>{t.fcontact}</h2>
               <ul className={style.info}>
                 <li>
                   <span>
@@ -128,7 +131,7 @@ const Footer = () => {
                       </defs>
                     </svg>
                   </span>
-                  <span>UL. AMDI LESHI No. 2 Debar</span>
+                  <span>{t.fadress}</span>
                 </li>
                 <li>
                   <span>
