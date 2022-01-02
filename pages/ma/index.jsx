@@ -1,0 +1,327 @@
+import Head from "next/head";
+import Image from "next/image";
+import styles from "/styles/Home.module.css";
+import hero from "/images/hebg.png";
+import plumber from "/images/pbg.png";
+import Heating from "/images/hbg.png";
+import airCon from "/images/abg.png";
+import bathroom from "/images/bbg.png";
+import ventilation from "/images/vbg.png";
+import mp from "/images/mpbg.png";
+import mh from "/images/mhbg.png";
+import ma from "/images/mabg.png";
+import mb from "/images/mbbg.png";
+import mv from "/images/mvbg.png";
+import Link from "next/link";
+import { useRouter } from "next/router";
+
+export default function Home() {
+  const router = useRouter();
+  return (
+    <div className={styles.HomePage}>
+      <Head>
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-3D8RTZLS4T"
+        />
+
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', '[Tracking ID]', { page_path: window.location.pathname });
+            `,
+          }}
+        />
+        <title>Mitegra Technology system,</title>
+        <meta
+          name="description"
+          content="You know when you have a leak and you have to wait hours to get it fixed, Bill had the same issue but he called Mitegra and he got it fixed in 10 minutes!"
+        />
+      </Head>
+      <div className={styles.imc1}>
+        <Image
+          src={hero}
+          alt={"hero image mitegra"}
+          objectFit="cover"
+          objectPosition="top"
+          layout="fill"
+          placeholder="blur"
+          priority
+        />
+        <Link href="/contact-mitegra">
+          <button className={styles.heroButton}>Зошто ние?</button>
+        </Link>
+        <h1 className={styles.h1}>
+          Работиме со компании за недвижнини кои имаат потреба
+          <br />
+          за безбедни и здрави хидраулични услуги
+        </h1>
+      </div>
+      <div className={styles.Desktop}>
+        <div className={styles.imc2}>
+          <Image
+            src={plumber}
+            alt={"plumbing plumber"}
+            layout="fill"
+            objectFit="cover"
+            objectPosition="top"
+            placeholder="blur"
+          />
+          <h1 className={styles.Ph1}>ВОДОВОД</h1>
+          <h2 className={styles.Ph2}>
+            Нашите одобрени водоводџии можат да ви помогнат со целиот водовод{" "}
+            <br /> барања, обезбедувајќи ефикасен одговор на прашања како што се{" "}
+            <br /> како протекување, блокади и скршени тоалети. Цртеж на нивните{" "}
+            <br /> долгогодишно практично искуство, нашиот тим исто така може да
+            изврши <br /> a широк спектар на професионални услуги за инсталација
+            на водовод, <br /> опфаќа сè, од домашни апарати до <br />{" "}
+            специјализирани термални продавници и Saniflo мацератори.
+          </h2>
+          <Link href="/mk/ma/водовод">
+            <button className={styles.pButton}>ВОДОВОД</button>
+          </Link>
+        </div>
+        <div className={styles.imc3}>
+          <Image
+            src={Heating}
+            objectFit="cover"
+            objectPosition="top"
+            alt={"Central heating image"}
+            placeholder="blur"
+            layout="fill"
+          />
+          <h1 className={styles.hH1}>ГРЕЕЊЕ</h1>
+          <h2 className={styles.hH2}>
+            Обезбедуваме специјализирани услуги за греење кои <br /> промовираат
+            голем број на алтернативно греење <br /> опции. Нашите инженери
+            можат да воведат да ги <br /> придобивките од подното греење и
+            греењето <br /> интерфејс единици, кои ви помагаат да донесете{" "}
+            <br /> информирана одлука за дали тие се добри <br /> погодни за
+            вашиот имот. Ние исто така носиме извадете ги <br /> професионалните
+            извештаи на купувачите и <br /> моќното испирање услуги кои се
+            фокусираат на <br /> здравјето на вашето централно греење систем.
+          </h2>
+          <Link href="/best-central-heating-north-macedonia-heating">
+            <button className={styles.hButton}>ГРЕЕЊЕ</button>
+          </Link>
+        </div>
+
+        <div className={styles.imc4}>
+          <Image
+            src={airCon}
+            alt={"air conditioning "}
+            objectFit="cover"
+            objectPosition="top"
+            placeholder="blur"
+            layout="fill"
+          />
+          <h1 className={styles.aH1}>КЛИМАТИЗАЦИЈА</h1>
+          <h2 className={styles.aH2}>
+            Можеме да понудиме комплетен дизајн, производство <br /> и
+            инсталирање пакет на сите начини на сплит воздух <br /> системи за
+            климатизација и Единици за ракување со канален воздух <br />.
+            Ѕидните сплит системи се дизајниран <br /> за климатизација на мали
+            и средни области и <br /> се идеални за канцелариски продавници или
+            домашни апликации, <br /> Тие обично се управуваат со далечинска{" "}
+            <br /> инфра-црвена контрола.
+          </h2>
+          <Link href="/best-air-condition-north-macedonia-debar">
+            <button className={styles.aButton}>КЛИМАТИЗАЦИЈА</button>
+          </Link>
+        </div>
+        <div className={styles.imc5}>
+          <Image
+            src={bathroom}
+            alt={"bathroom installation bathroom design"}
+            objectFit="cover"
+            objectPosition="top"
+            placeholder="blur"
+            layout="fill"
+          />
+          <h1 className={styles.bH1}>ПОСТАВУВАЊЕ НА БАЊА</h1>
+          <h2 className={styles.bH2}>
+            Како искусни водоводџии, можеме да помогнеме при дизајнирање, <br />{" "}
+            инсталирање, поправка и замена на бањите, искористувајќи ги нашите{" "}
+            <br /> вештини на добра употреба како дел од проектот за подобрување
+            на вашиот дом <br />. Успешно сме работеше на бањи од <br /> сите
+            големини во широк опсег на имоти и ќе може <br /> да обезбеди каква
+            било стручна помош барате. <br /> Подготвени сме да се справиме со
+            какви било прашања или предизвици <br /> со кои се среќаваме.
+          </h2>
+          <Link href="/best-bathroom-installation-north-macedonia-debar">
+            <button className={styles.bButton}>ПОСТАВУВАЊЕ НА БАЊА</button>
+          </Link>
+        </div>
+        <div className={styles.imc6}>
+          <Image
+            src={ventilation}
+            alt={"Ventilation installation"}
+            objectFit="cover"
+            objectPosition="top"
+            placeholder="blur"
+            layout="fill"
+          />
+          <h1 className={styles.bv1}>ВЕНТИЛАЦИЈА</h1>
+          <h2 className={styles.bv2}>
+            {" "}
+            можеме да помогнеме во дизајнирање, инсталирање, поправка и замена
+            на <br /> Air Услови, искористувајќи ги нашите вештини како <br />{" "}
+            дел од вашиот проект за подобрување. Ние <br /> успешно работевме на
+            Air услови од сите големини <br />
+            во широк опсег на својства и ќе може <br />
+            да обезбеди каква било стручна помош што ви треба. <br />
+            Подготвени сме да се справиме со какви било прашања или <br />{" "}
+            предизвици средба.
+          </h2>
+          <Link href="/best-ventilation-installation-north-macedonia-debar">
+            <button className={styles.vButton}>ВЕНТИЛАЦИЈА</button>
+          </Link>
+        </div>
+      </div>
+      <div className={styles.Mobile}>
+        <div className={styles.mp}>
+          <Image
+            src={mp}
+            alt={"plumbing plumber"}
+            objectFit="cover"
+            objectPosition="top"
+            placeholder="blur"
+            layout="fill"
+          />
+          <h1 className={styles.mp1}>ВОДОВОД</h1>
+          <h1 className={styles.mp2}>
+            Нашите одобрени водоводџии можат да ви помогнат со целиот водовод{" "}
+            <br /> барања, обезбедувајќи ефикасен одговор на прашања како што се{" "}
+            <br /> како протекување, блокади и скршени тоалети. Цртеж на нивните{" "}
+            <br /> долгогодишно практично искуство, нашиот тим исто така може да
+            изврши <br /> a широк спектар на професионални услуги за инсталација
+            на водовод, <br /> опфаќа сè, од домашни апарати до <br />{" "}
+            специјализирани термални продавници и Saniflo мацератори.
+          </h1>
+          <Link href="/best-Plumber-in-North-macedonia-plumbing">
+            <button className={styles.mpButton}>ВОДОВОД</button>
+          </Link>
+        </div>
+        <div className={styles.spacer}>
+          <span></span>
+        </div>
+
+        <div className={styles.mp}>
+          <Image
+            src={mh}
+            alt={"Central heating"}
+            objectFit="cover"
+            objectPosition="top"
+            placeholder="blur"
+            layout="fill"
+          />
+          <div className={styles.mheb}></div>
+          <h1 className={styles.mht}>ГРЕЕЊЕ</h1>
+          <h2 className={styles.mht1}>
+            Обезбедуваме специјализирани услуги за греење кои <br /> промовираат
+            голем број на алтернативно греење <br /> опции. Нашите инженери
+            можат да воведат да ги <br /> придобивките од подното греење и
+            греењето <br /> интерфејс единици, кои ви помагаат да донесете{" "}
+            <br /> информирана одлука за дали тие се добри <br /> погодни за
+            вашиот имот. Ние исто така носиме извадете ги <br /> професионалните
+            извештаи на купувачите и <br /> моќното испирање услуги кои се
+            фокусираат на <br /> здравјето на вашето централно греење систем.
+          </h2>
+          <Link href="/best-central-heating-north-macedonia-heating">
+            <button className={styles.mhButton}>ГРЕЕЊЕ</button>
+          </Link>
+        </div>
+        <div className={styles.spacer}>
+          <span></span>
+        </div>
+
+        <div className={styles.mp}>
+          <Image
+            src={ma}
+            alt={"Air conditioning"}
+            objectFit="cover"
+            objectPosition="top"
+            placeholder="blur"
+            layout="fill"
+          />
+          <h1 className={styles.mc1}>КЛИМАТИЗАЦИЈА</h1>
+          <h2 className={styles.mc2}>
+            Можеме да понудиме комплетен дизајн, производство <br /> и
+            инсталирање пакет на сите начини на сплит воздух <br /> системи за
+            климатизација и Единици за ракување со канален воздух <br />.
+            Ѕидните сплит системи се дизајниран <br /> за климатизација на мали
+            и средни области и <br /> се идеални за канцелариски продавници или
+            домашни апликации. <br /> Тие обично се управуваат со далечинска{" "}
+            <br /> инфра-црвена контрола.
+          </h2>
+          <Link href="/best-air-condition-north-macedonia-debar">
+            <button className={styles.mcButton}>КЛИМАТИЗАЦИЈА</button>
+          </Link>
+        </div>
+        <div className={styles.spacer}>
+          <span></span>
+        </div>
+
+        <div className={styles.mp}>
+          <Image
+            src={mb}
+            alt={"bathroom installation bathroom design"}
+            objectFit="cover"
+            objectPosition="top"
+            placeholder="blur"
+            layout="fill"
+          />
+          <div className={styles.mheb}></div>
+          <h1 className={styles.mb1}>ПОСТАВУВАЊЕ НА БАЊА</h1>
+          <h2 className={styles.mb2}>
+            Како искусни водоводџии, може да помогне при дизајнирање, <br />{" "}
+            инсталирање, поправка и замена на бањите, искористувајќи ги <br />{" "}
+            нашите вештини на добра употреба како дел од проектот за подобрување
+            на вашиот дом <br />. Успешно <br />
+            работеше на бањи од <br /> сите големини во широк опсег на имоти и
+            ќе може <br /> да обезбеди каква било стручна помош барате. <br />{" "}
+            Подготвени сме да се справиме со какви било прашања или предизвици{" "}
+            <br /> со кои се среќаваме.
+          </h2>
+          <Link href="/best-bathroom-installation-north-macedonia-debar">
+            <button className={styles.mbButton}>ПОСТАВУВАЊЕ НА БАЊА</button>
+          </Link>
+        </div>
+        <div className={styles.spacer}>
+          <span></span>
+        </div>
+        <div className={styles.mp}>
+          <Image
+            src={mv}
+            alt={"ventilation installation"}
+            objectFit="cover"
+            objectPosition="top"
+            placeholder="blur"
+            layout="fill"
+          />
+          <h1 className={styles.mv1}>ВЕНТИЛАЦИЈА</h1>
+          <h2 className={styles.mv2}>
+            {" "}
+            Можеме да помогнеме при дизајнирање, инсталирање, поправка и замена
+            на <br /> Air Услови, искористувајќи ги нашите вештини како <br />{" "}
+            дел од вашиот проект за подобрување. Ние <br /> успешно работевме на
+            Air услови од сите големини <br />
+            во широк опсег на својства и ќе може <br />
+            да обезбеди каква било стручна помош што ви треба. <br />
+            Подготвени сме да се справиме со какви било прашања или <br />{" "}
+            предизвици средба.
+          </h2>
+          <Link href="/best-ventilation-installation-north-macedonia-debar">
+            <button className={styles.mvButton}>ВЕНТИЛАЦИЈА</button>
+          </Link>
+        </div>
+        <div className={styles.spacer}>
+          <span></span>
+        </div>
+      </div>
+    </div>
+  );
+}
