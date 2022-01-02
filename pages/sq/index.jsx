@@ -209,18 +209,19 @@ export default function Home() {
             placeholder="blur"
             layout="fill"
           />
-          <h1 className={styles.mp1}>PLUMBING</h1>
+          <h1 className={styles.mp1}>HIDRAULIK</h1>
           <h1 className={styles.mp2}>
-            Our approved plumbers can help with all your plumbing <br />{" "}
-            requirements, providing an efficient response to issues such <br />{" "}
-            as leaks, blockages, and broken toilets. Drawing on their <br />{" "}
-            extensive hands-on experience, our team can also carry out <br /> a
-            wide range of professional plumbing installation services, <br />{" "}
-            covering everything from domestic appliances through to <br />{" "}
-            specialist thermal stores and Saniflo macerators.
+            Hidraulikët tanë të miratuar mund të ndihmojnë me të gjitha
+            hidraulikun tuaj <br /> kërkesave, duke ofruar një përgjigje efikase
+            për çështje të tilla <br /> si rrjedhje, bllokime dhe tualete të
+            prishura. Duke vizatuar në <br /> e tyre përvojë e gjerë praktike,
+            ekipi ynë mund të kryejë gjithashtu <br /> a një gamë e gjerë
+            shërbimesh profesionale të instalimit hidraulik, <br /> duke mbuluar
+            gjithçka nga pajisjet shtëpiake deri te <br /> dyqane të
+            specializuara termike dhe maceratorë Saniflo.
           </h1>
-          <Link href="/best-Plumber-in-North-macedonia-plumbing">
-            <button className={styles.mpButton}>PLUMBING</button>
+          <Link href="al/sq/hidraulik">
+            <button className={styles.mpButton}>HIDRAULIK</button>
           </Link>
         </div>
         <div className={styles.spacer}>
@@ -237,19 +238,20 @@ export default function Home() {
             layout="fill"
           />
           <div className={styles.mheb}></div>
-          <h1 className={styles.mht}>HEATING</h1>
+          <h1 className={styles.mht}>NGROHJE</h1>
           <h2 className={styles.mht1}>
-            We provide specialist heating services that <br /> promote a number
-            of alternative heating <br /> options. Our engineers can introduce
-            you to <br /> the benefits of underfloor heating and heat <br />{" "}
-            interface units, helping you to make an <br /> informed decision on
-            whether they’re a good <br /> fit for your property. We also carry
-            out <br /> professional buyer’s reports and <br /> powerflushing
-            services that focus on the <br /> health of your central heating
-            system.
+            Ne ofrojmë shërbime të specializuara të ngrohjes që <br />{" "}
+            promovojnë një numër opsionet e ngrohjes alternative <br />.
+            Inxhinierët tanë mund të prezantojnë ju të <br /> përfitimet e
+            ngrohjes nën dysheme dhe ngrohjes <br /> njësitë e ndërfaqes, që ju
+            ndihmojnë të merrni një vendim <br /> të informuar mbi nëse janë një{" "}
+            <br /> i përshtatshëm për pronën tuaj. Ne gjithashtu mbajmë nxjerr{" "}
+            <br /> raportet profesionale të blerësve dhe <br /> powerflushing
+            shërbime që fokusohen në shëndetin <br /> të ngrohjes suaj qendrore
+            sistemi.
           </h2>
-          <Link href="/best-central-heating-north-macedonia-heating">
-            <button className={styles.mhButton}>HEATING</button>
+          <Link href="/al/sq/ngrohje-qendrore">
+            <button className={styles.mhButton}>NGROHJE</button>
           </Link>
         </div>
         <div className={styles.spacer}>
@@ -265,17 +267,22 @@ export default function Home() {
             placeholder="blur"
             layout="fill"
           />
-          <h1 className={styles.mc1}>AIR CONDITIONING</h1>
+          <h1 className={styles.mc1}>KONDICIONER</h1>
           <h2 className={styles.mc2}>
-            We can offer a complete Design, Manufacture <br /> and Install
-            package on all manner of split air <br /> conditioning systems and
-            ducted air handling <br /> units. The wall mounted split systems are
-            designed <br /> to air condition small and medium size areas and{" "}
-            <br /> are ideal for office shops or domestic applications. <br />{" "}
-            They are generally operated by a remote <br /> infra-red control.
+            Ne mund të ofrojmë një dizajn të plotë, prodhim dhe instalim paketë{" "}
+            <br />
+            për të gjitha llojet e sistemeve të kondicionimit të ajrit të ndarë
+            <br />
+            dhe njësi për trajtimin e ajrit me kanal. Sistemet e ndarjes së
+            <br />
+            montuar në mur janë projektuar për të ajrosur zona të vogla dhe të
+            <br />
+            mesme dhe janë ideale për dyqane zyre ose aplikacione shtëpiake, Ata
+            <br />
+            zakonisht operohen nga një telekomandë infra-kuqe.
           </h2>
-          <Link href="/best-air-condition-north-macedonia-debar">
-            <button className={styles.mcButton}>AIR CONDITION</button>
+          <Link href="/al/sq/kondicioner">
+            <button className={styles.mcButton}>KONDICIONER</button>
           </Link>
         </div>
         <div className={styles.spacer}>
@@ -292,19 +299,22 @@ export default function Home() {
             layout="fill"
           />
           <div className={styles.mheb}></div>
-          <h1 className={styles.mb1}>BATHROOM</h1>
+          <h1 className={styles.mb1}>BANJO</h1>
           <h2 className={styles.mb2}>
-            As experienced plumbers, e can help to design, <br /> install,
-            repair, and replace bathrooms, putting <br /> our skills to good use
-            as part of your home <br /> improvement project. We’ve successfully{" "}
+            Si hidraulikë me përvojë, ne mund të ndihmojmë në projektimin,
             <br />
-            worked on bathrooms of <br /> all sizes within a wide range of
-            properties and will be <br /> able to provide any expert assistance
-            you require. <br /> We are prepared to handle any issues or
-            challenges <br /> we encounter.
+            instalimin, riparoni dhe zëvendësoni banjat, duke vënë në
+            <br /> përdorim aftësitë tona si pjesë e projektit të përmirësimit
+            të
+            <br /> shtëpisë tuaj . Ne kemi sukses punuar në banja të të gjitha
+            madhësive <br />
+            brenda një game të gjerë të pronat dhe do të jetë në gjendje të
+            <br /> ofrojë çdo ndihmë eksperti ju kerkoni. Ne jemi të përgatitur
+            të
+            <br /> trajtojmë çdo çështje ose sfidat që hasim.
           </h2>
-          <Link href="/best-bathroom-installation-north-macedonia-debar">
-            <button className={styles.mbButton}>BATHROOM</button>
+          <Link href="/al/sq/banjo">
+            <button className={styles.mbButton}>BANJO</button>
           </Link>
         </div>
         <div className={styles.spacer}>
@@ -319,19 +329,24 @@ export default function Home() {
             placeholder="blur"
             layout="fill"
           />
-          <h1 className={styles.mv1}>VENTILATION</h1>
+          <h1 className={styles.mv1}>VENTILIM</h1>
           <h2 className={styles.mv2}>
-            We can help to design, install, repair, and replace <br /> Air
-            Conditions, putting our skills to good use as <br /> part of your
-            improvement project. We’ve <br /> successfully worked on Air
-            conditions of all sizes <br />
-            within a wide range of properties and will be able <br />
-            to provide any expert assistance you require. <br />
-            We are prepared to handle any issues or <br /> challenges we
-            encounter.
+            ne mund të ndihmojmë në projektimin, instalimin, riparimin dhe{" "}
+            <br />
+            zëvendësimin e Air Kushtet, duke i vënë në përdorim aftësitë tona si
+            <br />
+            pjesë e juaja projekt përmirësimi. Ne kemi punuar me sukses në Air
+            <br />
+            kushtet e të gjitha madhësive brenda një game të gjerë pronash dhe
+            <br />
+            do të jetë në gjendje për të ofruar çdo ndihmë eksperte që ju
+            <br />
+            nevojitet. Ne jemi të përgatitur për të trajtuar çdo çështje apo
+            <br />
+            sfidë ne takim.
           </h2>
-          <Link href="/best-ventilation-installation-north-macedonia-debar">
-            <button className={styles.mvButton}>VENTILATION</button>
+          <Link href="/al/sq/ventilim">
+            <button className={styles.mvButton}>VENTILIM</button>
           </Link>
         </div>
         <div className={styles.spacer}>

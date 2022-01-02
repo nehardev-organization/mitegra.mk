@@ -10,11 +10,8 @@ const about = () => {
   return (
     <div>
       <Head>
-        <title>best Plumber in North macedonia plumbing</title>
-        <meta
-          name="description"
-          content="You know when you have a leak and you have to wait hours to get it fixed, Bill had the same issue but he called Mitegra and he got it fixed in 10 minutes!"
-        />
+        <title>kontakto mitegra</title>
+        <meta name="description" content="reth mitegres" />
       </Head>
       <div className={styles.Desktop}>
         <div className={styles.plumber}>
@@ -27,7 +24,7 @@ const about = () => {
             layout="fill"
           />
 
-          <h1 className={styles.ps1}>About us</h1>
+          <h1 className={styles.ps1}>Reth nesh</h1>
         </div>
         <div className={styles.text}>
           <span className={styles.head1}>
@@ -37,14 +34,14 @@ const about = () => {
         <div className={styles.span}>
           <span className={styles.span1}>
             {" "}
-            Mitegra Technology System is a, a Plumbing Company that’s recognized
-            for plumbing, central heating, bathroom installations,air condition,
-            ventilation, We provide you with highly-trained, high-quality
-            craftsmen. Our objective is to help our clients and our members
-            prosper by providing the most productive, cost-effective,
-            quality-minded workforce available anywhere. This objective is our
-            commitment as a business organization serving a constructive role
-            for this industry and your business.
+            Mitegra Technology System është një kompani e njohur hidraulike për
+            hidraulik, ngrohje qendrore, banjo, kondicioner, ventilim, Ne ju
+            ofrojmë trajnime me cilësi të lartë mjeshtrit. Qëllimi ynë është të
+            ndihmojmë klientët dhe anëtarët tanë prosperojnë duke ofruar më
+            shumë produktivitet, me kosto efektive, fuqi punëtore me mendje
+            cilësore e disponueshme kudo. Ky synim është i yni përkushtim si një
+            organizatë biznesi duke shërbyer një rol konstruktiv për këtë
+            industri dhe biznesin tuaj.
           </span>
         </div>
         <div className={styles.spacer}>
@@ -65,19 +62,20 @@ const about = () => {
 
           <span className={styles.mp1}> MITEGRA TECHNOLOGY SYSTEM</span>
           <h1 className={styles.mp2}>
-            Mitegra Technology System is a, a Plumbing Company that’s recognized{" "}
+            Mitegra Technology System është një kompani e njohur hidraulike për{" "}
             <br />
-            for plumbing, central heating, bathroom installations,air condition,{" "}
+            hidraulik, ngrohje qendrore, banjo, kondicioner, ventilim, Ne ju{" "}
             <br />
-            ventilation, We provide you with highly-trained, high-quality <br />
-            craftsmen. Our objective is to help our clients and our members{" "}
+            ofrojmë trajnime me cilësi të lartë mjeshtrit. Qëllimi ynë është të{" "}
             <br />
-            prosper by providing the most productive, cost-effective, <br />
-            quality-minded workforce available anywhere. This objective is our{" "}
+            ndihmojmë klientët dhe anëtarët tanë prosperojnë duke ofruar më{" "}
             <br />
-            commitment as a business organization serving a constructive role{" "}
+            shumë produktivitet, me kosto efektive, fuqi punëtore me mendje{" "}
             <br />
-            for this industry and your business. <br />
+            cilësore e disponueshme kudo. Ky synim është i yni përkushtim si një{" "}
+            <br />
+            organizatë biznesi duke shërbyer një rol konstruktiv për këtë <br />
+            industri dhe biznesin tuaj.
           </h1>
         </div>
         <div className={styles.mheb}></div>
