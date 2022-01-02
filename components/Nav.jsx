@@ -99,7 +99,7 @@ const Nav = () => {
                 </Link>
               </DropdownMenu.Item>
               <DropdownMenu.Item className={navStyles.item}>
-                <Link href="/mkd/mak">
+                <Link href="/mkd/ma">
                   <Image
                     src={ma}
                     alt={"macedonian flag"}
@@ -178,7 +178,7 @@ const Nav = () => {
                   </Link>
                 </DropdownMenu.Item>
                 <DropdownMenu.Item className={navStyles.mitem}>
-                  <Link href="/mkd/mak">
+                  <Link href="/mkd/ma">
                     <Image
                       src={ma}
                       alt={"macedonian flag"}
