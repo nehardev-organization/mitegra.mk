@@ -4,7 +4,7 @@ export const mkd = {
   about: "За",
   lAbout: "ma/за-митегра",
   contact: "контакт",
-  lContact: "ma/контактирајте-митегра",
+  lContact: "ma/kontakt-mitegra ",
   chero: "Работете со Митегра",
   get: "Стапи во контакт",
   FristName: "Име",

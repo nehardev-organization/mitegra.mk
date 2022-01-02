@@ -257,11 +257,11 @@ let Plumber = () => {
             layout="fill"
           />
 
-          <h1 className={styles.ps1}> водоводџија </h1>
+          <h1 className={styles.ps1}> ВОДОВОД </h1>
         </div>
         <div className={styles.text}>
           <span className={styles.head1}>
-            <span className={styles.head2}>водоводџија</span>
+            <span className={styles.head2}>ВОДОВОД</span>
           </span>
         </div>
         <div className={styles.span}>
@@ -295,7 +295,7 @@ let Plumber = () => {
             layout="fill"
           />
 
-          <span className={styles.mp1}> водоводџија</span>
+          <span className={styles.mp1}> ВОДОВОД</span>
           <h1 className={styles.mp2}>
             нудиме широк спектар на професионална и ефикасна хидраулика {""}
             <br />
