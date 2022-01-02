@@ -1,6 +1,6 @@
-export const mk = {
+export const mkd = {
   home: "дома",
-  lHome: "ma/",
+  lHome: "/ma",
   about: "За",
   lAbout: "ma/за-митегра",
   contact: "контакт",
@@ -29,6 +29,8 @@ export const mk = {
   fb: "/bathroom-installation-north-macedonia",
   fv: "/ventilation-installation-north-macedonia",
   fa: "/about-mitegra",
+  fbc: "/contacto-mitegren",
+
   fcontact: "Контакт Инфо",
   fardess: "Волна. MD Лејси бр. 2 да се даде",
 };

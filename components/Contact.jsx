@@ -5,10 +5,10 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import { al } from "../locales/al.js";
 import { en } from "../locales/en.js";
-import { mk } from "../locales/mk.js";
+import { mkd } from "../locales/mkd.js";
 const Contact = () => {
   const router = useRouter();
-  const languages = { en, al, mk };
+  const languages = { en, al, mkd };
   const t = languages[router.locale];
 
   const form = useRef();

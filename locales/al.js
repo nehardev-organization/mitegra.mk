@@ -28,7 +28,7 @@ export const al = {
   fb: "/al/sq/banjo",
   fv: "/al/sq/ventilim",
   fa: "/reth-mitegres",
-  fbc: "/contacto-mitegen",
+  fbc: "/contacto-mitegren",
 
   fcontact: "Informacioni i kontaktit",
   fadress: "UL. AMDI LESHI Nr.2 Dibër",
