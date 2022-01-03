@@ -133,7 +133,7 @@ const Heating = () => {
   return (
     <div>
       <Head>
-        <title>best Heating Services in North macedonia plumbing</title>
+        <title>најдобри Услуги за греење во Северна Македонија водовод</title>
         <meta
           name="description"
           content="You know when you need heating but you cant find the right guy, Bill had the same problem, he asked his friends and they told him about mitegra, bill said that he will only use mitegra from now on"
@@ -150,24 +150,24 @@ const Heating = () => {
             layout="fill"
           />
 
-          <h1 className={styles.ps1}> HEATING SERVICES</h1>
+          <h1 className={styles.ps1}>ГРЕЕЊЕ</h1>
         </div>
         <div className={styles.text}>
           <span className={styles.head1}>
-            EXPERT <span className={styles.head2}> HEATING SERVICES</span>
+            <span className={styles.head2}> ГРЕЕЊЕ</span>
           </span>
         </div>
         <div className={styles.span}>
           <span className={styles.span1}>
             {" "}
-            We’ve provided high-quality heating services to residential and
-            commercial customers. Our knowledgeable heating engineers have built
-            up extensive experience with jobs of all types and sizes, providing
-            effective solutions at a competitive price – without the need for an
-            ongoing contract or call out charge. As heating experts, all our
-            work is completed safely, efficiently, and professionally, keeping
-            disruption to a minimum and taking the hassle out of addressing
-            issues.
+            Обезбедивме висококвалитетни услуги за греење на станбени и
+            комерцијални клиенти. Нашите упатени инженери за греење изградија до
+            долгогодишно искуство со работни места од сите видови и големини,
+            обезбедувајќи ефективни решенија по конкурентна цена – без потреба
+            од тековен договор или наплата на повик. Како стручњаци за греење,
+            сите наши работата е завршена безбедно, ефикасно и професионално,
+            чување нарушување на минимум и отстранување на мака од адресирање
+            прашања.
           </span>
         </div>
         <div className={styles.spacer}>
@@ -186,23 +186,20 @@ const Heating = () => {
             layout="fill"
           />
 
-          <span className={styles.mh1}> EXPERT HEATING SERVICES</span>
+          <span className={styles.mh1}> ГРЕЕЊЕ</span>
           <h1 className={styles.mh2}>
-            We’ve provided high-quality heating services to residential and{" "}
+            Обезбедивме висококвалитетни услуги за греење на станбени и <br />
+            комерцијални клиенти. Нашите упатени инженери за греење изградија{" "}
             <br />
-            commercial customers. Our knowledgeable heating engineers have built{" "}
+            имате долгогодишно искуство со работни места од сите видови и
+            големини, обезбедувајќи <br />
+            ефективни решенија по конкурентна цена – без потреба од <br />
+            тековен договор или наплата на повик. Како експерти за греење, сите
+            наши <br />
+            работата е завршена безбедно, ефикасно и професионално, чувајќи{" "}
             <br />
-            up extensive experience with jobs of all types and sizes, providing{" "}
-            <br />
-            effective solutions at a competitive price – without the need for an{" "}
-            <br />
-            ongoing contract or call out charge. As heating experts, all our{" "}
-            <br />
-            work is completed safely, efficiently, and professionally, keeping{" "}
-            <br />
-            disruption to a minimum and taking the hassle out of addressing{" "}
-            <br />
-            issues.
+            нарушување на минимум и симнување на мака од адресирање <br />
+            прашања.
           </h1>
         </div>
         <div className={styles.mheb}></div>

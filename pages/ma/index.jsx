@@ -80,7 +80,7 @@ export default function Home() {
             <br /> опфаќа сè, од домашни апарати до <br /> специјализирани
             термални продавници.
           </h2>
-          <Link href="/mkd/mak/vodovod">
+          <Link href="/mkd/ma/vodovod">
             <button className={styles.pButton}>ВОДОВОД</button>
           </Link>
         </div>
@@ -129,7 +129,7 @@ export default function Home() {
             домашни простории, <br /> Тие обично се управуваат со далечински
             управувач. <br /> инфра-црвена контрола.
           </h2>
-          <Link href="/best-air-condition-north-macedonia-debar">
+          <Link href="/ma/klimatizacija">
             <button className={styles.aButton}>КЛИМАТИЗАЦИЈА</button>
           </Link>
         </div>
@@ -152,7 +152,7 @@ export default function Home() {
             <br /> Подготвени сме да се справиме со какви било прашања или
             предизвици <br /> со кои се среќаваме.
           </h2>
-          <Link href="/best-bathroom-installation-north-macedonia-debar">
+          <Link href="/ma/banja">
             <button className={styles.bButton}>ПОСТАВУВАЊЕ НА БАЊА</button>
           </Link>
         </div>
@@ -177,7 +177,7 @@ export default function Home() {
             Подготвени сме да се справиме со какви било прашања или <br />{" "}
             предизвици средба.
           </h2>
-          <Link href="/best-ventilation-installation-north-macedonia-debar">
+          <Link href="/ma/ventilicija">
             <button className={styles.vButton}>ВЕНТИЛАЦИЈА</button>
           </Link>
         </div>
@@ -202,7 +202,7 @@ export default function Home() {
             на водовод, <br /> опфаќа сè, од домашни апарати до <br />{" "}
             специјализирани термални продавници и Saniflo мацератори.
           </h1>
-          <Link href="/best-Plumber-in-North-macedonia-plumbing">
+          <Link href="/ma/vodovod">
             <button className={styles.mpButton}>ВОДОВОД</button>
           </Link>
         </div>
@@ -231,7 +231,7 @@ export default function Home() {
             извештаи на купувачите и <br /> моќното испирање услуги кои се
             фокусираат на <br /> здравјето на вашето централно греење систем.
           </h2>
-          <Link href="/best-central-heating-north-macedonia-heating">
+          <Link href="/ma/greenje">
             <button className={styles.mhButton}>ГРЕЕЊЕ</button>
           </Link>
         </div>
@@ -258,7 +258,7 @@ export default function Home() {
             домашни апликации. <br /> Тие обично се управуваат со далечинска{" "}
             <br /> инфра-црвена контрола.
           </h2>
-          <Link href="/best-air-condition-north-macedonia-debar">
+          <Link href="/ma/klimatizacija">
             <button className={styles.mcButton}>КЛИМАТИЗАЦИЈА</button>
           </Link>
         </div>
@@ -287,7 +287,7 @@ export default function Home() {
             Подготвени сме да се справиме со какви било прашања или предизвици{" "}
             <br /> со кои се среќаваме.
           </h2>
-          <Link href="/best-bathroom-installation-north-macedonia-debar">
+          <Link href="/ma/banja">
             <button className={styles.mbButton}>ПОСТАВУВАЊЕ НА БАЊА</button>
           </Link>
         </div>
@@ -315,7 +315,7 @@ export default function Home() {
             Подготвени сме да се справиме со какви било прашања или <br />{" "}
             предизвици средба.
           </h2>
-          <Link href="/best-ventilation-installation-north-macedonia-debar">
+          <Link href="/ma/ventilicija">
             <button className={styles.mvButton}>ВЕНТИЛАЦИЈА</button>
           </Link>
         </div>
