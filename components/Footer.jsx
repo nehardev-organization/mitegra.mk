@@ -76,19 +76,19 @@ const Footer = () => {
                 <li>
                   {" "}
                   <Link href={t.fp}>
-                    <a>Plumbing</a>
+                    <a>{t.fp1}</a>
                   </Link>
                 </li>
                 <li>
                   {" "}
                   <Link href={t.fv}>
-                    <a>Heating</a>
+                    <a>{t.fv1}</a>
                   </Link>
                 </li>
                 <li>
                   {" "}
                   <Link href={t.fb}>
-                    <a>Bathrooms</a>
+                    <a>{t.fb1}</a>
                   </Link>
                 </li>
                 <li>

@@ -26,13 +26,13 @@ const Contact = () => {
           />
         </div>
         <div className={styles.text}>
-          <span className={styles.head2}> WHY US?</span>
+          <span className={styles.head2}> ЗОШТО НАС?</span>
         </div>
         <div className={styles.span}>
           <span className={styles.span1}>
-            We ensure that the materials we use are tested and the best, we give
-            longer guarentee, we give the highest quallity of products, and
-            finally we give you the best experience
+            Се грижиме дека материјалите што ги користиме се тестирани и
+            најдоброто, го даваме подолга гаранција, даваме највисок квалитет на
+            производи, и конечно ви го даваме најдоброто искуство
           </span>
         </div>
         <div className={styles.spacer}>
@@ -51,13 +51,12 @@ const Contact = () => {
             layout="fill"
           />
 
-          <span className={styles.mh1}> WHY US?</span>
+          <span className={styles.mh1}> ЗОШТО НАС?</span>
           <h1 className={styles.mh2}>
-            We ensure that the materials we use are tested and the best, we give{" "}
-            <br />
-            longer guarentee, we give the highest quallity of products, and{" "}
-            <br />
-            finally we give you the best experience <br />
+            Обезбедуваме дека материјалите што ги користиме се тестирани и
+            најдоброто, даваме <br />
+            подолга гаранција, даваме највисок квалитет на производи и <br />
+            конечно ви го даваме најдоброто искуство <br />
           </h1>
         </div>
         <div className={styles.mheb}></div>
