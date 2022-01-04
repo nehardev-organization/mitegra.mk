@@ -1,0 +1,231 @@
+.plumber {
+  position: relative;
+  width: 100%;
+  height: 600px;
+}
+
+.ps1 {
+  white-space: nowrap;
+  font-size: 30px;
+  z-index: 2;
+  color: #0067ff;
+  position: absolute;
+  top: 50%;
+  left: 65%;
+  font-weight: bolder;
+  text-shadow: #0067ff;
+}
+.head1 {
+  color: #212529;
+  font-weight: bold;
+}
+.head2 {
+  color: #0067ff;
+}
+.text {
+  padding-top: 100px;
+  justify-content: center;
+  display: flex;
+  font-size: 50px;
+}
+.span {
+  position: relative;
+  top: 50%;
+  left: 0%;
+  font-size: 21px;
+}
+.span1 {
+  padding-top: 15px;
+  display: flex;
+  align-content: center;
+  text-align: center;
+  font-weight: bold;
+  color: #212529;
+}
+.spacer {
+  position: relative;
+  width: 100%;
+  height: 10rem;
+}
+@media screen and (min-width: 768px) {
+  .Mobile {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Desktop {
+    display: none;
+  }
+}
+
+.mheb {
+  background-color: #212529;
+  width: 100%;
+  height: 20rem;
+}
+.mp {
+  position: relative;
+  width: 100%;
+  height: 200px;
+}
+
+.mp1 {
+  white-space: nowrap;
+  font-size: 30px;
+  z-index: 2;
+  color: #0067ff;
+  position: absolute;
+  top: 120%;
+  left: 20%;
+}
+
+.mp2 {
+  color: white;
+  position: absolute;
+  white-space: nowrap;
+  font-size: 15px;
+  text-align: center;
+  top: 150%;
+  left: 20%;
+}
+
+@media screen and (max-width: 450px) {
+  .mb {
+    height: 150px;
+  }
+  .mp1 {
+    font-size: 25px;
+    left: 10%;
+  }
+  .mp2 {
+    font-size: 13px;
+    left: 6%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .mb {
+    height: 150px;
+  }
+
+  .mp1 {
+    font-size: 20px;
+    left: 13%;
+  }
+  .mp2 {
+    font-size: 12px;
+    left: 6%;
+  }
+}
+@media screen and (max-width: 350px) {
+  .mb {
+    height: 150px;
+  }
+
+  .mp1 {
+    font-size: 20px;
+    left: 13%;
+  }
+  .mp2 {
+    font-size: 10px;
+    left: 10%;
+  }
+}
+@media screen and (max-width: 300px) {
+  .mb {
+    height: 150px;
+  }
+
+  .mp1 {
+    font-size: 15px;
+    left: 15%;
+  }
+  .mp2 {
+    font-size: 9px;
+    left: 9%;
+  }
+}
+/* Gallery css */
+
+.gallery {
+  --webkit-column-count: 3;
+  --maz-column-count: 3;
+  column-count: 3;
+  --webkit-column-width: 33%;
+  --maz-column-width: 33%;
+  column-width: 33%;
+  padding: 0 20px;
+}
+.gallery .pics {
+  -webkit-trasintion: all 350ms ease;
+  transform: all 350ms ease;
+  cursor: pointer;
+  margin-bottom: 12px;
+}
+.gallery .pics:hover {
+  filter: opacity(0.8);
+}
+@media (max-width: 991px) {
+  .gallery {
+    --webkit-column-count: 2;
+    --maz-column-count: 2;
+    column-count: 2;
+  }
+}
+@media (max-width: 480px) {
+  .gallery {
+    --webkit-column-count: 1;
+    --maz-column-count: 1;
+    column-count: 1;
+    --webkit-column-width: 100%;
+    --maz-column-width: 100%;
+    column-width: 100%;
+  }
+}
+/* module */
+
+.model {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 60%);
+  transition: opacity 0.4s ease, visibility 4s ease, trasnfrom 0.5s ease-in-out;
+  visibility: hidden;
+  opacity: 0;
+  transform: scale(0);
+  overflow: hidden;
+  z-index: 999;
+}
+.modelOpen {
+  visibility: visible;
+  opacity: 1;
+  transform: scale(1);
+}
+.model .img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  line-height: 9;
+  box-sizing: border-box;
+  padding: 20px 0 20px;
+  margin: 0 auto;
+}
+
+.model svg {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  width: 2rem;
+  height: 2rem;
+  padding: 5px;
+  cursor: pointer;
+  background-color: black;
+  border-radius: 20px;
+  z-index: 9;
+}

@@ -34,9 +34,9 @@ const about = () => {
         <div className={styles.span}>
           <span className={styles.span1}>
             {" "}
-            Mitegra Technology System është një kompani e njohur hidraulike për
-            hidraulik, ngrohje qendrore, banjo, kondicioner, ventilim, Ne ju
-            ofrojmë trajnime me cilësi të lartë mjeshtrit. Qëllimi ynë është të
+            Mitegra Technology System është një kompani e njohur për hidraulik,
+            ngrohje qendrore, banjo, kondicioner, ventilim, Ne ju ofrojmë
+            matrijale me cilësi të lartë mjeshtrit. Qëllimi ynë është të
             ndihmojmë klientët dhe anëtarët tanë prosperojnë duke ofruar më
             shumë produktivitet, me kosto efektive, fuqi punëtore me mendje
             cilësore e disponueshme kudo. Ky synim është i yni përkushtim si një
