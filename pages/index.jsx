@@ -191,13 +191,12 @@ export default function Home() {
           />
           <h1 className={styles.mp1}>PLUMBING</h1>
           <h1 className={styles.mp2}>
-            Our approved plumbers can help with all your plumbing <br />{" "}
-            requirements, providing an efficient response to issues such <br />{" "}
-            as leaks, blockages, and broken toilets. Drawing on their <br />{" "}
-            extensive hands-on experience, our team can also carry out <br /> a
-            wide range of professional plumbing installation services, <br />{" "}
-            covering everything from domestic appliances through to <br />{" "}
-            specialist thermal stores and Saniflo macerators.
+            Our approved plumbers can help with all your plumbing requirements,
+            providing an efficient response to issues such as leaks, blockages,
+            and broken toilets. Drawing on their extensive hands-on experience,
+            our team can also carry out a wide range of professional plumbing
+            installation services, covering everything from domestic appliances
+            through to specialist thermal stores and Saniflo macerators.
           </h1>
           <Link href="/plumber-in-North-macedonia">
             <button className={styles.mpButton}>PLUMBING</button>
@@ -219,14 +218,13 @@ export default function Home() {
           <div className={styles.mheb}></div>
           <h1 className={styles.mht}>HEATING</h1>
           <h2 className={styles.mht1}>
-            We provide specialist heating services that <br /> promote a number
-            of alternative heating <br /> options. Our engineers can introduce
-            you to <br /> the benefits of underfloor heating and heat <br />{" "}
-            interface units, helping you to make an <br /> informed decision on
-            whether they’re a good <br /> fit for your property. We also carry
-            out <br /> professional buyer’s reports and <br /> powerflushing
-            services that focus on the <br /> health of your central heating
-            system.
+            We provide specialist heating services that promote a number of
+            alternative heating options. Our engineers can introduce you to the
+            benefits of underfloor heating and heat interface units, helping you
+            to make an informed decision on whether they’re a good fit for your
+            property. We also carry out professional buyer’s reports and
+            powerflushing services that focus on the health of your central
+            heating system.
           </h2>
           <Link href="/central-heating-north-macedonia">
             <button className={styles.mhButton}>HEATING</button>
@@ -247,12 +245,12 @@ export default function Home() {
           />
           <h1 className={styles.mc1}>AIR CONDITIONING</h1>
           <h2 className={styles.mc2}>
-            We can offer a complete Design, Manufacture <br /> and Install
-            package on all manner of split air <br /> conditioning systems and
-            ducted air handling <br /> units. The wall mounted split systems are
-            designed <br /> to air condition small and medium size areas and{" "}
-            <br /> are ideal for office shops or domestic applications. <br />{" "}
-            They are generally operated by a remote <br /> infra-red control.
+            We can offer a complete Design, Manufacture and Install package on
+            all manner of split air conditioning systems and ducted air handling
+            units. The wall mounted split systems are designed to air condition
+            small and medium size areas and are ideal for office shops or
+            domestic applications. They are generally operated by a remote
+            infra-red control.
           </h2>
           <Link href="/air-condition-north-macedonia">
             <button className={styles.mcButton}>AIR CONDITION</button>
@@ -274,14 +272,12 @@ export default function Home() {
           <div className={styles.mheb}></div>
           <h1 className={styles.mb1}>BATHROOM</h1>
           <h2 className={styles.mb2}>
-            As experienced plumbers, e can help to design, <br /> install,
-            repair, and replace bathrooms, putting <br /> our skills to good use
-            as part of your home <br /> improvement project. We’ve successfully{" "}
-            <br />
-            worked on bathrooms of <br /> all sizes within a wide range of
-            properties and will be <br /> able to provide any expert assistance
-            you require. <br /> We are prepared to handle any issues or
-            challenges <br /> we encounter.
+            As experienced plumbers, e can help to design, install, repair, and
+            replace bathrooms, putting our skills to good use as part of your
+            home improvement project. We’ve successfully worked on bathrooms of
+            all sizes within a wide range of properties and will be able to
+            provide any expert assistance you require. We are prepared to handle
+            any issues or challenges we encounter.
           </h2>
           <Link href="/bathroom-installation-north-macedonia">
             <button className={styles.mbButton}>BATHROOM</button>
@@ -302,14 +298,12 @@ export default function Home() {
           <h1 className={styles.mv1}>VENTILATION</h1>
           <h2 className={styles.mv2}>
             {" "}
-            We can help to design, install, repair, and replace <br /> Air
-            Conditions, putting our skills to good use as <br /> part of your
-            improvement project. We’ve <br /> successfully worked on Air
-            conditions of all sizes <br />
-            within a wide range of properties and will be able <br />
-            to provide any expert assistance you require. <br />
-            We are prepared to handle any issues or <br /> challenges we
-            encounter.
+            We can help to design, install, repair, and replace Air Conditions,
+            putting our skills to good use as part of your improvement project.
+            We’ve successfully worked on Air conditions of all sizes within a
+            wide range of properties and will be able to provide any expert
+            assistance you require. We are prepared to handle any issues or
+            challenges we encounter.
           </h2>
           <Link href="/ventilation-installation-north-macedonia">
             <button className={styles.mvButton}>VENTILATION</button>

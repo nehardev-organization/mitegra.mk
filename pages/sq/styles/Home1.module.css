@@ -34,15 +34,15 @@
   position: relative;
   z-index: 1;
   background-color: #0067ff;
-  /* white-space: nowrap; */
+  white-space: nowrap;
   padding: 10px 15px;
   color: white;
-  font-size: 25px;
+  font-size: 20px;
   outline: none;
   border: none;
   cursor: pointer;
-  left: 40%;
-  top: 60%;
+  left: 42%;
+  top: 65%;
   transition: 0.5s;
   border-radius: 10px;
 }
@@ -104,7 +104,7 @@
 }
 
 .Ph1 {
-  /* white-space: nowrap; */
+  white-space: nowrap;
   font-size: 3rem;
   font-weight: bold;
   top: 25%;
@@ -115,7 +115,7 @@
 }
 
 .Ph2 {
-  /* white-space: nowrap; */
+  white-space: nowrap;
   font-size: 1.3rem;
   font-weight: bold;
   top: 60%;
@@ -130,7 +130,7 @@
   position: absolute;
   display: flex;
   background-color: #0067ff;
-  /* white-space: nowrap; */
+  white-space: nowrap;
   padding: 10px 15px;
   color: white;
   font-size: 25px;
@@ -160,7 +160,7 @@
 }
 
 .hH1 {
-  /* white-space: nowrap; */
+  white-space: nowrap;
   font-size: 3rem;
   font-weight: bold;
   top: 25%;
@@ -186,7 +186,7 @@
   position: absolute;
   display: flex;
   background-color: #0067ff;
-  /* white-space: nowrap; */
+  white-space: nowrap;
   padding: 10px 15px;
   color: white;
   font-size: 25px;
@@ -229,7 +229,7 @@
 }
 
 .aH1 {
-  /* white-space: nowrap; */
+  white-space: nowrap;
   font-size: 3rem;
   font-weight: bold;
   top: 25%;
@@ -239,7 +239,7 @@
   color: #212529;
 }
 .aH2 {
-  /* white-space: nowrap; */
+  white-space: nowrap;
   font-size: 1.3rem;
   font-weight: bold;
   top: 55%;
@@ -252,7 +252,7 @@
   position: absolute;
   display: flex;
   background-color: #0067ff;
-  /* white-space: nowrap; */
+  white-space: nowrap;
   padding: 10px 15px;
   color: white;
   font-size: 25px;
@@ -286,7 +286,7 @@
 }
 
 .bH1 {
-  /* white-space: nowrap; */
+  white-space: nowrap;
   font-size: 3rem;
   font-weight: bold;
   top: 25%;
@@ -296,7 +296,7 @@
   color: #0067ff;
 }
 .bH2 {
-  /* white-space: nowrap; */
+  white-space: nowrap;
   text-align: right;
   font-size: 1.3rem;
   font-weight: bold;
@@ -310,7 +310,7 @@
   position: absolute;
   display: flex;
   background-color: #0067ff;
-  /* white-space: nowrap; */
+  white-space: nowrap;
   padding: 10px 15px;
   color: white;
   font-size: 25px;
@@ -346,7 +346,7 @@
 }
 
 .bv1 {
-  /* white-space: nowrap; */
+  white-space: nowrap;
   font-size: 3rem;
   font-weight: bold;
   top: 25%;
@@ -357,7 +357,7 @@
   color: #212529;
 }
 .bv2 {
-  /* white-space: nowrap; */
+  white-space: nowrap;
   text-align: left;
   font-size: 1.3rem;
   font-weight: bold;
@@ -371,7 +371,7 @@
   position: absolute;
   display: flex;
   background-color: #0067ff;
-  /* white-space: nowrap; */
+  white-space: nowrap;
   padding: 10px 15px;
   color: white;
   font-size: 25px;
