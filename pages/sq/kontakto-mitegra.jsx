@@ -30,9 +30,12 @@ const Contact = () => {
         </div>
         <div className={styles.span}>
           <span className={styles.span1}>
-            Ne sigurojmë që materialet që përdorim të jenë të testuara dhe të
-            japim më të mirën garanci më të gjatë, ne japim cilësinë më të lartë
-            të produkteve, dhe më në fund ne ju ofrojmë përvojën më të mirë
+            Ne jemi një kompani që monitoron vazhdimisht zhvillimin e zgjidhjeve
+            të reja dhe teknologjitë, si dhe standardet dhe tendencat botërore
+            që zbaton në punën e tyre të përditshme. Përvoja e mëparshme e
+            menaxhimi, i fituar gjatë 14 viteve të fundit në disa nga kompanitë
+            lider në Itali, i lejon kompanisë të e specializuar në projektimin
+            dhe ekzekutimin e plotë teknike zgjidhje dhe mirëmbajtje instalimi.
           </span>
         </div>
         <div className={styles.spacer}>
@@ -53,9 +56,16 @@ const Contact = () => {
 
           <span className={styles.mh1}> PSE NE?</span>
           <h1 className={styles.mh2}>
-            Ne sigurojmë që materialet që përdorim të jenë të testuara dhe të <br />
-            japim më të mirën garanci më të gjatë, ne japim cilësinë më të lartë <br />
-            të produkteve, dhe më në fund ne ju ofrojmë përvojën më të mirë <br />
+            Ne jemi një kompani që monitoron vazhdimisht zhvillimin e zgjidhjeve{" "}
+            <br />
+            të reja dhe teknologjitë, si dhe standardet dhe tendencat botërore
+            <br />
+            që zbaton në punën e tyre të përditshme. Përvoja e mëparshme e<br />
+            menaxhimi, i fituar gjatë 14 viteve të fundit në disa nga kompanitë
+            <br />
+            lider në Itali, i lejon kompanisë të e specializuar në projektimin
+            <br />
+            dhe ekzekutimin e plotë teknike zgjidhje dhe mirëmbajtje instalimi.
           </h1>
         </div>
         <div className={styles.mheb}></div>

@@ -30,9 +30,12 @@ const Contact = () => {
         </div>
         <div className={styles.span}>
           <span className={styles.span1}>
-            We ensure that the materials we use are tested and the best, we give
-            longer guarentee, we give the highest quallity of products, and
-            finally we give you the best experience
+            We are a company that constantly monitors the development of new
+            solutions and technologies, as well as world standards and trends it
+            implements in their daily work. Previous experience of management,
+            acquired over the past 14 years in some from leading companies in
+            Italy, allows the company to specializes in the design and execution
+            of complete technical solutions and installation maintenance.
           </span>
         </div>
         <div className={styles.spacer}>
@@ -53,11 +56,17 @@ const Contact = () => {
 
           <span className={styles.mh1}> WHY US?</span>
           <h1 className={styles.mh2}>
-            We ensure that the materials we use are tested and the best, we give{" "}
+            We are a company that constantly monitors the development of new{" "}
             <br />
-            longer guarentee, we give the highest quallity of products, and{" "}
+            solutions and technologies, as well as world standards and trends we{" "}
             <br />
-            finally we give you the best experience <br />
+            implement it on our daily work. Previous experience of management,
+            <br />
+            acquired over the past 14 years in some from leading companies in
+            <br />
+            Italy, allows the company to specializes in the design and execution
+            <br />
+            of complete technical solutions and installation maintenance.
           </h1>
         </div>
         <div className={styles.mheb}></div>

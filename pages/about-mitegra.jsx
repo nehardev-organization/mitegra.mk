@@ -36,15 +36,12 @@ const about = () => {
         </div>
         <div className={styles.span}>
           <span className={styles.span1}>
-            {" "}
-            Mitegra Technology System is a, a Plumbing Company that’s recognized
-            for plumbing, central heating, bathroom installations,air condition,
-            ventilation, We provide you with highly-trained, high-quality
-            craftsmen. Our objective is to help our clients and our members
-            prosper by providing the most productive, cost-effective,
-            quality-minded workforce available anywhere. This objective is our
-            commitment as a business organization serving a constructive role
-            for this industry and your business.
+            We are a company that constantly monitors the development of new
+            solutions and technologies, as well as world standards and trends we
+            implement it on our daily work. Previous experience of management,
+            acquired over the past 14 years in some from leading companies in
+            Italy, allows the company to specializes in the design and execution
+            of complete technical solutions and installation maintenance.
           </span>
         </div>
         <div className={styles.spacer}>
@@ -67,17 +64,17 @@ const about = () => {
           <h1 className={styles.mp2}>
             Mitegra Technology System is a, a Plumbing Company that’s recognized{" "}
             <br />
-            for plumbing, central heating, bathroom installations,air condition,{" "}
+            We are a company that constantly monitors the development of new{" "}
             <br />
-            ventilation, We provide you with highly-trained, high-quality <br />
-            craftsmen. Our objective is to help our clients and our members{" "}
+            solutions and technologies, as well as world standards and trends we{" "}
             <br />
-            prosper by providing the most productive, cost-effective, <br />
-            quality-minded workforce available anywhere. This objective is our{" "}
+            implement it on our daily work. Previous experience of management,{" "}
             <br />
-            commitment as a business organization serving a constructive role{" "}
+            acquired over the past 14 years in some from leading companies in{" "}
             <br />
-            for this industry and your business. <br />
+            Italy, allows the company to specializes in the design and execution{" "}
+            <br />
+            of complete technical solutions and installation maintenance.
           </h1>
         </div>
         <div className={styles.mheb}></div>

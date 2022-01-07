@@ -34,14 +34,14 @@ const about = () => {
         <div className={styles.span}>
           <span className={styles.span1}>
             {" "}
-            Mitegra Technology System është një kompani e njohur për hidraulik,
-            ngrohje qendrore, banjo, kondicioner, ventilim, Ne ju ofrojmë
-            matrijale me cilësi të lartë mjeshtrit. Qëllimi ynë është të
-            ndihmojmë klientët dhe anëtarët tanë prosperojnë duke ofruar më
-            shumë produktivitet, me kosto efektive, fuqi punëtore me mendje
-            cilësore e disponueshme kudo. Ky synim është i yni përkushtim si një
-            organizatë biznesi duke shërbyer një rol konstruktiv për këtë
-            industri dhe biznesin tuaj.
+            Mitegra technology system është një kompani e njohur hidraulike për
+            hidraulike, ngrohje qendrore, banjo, kondicioner, ventilacija, Ne ju
+            konkurse aktuale me menaxhment të lartë. sistemi është për të
+            ndihmuar dhe mbështetur të prosperuarit tanë duke marrë më shumë
+            Produktet, me gjëra efektive dhe të fuqishme në mendjen time janë të
+            disponueshme faleminderit. Ky synim është edhe angazhimi ynë si
+            lider i biznesit të biznesit rol konstruktiv për këtë industri dhe
+            biznes në tuaj.
           </span>
         </div>
         <div className={styles.spacer}>
@@ -62,20 +62,21 @@ const about = () => {
 
           <span className={styles.mp1}> MITEGRA TECHNOLOGY SYSTEM</span>
           <h1 className={styles.mp2}>
-            Mitegra Technology System është një kompani e njohur hidraulike për{" "}
+            Mitegra technology system është një kompani e njohur hidraulike për{" "}
             <br />
-            hidraulik, ngrohje qendrore, banjo, kondicioner, ventilim, Ne ju{" "}
+            hidraulike, ngrohje qendrore, banjo, kondicioner, ventilacija, Ne ju
             <br />
-            ofrojmë trajnime me cilësi të lartë mjeshtrit. Qëllimi ynë është të{" "}
+            konkurse aktuale me menaxhment të lartë. sistemi është për të
             <br />
-            ndihmojmë klientët dhe anëtarët tanë prosperojnë duke ofruar më{" "}
+            ndihmuar dhe mbështetur të prosperuarit tanë duke marrë më shumë
             <br />
-            shumë produktivitet, me kosto efektive, fuqi punëtore me mendje{" "}
+            Produktet, me gjëra efektive dhe të fuqishme në mendjen time janë të
             <br />
-            cilësore e disponueshme kudo. Ky synim është i yni përkushtim si një{" "}
+            disponueshme faleminderit. Ky synim është edhe angazhimi ynë si
             <br />
-            organizatë biznesi duke shërbyer një rol konstruktiv për këtë <br />
-            industri dhe biznesin tuaj.
+            lider i biznesit të biznesit rol konstruktiv për këtë industri dhe
+            <br />
+            biznes në tuaj.
           </h1>
         </div>
         <div className={styles.mheb}></div>
