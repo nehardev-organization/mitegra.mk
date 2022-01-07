@@ -62,84 +62,87 @@
 .mheb {
   background-color: #212529;
   width: 100%;
-  height: 20rem;
+  height: 18rem;
 }
-.mb {
+.mh {
   position: relative;
   width: 100%;
   height: 150px;
 }
 
-.mb1 {
+.mh1 {
   white-space: nowrap;
   font-size: 30px;
   z-index: 2;
   color: #0067ff;
-  position: absolute;
+  position: relative;
   top: 120%;
-  left: 10%;
+  left: 40%;
 }
 
-.mb2 {
+.mh2 {
   color: white;
-  position: absolute;
+  position: relative;
   white-space: nowrap;
   font-size: 15px;
   text-align: center;
-  top: 150%;
-  left: 15%;
+  top: 140%;
+  left: 50%;
 }
 
 @media screen and (max-width: 450px) {
-  .mb1 {
-    font-size: 25px;
-    left: 6%;
+  .mh {
+    height: 150px;
   }
-  .mb2 {
-    font-size: 15px;
-    left: 13%;
+  .mh1 {
+    font-size: 25px;
+    left: 37%;
+  }
+  .mh2 {
+    font-size: 13px;
+    left: 6%;
   }
 }
 @media screen and (max-width: 400px) {
-  .mb {
+  .mh {
     height: 150px;
   }
 
-  .mb1 {
+  .mh1 {
     font-size: 20px;
-    left: 13%;
+    left: 33%;
   }
-  .mb2 {
-    font-size: 15px;
-    left: 13%;
+  .mh2 {
+    font-size: 12px;
+    left: 0%;
   }
 }
 @media screen and (max-width: 350px) {
-  .mb {
+  .mh {
     height: 150px;
   }
 
-  .mb1 {
-    font-size: 19px;
-    left: 6%;
+  .mh1 {
+    font-size: 20px;
+    left: 35%;
   }
-  .mb2 {
-    font-size: 15px;
-    left: 5%;
+  .mh2 {
+    font-size: 13px;
+    left: 0%;
   }
 }
 @media screen and (max-width: 300px) {
-  .mb {
+  .mh {
     height: 150px;
   }
 
-  .mb1 {
-    font-size: 15px;
-    left: 9%;
+  .mh1 {
+    font-size: 18px;
+    left: 30%;
   }
-  .mb2 {
+  .mh2 {
     font-size: 13px;
-    left: 3%;
+    left: 0%;
   }
 }
 
@@ -152,7 +155,7 @@
   --webkit-column-width: 33%;
   --maz-column-width: 33%;
   column-width: 33%;
-  padding: 0 12px;
+  padding: 0 20px;
 }
 .gallery .pics {
   -webkit-trasintion: all 350ms ease;
