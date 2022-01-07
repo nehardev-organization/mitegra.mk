@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Head from "next/head";
-import styles from "/styles/air.module.css";
+import styles from "./styles/air1.module.css";
 import ar from "/images/arcon.png";
 import mar from "/images/mabg.png";
 import Image from "next/image";

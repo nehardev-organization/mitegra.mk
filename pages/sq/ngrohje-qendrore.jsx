@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Head from "next/head";
-import styles from "/styles/heating.module.css";
+import styles from "./styles/heating1.module.css";
 import ht from "/images/hea.png";
 import mh from "/images/mhbg.png";
 import Image from "next/image";

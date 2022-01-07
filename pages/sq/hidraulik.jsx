@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Head from "next/head";
-import styles from "/styles/Plumber.module.css";
+import styles from "./styles/Plumber1.module.css";
 import Image from "next/image";
 import plumber from "/images/pl.png";
 import mp from "/images/mpbg.png";

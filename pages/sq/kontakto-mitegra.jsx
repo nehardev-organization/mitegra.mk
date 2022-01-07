@@ -2,7 +2,7 @@ import React from "react";
 import Contactpng from "/images/Contact.png";
 import Head from "next/head";
 import Image from "next/image";
-import styles from "/styles/con.module.css";
+import styles from "./styles/con1.module.css";
 import hero from "/images/hebg.png";
 const Contact = () => {
   return (

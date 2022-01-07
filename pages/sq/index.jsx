@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
-import styles from "/styles/Home.module.css";
+import styles from "./styles/Home1.module.css";
 import hero from "/images/hebg.png";
 import plumber from "/images/pbg.png";
 import Heating from "/images/hbg.png";
@@ -59,9 +59,8 @@ export default function Home() {
           <button className={styles.heroButton}>Pse ne?</button>
         </Link>
         <h1 className={styles.h1}>
-          Ne punojmë me kompani të pasurive të paluajtshme që kanë nevojë
-          <br />
-          për Shërbime hidraulike të sigurta edhe të shëndetshme
+          Ne punojmë me kompani të pasurive të paluajtshme që kanë nevojë për
+          Shërbime hidraulike të sigurta edhe të shëndetshme
         </h1>
       </div>
       <div className={styles.Desktop}>
@@ -77,13 +76,12 @@ export default function Home() {
           <h1 className={styles.Ph1}>HIDRAULIK</h1>
           <h2 className={styles.Ph2}>
             Hidraulikët tanë të miratuar mund të ndihmojnë me të gjitha
-            hidraulikun tuaj <br /> kërkesave, duke ofruar një përgjigje efikase
-            për çështje të tilla <br /> si rrjedhje, bllokime dhe tualete të
-            prishura. Duke vizatuar në <br /> e tyre përvojë e gjerë praktike,
-            ekipi ynë mund të kryejë gjithashtu <br /> a një gamë e gjerë
-            shërbimesh profesionale të instalimit hidraulik, <br /> duke mbuluar
-            gjithçka nga pajisjet shtëpiake deri te <br /> dyqane të
-            specializuara termike dhe maceratorë Saniflo.
+            hidraulikun tuaj kërkesave, duke ofruar një përgjigje efikase për
+            çështje të tilla si rrjedhje, bllokime dhe tualete të prishura. Duke
+            vizatuar në e tyre përvojë e gjerë praktike, ekipi ynë mund të
+            kryejë gjithashtu a një gamë e gjerë shërbimesh profesionale të
+            instalimit hidraulik, duke mbuluar gjithçka nga pajisjet shtëpiake
+            deri te dyqane të specializuara termike dhe maceratorë Saniflo.
           </h2>
           <Link href="/al/sq/hidraulik">
             <button className={styles.pButton}>HIDRAULIK</button>
@@ -100,15 +98,14 @@ export default function Home() {
           />
           <h1 className={styles.hH1}>NGROHJE</h1>
           <h2 className={styles.hH2}>
-            Ne ofrojmë shërbime të specializuara të ngrohjes që <br />{" "}
-            promovojnë një numër opsionet e ngrohjes alternative <br />.
-            Inxhinierët tanë mund të prezantojnë ju të <br /> përfitimet e
-            ngrohjes nën dysheme dhe ngrohjes <br /> njësitë e ndërfaqes, që ju
-            ndihmojnë të merrni një vendim <br /> të informuar mbi nëse janë një{" "}
-            <br /> i përshtatshëm për pronën tuaj. Ne gjithashtu mbajmë nxjerr{" "}
-            <br /> raportet profesionale të blerësve dhe <br /> powerflushing
-            shërbime që fokusohen në shëndetin <br /> të ngrohjes suaj qendrore
-            sistemi.
+            Ne ofrojmë shërbime të specializuara të ngrohjes që promovojnë një
+            numër opsionet e ngrohjes alternative . Inxhinierët tanë mund të
+            prezantojnë ju të përfitimet e ngrohjes nën dysheme dhe ngrohjes
+            njësitë e ndërfaqes, që ju ndihmojnë të merrni një vendim të
+            informuar mbi nëse janë një i përshtatshëm për pronën tuaj. Ne
+            gjithashtu mbajmë nxjerr raportet profesionale të blerësve dhe
+            powerflushing shërbime që fokusohen në shëndetin të ngrohjes suaj
+            qendrore sistemi.
           </h2>
           <Link href="/al/sq/ngrohje-qendrore">
             <button className={styles.hButton}>NGROHJE</button>
@@ -127,15 +124,10 @@ export default function Home() {
           <h1 className={styles.aH1}>KONDICIONER</h1>
           <h2 className={styles.aH2}>
             Ne mund të ofrojmë një dizajn të plotë, prodhim dhe instalim paketë{" "}
-            <br />
             për të gjitha llojet e sistemeve të kondicionimit të ajrit të ndarë
-            <br />
             dhe njësi për trajtimin e ajrit me kanal. Sistemet e ndarjes së
-            <br />
             montuar në mur janë projektuar për të ajrosur zona të vogla dhe të
-            <br />
             mesme dhe janë ideale për dyqane zyre ose aplikacione shtëpiake, Ata
-            <br />
             zakonisht operohen nga një telekomandë infra-kuqe.
           </h2>
           <Link href="/al/sq/kondicioner">
@@ -154,16 +146,12 @@ export default function Home() {
           <h1 className={styles.bH1}>BANJO</h1>
           <h2 className={styles.bH2}>
             Si hidraulikë me përvojë, ne mund të ndihmojmë në projektimin,
-            <br />
-            instalimin, riparoni dhe zëvendësoni banjat, duke vënë në
-            <br /> përdorim aftësitë tona si pjesë e projektit të përmirësimit
-            të
-            <br /> shtëpisë tuaj . Ne kemi sukses punuar në banja të të gjitha
-            madhësive <br />
-            brenda një game të gjerë të pronat dhe do të jetë në gjendje të
-            <br /> ofrojë çdo ndihmë eksperti ju kerkoni. Ne jemi të përgatitur
-            të
-            <br /> trajtojmë çdo çështje ose sfidat që hasim.
+            instalimin, riparoni dhe zëvendësoni banjat, duke vënë në përdorim
+            aftësitë tona si pjesë e projektit të përmirësimit të shtëpisë tuaj
+            . Ne kemi sukses punuar në banja të të gjitha madhësive brenda një
+            game të gjerë të pronat dhe do të jetë në gjendje të ofrojë çdo
+            ndihmë eksperti ju kerkoni. Ne jemi të përgatitur të trajtojmë çdo
+            çështje ose sfidat që hasim.
           </h2>
           <Link href="/al/sq/banjo">
             <button className={styles.bButton}>BANJO</button>
@@ -181,17 +169,11 @@ export default function Home() {
           <h1 className={styles.bv1}>VENTILIMI</h1>
           <h2 className={styles.bv2}>
             ne mund të ndihmojmë në projektimin, instalimin, riparimin dhe{" "}
-            <br />
             zëvendësimin e Air Kushtet, duke i vënë në përdorim aftësitë tona si
-            <br />
             pjesë e juaja projekt përmirësimi. Ne kemi punuar me sukses në Air
-            <br />
             kushtet e të gjitha madhësive brenda një game të gjerë pronash dhe
-            <br />
             do të jetë në gjendje për të ofruar çdo ndihmë eksperte që ju
-            <br />
             nevojitet. Ne jemi të përgatitur për të trajtuar çdo çështje apo
-            <br />
             sfidë ne takim.
           </h2>
           <Link href="/al/sq/ventilim">
@@ -212,13 +194,12 @@ export default function Home() {
           <h1 className={styles.mp1}>HIDRAULIK</h1>
           <h1 className={styles.mp2}>
             Hidraulikët tanë të miratuar mund të ndihmojnë me të gjitha
-            hidraulikun tuaj <br /> kërkesave, duke ofruar një përgjigje efikase
-            për çështje të tilla <br /> si rrjedhje, bllokime dhe tualete të
-            prishura. Duke vizatuar në <br /> e tyre përvojë e gjerë praktike,
-            ekipi ynë mund të kryejë gjithashtu <br /> a një gamë e gjerë
-            shërbimesh profesionale të instalimit hidraulik, <br /> duke mbuluar
-            gjithçka nga pajisjet shtëpiake deri te <br /> dyqane të
-            specializuara termike dhe maceratorë Saniflo.
+            hidraulikun tuaj kërkesave, duke ofruar një përgjigje efikase për
+            çështje të tilla si rrjedhje, bllokime dhe tualete të prishura. Duke
+            vizatuar në e tyre përvojë e gjerë praktike, ekipi ynë mund të
+            kryejë gjithashtu a një gamë e gjerë shërbimesh profesionale të
+            instalimit hidraulik, duke mbuluar gjithçka nga pajisjet shtëpiake
+            deri te dyqane të specializuara termike dhe maceratorë Saniflo.
           </h1>
           <Link href="al/sq/hidraulik">
             <button className={styles.mpButton}>HIDRAULIK</button>
@@ -240,15 +221,14 @@ export default function Home() {
           <div className={styles.mheb}></div>
           <h1 className={styles.mht}>NGROHJE</h1>
           <h2 className={styles.mht1}>
-            Ne ofrojmë shërbime të specializuara të ngrohjes që <br />{" "}
-            promovojnë një numër opsionet e ngrohjes alternative <br />.
-            Inxhinierët tanë mund të prezantojnë ju të <br /> përfitimet e
-            ngrohjes nën dysheme dhe ngrohjes <br /> njësitë e ndërfaqes, që ju
-            ndihmojnë të merrni një vendim <br /> të informuar mbi nëse janë një{" "}
-            <br /> i përshtatshëm për pronën tuaj. Ne gjithashtu mbajmë nxjerr{" "}
-            <br /> raportet profesionale të blerësve dhe <br /> powerflushing
-            shërbime që fokusohen në shëndetin <br /> të ngrohjes suaj qendrore
-            sistemi.
+            Ne ofrojmë shërbime të specializuara të ngrohjes që promovojnë një
+            numër opsionet e ngrohjes alternative . Inxhinierët tanë mund të
+            prezantojnë ju të përfitimet e ngrohjes nën dysheme dhe ngrohjes
+            njësitë e ndërfaqes, që ju ndihmojnë të merrni një vendim të
+            informuar mbi nëse janë një i përshtatshëm për pronën tuaj. Ne
+            gjithashtu mbajmë nxjerr raportet profesionale të blerësve dhe
+            powerflushing shërbime që fokusohen në shëndetin të ngrohjes suaj
+            qendrore sistemi.
           </h2>
           <Link href="/al/sq/ngrohje-qendrore">
             <button className={styles.mhButton}>NGROHJE</button>
@@ -270,15 +250,10 @@ export default function Home() {
           <h1 className={styles.mc1}>KONDICIONER</h1>
           <h2 className={styles.mc2}>
             Ne mund të ofrojmë një dizajn të plotë, prodhim dhe instalim paketë{" "}
-            <br />
             për të gjitha llojet e sistemeve të kondicionimit të ajrit të ndarë
-            <br />
             dhe njësi për trajtimin e ajrit me kanal. Sistemet e ndarjes së
-            <br />
             montuar në mur janë projektuar për të ajrosur zona të vogla dhe të
-            <br />
             mesme dhe janë ideale për dyqane zyre ose aplikacione shtëpiake, Ata
-            <br />
             zakonisht operohen nga një telekomandë infra-kuqe.
           </h2>
           <Link href="/al/sq/kondicioner">
@@ -302,16 +277,12 @@ export default function Home() {
           <h1 className={styles.mb1}>BANJO</h1>
           <h2 className={styles.mb2}>
             Si hidraulikë me përvojë, ne mund të ndihmojmë në projektimin,
-            <br />
-            instalimin, riparoni dhe zëvendësoni banjat, duke vënë në
-            <br /> përdorim aftësitë tona si pjesë e projektit të përmirësimit
-            të
-            <br /> shtëpisë tuaj . Ne kemi sukses punuar në banja të të gjitha
-            madhësive <br />
-            brenda një game të gjerë të pronat dhe do të jetë në gjendje të
-            <br /> ofrojë çdo ndihmë eksperti ju kerkoni. Ne jemi të përgatitur
-            të
-            <br /> trajtojmë çdo çështje ose sfidat që hasim.
+            instalimin, riparoni dhe zëvendësoni banjat, duke vënë në përdorim
+            aftësitë tona si pjesë e projektit të përmirësimit të shtëpisë tuaj
+            . Ne kemi sukses punuar në banja të të gjitha madhësive brenda një
+            game të gjerë të pronat dhe do të jetë në gjendje të ofrojë çdo
+            ndihmë eksperti ju kerkoni. Ne jemi të përgatitur të trajtojmë çdo
+            çështje ose sfidat që hasim.
           </h2>
           <Link href="/al/sq/banjo">
             <button className={styles.mbButton}>BANJO</button>
@@ -332,17 +303,11 @@ export default function Home() {
           <h1 className={styles.mv1}>VENTILIM</h1>
           <h2 className={styles.mv2}>
             ne mund të ndihmojmë në projektimin, instalimin, riparimin dhe{" "}
-            <br />
             zëvendësimin e Air Kushtet, duke i vënë në përdorim aftësitë tona si
-            <br />
             pjesë e juaja projekt përmirësimi. Ne kemi punuar me sukses në Air
-            <br />
             kushtet e të gjitha madhësive brenda një game të gjerë pronash dhe
-            <br />
             do të jetë në gjendje për të ofruar çdo ndihmë eksperte që ju
-            <br />
             nevojitet. Ne jemi të përgatitur për të trajtuar çdo çështje apo
-            <br />
             sfidë ne takim.
           </h2>
           <Link href="/al/sq/ventilim">

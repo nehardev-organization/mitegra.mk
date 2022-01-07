@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Head from "next/head";
-import styles from "/styles/bathroom.module.css";
+import styles from "./styles/bathroom1.module.css";
 import bt from "/images/bat.png";
 import mb from "/images/mbbg.png";
 import Image from "next/image";

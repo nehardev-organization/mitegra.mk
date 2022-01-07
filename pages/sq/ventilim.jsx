@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Head from "next/head";
-import styles from "/styles/ventilation.module.css";
+import styles from "./styles/ventilation1.module.css";
 import ve from "/images/ve.png";
 import mv from "/images/mvbg.png";
 import Image from "next/image";

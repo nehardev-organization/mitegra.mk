@@ -1,6 +1,6 @@
 import React from "react";
 import Head from "next/head";
-import styles from "/styles/about.module.css";
+import styles from "./styles/about1.module.css";
 import Image from "next/image";
 import Contactpng from "/images/Contact.png";
 
