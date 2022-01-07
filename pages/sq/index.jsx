@@ -55,7 +55,7 @@ export default function Home() {
           placeholder="blur"
           priority
         />
-        <Link href="/contact-mitegra">
+        <Link href="/al/">
           <button className={styles.heroButton}>Pse ne?</button>
         </Link>
         <h1 className={styles.h1}>
