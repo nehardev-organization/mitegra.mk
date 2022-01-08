@@ -153,7 +153,7 @@ const Nav = () => {
               </DropdownMenu.Trigger>
               <DropdownMenu.Content className={navStyles.mcontent}>
                 <DropdownMenu.Item className={navStyles.mitem}>
-                  <Link href="/en">
+                  <Link href="https://mitegra.mk">
                     <Image
                       src={usa}
                       alt={"usa flag"}
@@ -164,10 +164,8 @@ const Nav = () => {
                     />
                   </Link>
                 </DropdownMenu.Item>
-
-                <DropdownMenu.Item className={navStyles.mitem}>
-                  {" "}
-                  <Link href="/al/sq">
+                <DropdownMenu.Item className={navStyles.item}>
+                  <Link href="https://mitegra.mk/al/sq">
                     <Image
                       src={alb}
                       alt={"albanian flag"}
@@ -178,8 +176,8 @@ const Nav = () => {
                     />
                   </Link>
                 </DropdownMenu.Item>
-                <DropdownMenu.Item className={navStyles.mitem}>
-                  <Link href="/mkd/ma">
+                <DropdownMenu.Item className={navStyles.item}>
+                  <Link href="https://mitegra.mk/mkd/ma">
                     <Image
                       src={ma}
                       alt={"macedonian flag"}
