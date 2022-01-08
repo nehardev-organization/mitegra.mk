@@ -76,7 +76,7 @@ const Nav = () => {
             </DropdownMenu.Trigger>
             <DropdownMenu.Content className={navStyles.content}>
               <DropdownMenu.Item className={navStyles.item}>
-                <Link href="https://mitegra.mk">
+                <Link href="en/">
                   <Image
                     src={usa}
                     alt={"usa flag"}
@@ -88,7 +88,7 @@ const Nav = () => {
                 </Link>
               </DropdownMenu.Item>
               <DropdownMenu.Item className={navStyles.item}>
-                <Link href="https://mitegra.mk/al/sq">
+                <Link href="/al/sq">
                   <Image
                     src={alb}
                     alt={"albanian flag"}
@@ -100,7 +100,7 @@ const Nav = () => {
                 </Link>
               </DropdownMenu.Item>
               <DropdownMenu.Item className={navStyles.item}>
-                <Link href="https://mitegra.mk/mkd/ma">
+                <Link href="/mkd/ma">
                   <Image
                     src={ma}
                     alt={"macedonian flag"}
@@ -153,7 +153,7 @@ const Nav = () => {
               </DropdownMenu.Trigger>
               <DropdownMenu.Content className={navStyles.mcontent}>
                 <DropdownMenu.Item className={navStyles.mitem}>
-                  <Link href="https://mitegra.mk">
+                  <Link href="/en">
                     <Image
                       src={usa}
                       alt={"usa flag"}
@@ -164,8 +164,10 @@ const Nav = () => {
                     />
                   </Link>
                 </DropdownMenu.Item>
-                <DropdownMenu.Item className={navStyles.item}>
-                  <Link href="https://mitegra.mk/al/sq">
+
+                <DropdownMenu.Item className={navStyles.mitem}>
+                  {" "}
+                  <Link href="/al/sq">
                     <Image
                       src={alb}
                       alt={"albanian flag"}
@@ -176,8 +178,8 @@ const Nav = () => {
                     />
                   </Link>
                 </DropdownMenu.Item>
-                <DropdownMenu.Item className={navStyles.item}>
-                  <Link href="https://mitegra.mk/mkd/ma">
+                <DropdownMenu.Item className={navStyles.mitem}>
+                  <Link href="/mkd/ma">
                     <Image
                       src={ma}
                       alt={"macedonian flag"}
