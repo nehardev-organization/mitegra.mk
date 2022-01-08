@@ -77,27 +77,22 @@
   color: #0067ff;
   position: absolute;
   top: 120%;
-  left: 20%;
+  left: 38%;
 }
 
 .ma2 {
   color: white;
   position: absolute;
-  white-space: nowrap;
   font-size: 15px;
   text-align: center;
   top: 150%;
-  left: 20%;
+  left: 0%;
 }
 
 @media screen and (max-width: 450px) {
   .ma1 {
     font-size: 25px;
     left: 38%;
-  }
-  .ma2 {
-    font-size: 15px;
-    left: 13%;
   }
 }
 @media screen and (max-width: 400px) {
@@ -109,10 +104,6 @@
     font-size: 25px;
     left: 38%;
   }
-  .ma2 {
-    font-size: 15px;
-    left: 10%;
-  }
 }
 @media screen and (max-width: 350px) {
   .ma {
@@ -123,10 +114,6 @@
     font-size: 25px;
     left: 38%;
   }
-  .ma2 {
-    font-size: 15px;
-    left: 3%;
-  }
 }
 @media screen and (max-width: 300px) {
   .ma {
@@ -136,10 +123,6 @@
   .ma1 {
     font-size: 25px;
     left: 36%;
-  }
-  .ma2 {
-    font-size: 13px;
-    left: 3%;
   }
 }
 

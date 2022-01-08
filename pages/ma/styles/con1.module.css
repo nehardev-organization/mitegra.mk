@@ -77,17 +77,16 @@
   color: #0067ff;
   position: relative;
   top: 120%;
-  left: 40%;
+  left: 37%;
 }
 
 .mh2 {
   color: white;
   position: relative;
-  white-space: nowrap;
   font-size: 15px;
   text-align: center;
   top: 140%;
-  left: 50%;
+  left: 0%;
 }
 
 @media screen and (max-width: 450px) {
@@ -97,10 +96,6 @@
   .mh1 {
     font-size: 25px;
     left: 37%;
-  }
-  .mh2 {
-    font-size: 13px;
-    left: 6%;
   }
 }
 @media screen and (max-width: 400px) {
@@ -112,10 +107,6 @@
     font-size: 20px;
     left: 33%;
   }
-  .mh2 {
-    font-size: 12px;
-    left: 0%;
-  }
 }
 @media screen and (max-width: 350px) {
   .mh {
@@ -126,10 +117,6 @@
     font-size: 20px;
     left: 35%;
   }
-  .mh2 {
-    font-size: 13px;
-    left: 0%;
-  }
 }
 @media screen and (max-width: 300px) {
   .mh {
@@ -139,10 +126,6 @@
   .mh1 {
     font-size: 18px;
     left: 30%;
-  }
-  .mh2 {
-    font-size: 13px;
-    left: 0%;
   }
 }
 

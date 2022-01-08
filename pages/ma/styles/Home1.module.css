@@ -53,9 +53,9 @@
 @media screen and (max-width: 768px) {
   .heroButton {
     padding: 5px 10px;
-    font-size: 20px;
-    left: 40%;
-    top: 70%;
+    font-size: 15px;
+    left: 42%;
+    top: 75%;
   }
 }
 @media screen and (max-width: 480px) {
@@ -429,7 +429,6 @@
   height: 150px;
 }
 .mp1 {
-  /* white-space: nowrap; */
   font-size: 30px;
   z-index: 2;
   color: #212529;
@@ -439,19 +438,17 @@
 }
 
 .mp2 {
-  position: absolute;
-  /* white-space: nowrap; */
+  position: relative;
   font-size: 14px;
   text-align: center;
   top: 150%;
-  left: 20%;
+  left: 0%;
 }
 
 .mpButton {
   position: absolute;
   display: flex;
   background-color: #0067ff;
-  /* white-space: nowrap; */
   padding: 5px 10px;
   color: white;
   font-size: 20px;
@@ -479,7 +476,6 @@
   height: 30rem;
 }
 .mht {
-  /* white-space: nowrap; */
   font-size: 30px;
   z-index: 2;
   color: #0067ff;
@@ -489,25 +485,23 @@
 }
 .mht1 {
   position: absolute;
-  /* white-space: nowrap; */
   font-size: 14px;
   text-align: center;
   top: 150%;
-  left: 25%;
+  left: 0%;
   color: white;
 }
 .mhButton {
   position: absolute;
   display: flex;
   background-color: #0067ff;
-  /* white-space: nowrap; */
   padding: 5px 10px;
   color: white;
   font-size: 20px;
   outline: none;
   border: none;
   cursor: pointer;
-  left: 47%;
+  left: 48%;
   top: 275%;
   transform: translate(-50%, -50%);
   transition: 0.5s;
@@ -522,22 +516,20 @@
   height: 150px;
 }
 .ma1 {
-  /* white-space: nowrap; */
   font-size: 30px;
   z-index: 2;
   color: #212529;
   position: absolute;
   top: 120%;
-  left: 35%;
+  left: 0%;
 }
 
 .ma2 {
   position: absolute;
-  /* white-space: nowrap; */
   font-size: 14px;
   text-align: center;
   top: 150%;
-  left: 20%;
+  left: 0%;
 }
 
 .maButton {
@@ -562,7 +554,6 @@
   height: 150px;
 }
 .mc1 {
-  /* white-space: nowrap; */
   font-size: 30px;
   z-index: 2;
   color: #212529;
@@ -573,24 +564,22 @@
 
 .mc2 {
   position: absolute;
-  /* white-space: nowrap; */
   font-size: 14px;
   text-align: center;
   top: 150%;
-  left: 20%;
+  left: 0%;
 }
 
 .mcButton {
   position: absolute;
   background-color: #0067ff;
-  /* white-space: nowrap; */
   padding: 5px 10px;
   color: white;
   font-size: 20px;
   outline: none;
   border: none;
   cursor: pointer;
-  left: 49%;
+  left: 52%;
   top: 250%;
   transform: translate(-50%, -50%);
   transition: 0.5s;
@@ -605,7 +594,6 @@
   height: 150px;
 }
 .mb1 {
-  /* white-space: nowrap; */
   font-size: 30px;
   z-index: 2;
   color: #0067ff;
@@ -617,17 +605,15 @@
 .mb2 {
   color: white;
   position: absolute;
-  /* white-space: nowrap; */
   font-size: 14px;
   text-align: center;
   top: 150%;
-  left: 15%;
+  left: 0%;
 }
 
 .mbButton {
   position: absolute;
   background-color: #0067ff;
-  /* white-space: nowrap; */
   padding: 5px 10px;
   color: white;
   font-size: 20px;
@@ -649,30 +635,27 @@
   height: 150px;
 }
 .mv1 {
-  /* white-space: nowrap; */
   font-size: 30px;
   z-index: 2;
   color: #0067ff;
   position: absolute;
   top: 120%;
-  left: 32%;
+  left: 33%;
 }
 
 .mv2 {
   color: #212529;
   position: absolute;
-  /* white-space: nowrap; */
   font-size: 14px;
   text-align: center;
   top: 150%;
-  left: 14%;
+  left: 0%;
 }
 
 .mvButton {
   position: absolute;
   display: flex;
   background-color: #0067ff;
-  /* white-space: nowrap; */
   padding: 5px 10px;
   color: white;
   font-size: 20px;

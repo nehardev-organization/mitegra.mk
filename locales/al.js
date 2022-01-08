@@ -1,10 +1,10 @@
 export const al = {
   home: "në shtëpi",
-  lHome: "/al/sq",
+  lHome: "/sq",
   about: "Rreth",
-  lAbout: "/al/sq/reth-mitegres",
+  lAbout: "reth-mitegres",
   contact: "kontakt",
-  lContact: "/al/sq/kontakto-mitegra",
+  lContact: "kontakto-mitegra",
   chero: "Punoni me Mitegra",
   get: "Kontaktoni",
   FristName: "Emri",

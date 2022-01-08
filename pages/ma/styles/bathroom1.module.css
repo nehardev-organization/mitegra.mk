@@ -77,27 +77,22 @@
   color: #0067ff;
   position: absolute;
   top: 120%;
-  left: 10%;
+  left: 6%;
 }
 
 .mb2 {
   color: white;
   position: absolute;
-  white-space: nowrap;
   font-size: 15px;
   text-align: center;
   top: 150%;
-  left: 15%;
+  left: 0%;
 }
 
 @media screen and (max-width: 450px) {
   .mb1 {
     font-size: 25px;
     left: 6%;
-  }
-  .mb2 {
-    font-size: 15px;
-    left: 13%;
   }
 }
 @media screen and (max-width: 400px) {
@@ -107,10 +102,6 @@
 
   .mb1 {
     font-size: 20px;
-    left: 13%;
-  }
-  .mb2 {
-    font-size: 15px;
     left: 13%;
   }
 }
@@ -123,10 +114,6 @@
     font-size: 19px;
     left: 6%;
   }
-  .mb2 {
-    font-size: 15px;
-    left: 5%;
-  }
 }
 @media screen and (max-width: 300px) {
   .mb {
@@ -136,10 +123,6 @@
   .mb1 {
     font-size: 15px;
     left: 9%;
-  }
-  .mb2 {
-    font-size: 13px;
-    left: 3%;
   }
 }
 

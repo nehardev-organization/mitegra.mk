@@ -88,7 +88,7 @@ const Nav = () => {
                 </Link>
               </DropdownMenu.Item>
               <DropdownMenu.Item className={navStyles.item}>
-                <Link href="al/sq">
+                <Link href="/al/sq">
                   <Image
                     src={alb}
                     alt={"albanian flag"}
