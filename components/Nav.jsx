@@ -63,6 +63,8 @@ const Nav = () => {
           <Link href={t.lContact}>
             <a>{t.contact}</a>
           </Link>
+          <div className={navStyles.submenu}></div>
+
           <DropdownMenu.Root className={navStyles.Root}>
             <DropdownMenu.Trigger className={navStyles.Trigger}>
               <Image
