@@ -41,7 +41,7 @@
   outline: none;
   border: none;
   cursor: pointer;
-  left: 42%;
+  left: 45%;
   top: 65%;
   transition: 0.5s;
   border-radius: 10px;
@@ -118,7 +118,7 @@
   white-space: nowrap;
   font-size: 1.3rem;
   font-weight: bold;
-  top: 60%;
+  top: 50%;
   left: 77%;
   transform: translate(-50%, -100%);
   position: absolute;
@@ -137,8 +137,8 @@
   outline: none;
   border: none;
   cursor: pointer;
-  left: 66.5%;
-  top: 65%;
+  left: 62%;
+  top: 55%;
   transform: translate(-50%, -50%);
   transition: 0.5s;
   border-radius: 10px;
@@ -193,7 +193,7 @@
   outline: none;
   border: none;
   cursor: pointer;
-  left: 33%;
+  left: 36%;
   top: 65%;
   transform: translate(-50%, -50%);
   transition: 0.5s;
@@ -259,7 +259,7 @@
   outline: none;
   border: none;
   cursor: pointer;
-  left: 67.5%;
+  left: 60%;
   top: 60%;
   transform: translate(-50%, -50%);
   transition: 0.5s;
@@ -301,7 +301,7 @@
   font-size: 1.3rem;
   font-weight: bold;
   top: 55%;
-  left: 25%;
+  left: 31%;
   transform: translate(-50%, -100%);
   position: absolute;
   color: white;
@@ -362,7 +362,7 @@
   font-size: 1.3rem;
   font-weight: bold;
   top: 55%;
-  left: 73%;
+  left: 72%;
   transform: translate(-50%, -100%);
   position: absolute;
   color: #212529;

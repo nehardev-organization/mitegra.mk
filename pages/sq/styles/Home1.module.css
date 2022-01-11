@@ -41,7 +41,7 @@
   outline: none;
   border: none;
   cursor: pointer;
-  left: 42%;
+  left: 47%;
   top: 65%;
   transition: 0.5s;
   border-radius: 10px;
@@ -137,7 +137,7 @@
   outline: none;
   border: none;
   cursor: pointer;
-  left: 66.5%;
+  left: 63%;
   top: 65%;
   transform: translate(-50%, -50%);
   transition: 0.5s;
@@ -176,7 +176,7 @@
   text-align: right;
   font-weight: bold;
   top: 60%;
-  left: 25%;
+  left: 21%;
   transform: translate(-50%, -100%);
   position: absolute;
   color: white;
@@ -259,7 +259,7 @@
   outline: none;
   border: none;
   cursor: pointer;
-  left: 67.5%;
+  left: 64%;
   top: 60%;
   transform: translate(-50%, -50%);
   transition: 0.5s;
@@ -290,7 +290,7 @@
   font-size: 3rem;
   font-weight: bold;
   top: 25%;
-  left: 30%;
+  left: 34%;
   transform: translate(-50%, -100%);
   position: absolute;
   color: #0067ff;
@@ -301,7 +301,7 @@
   font-size: 1.3rem;
   font-weight: bold;
   top: 55%;
-  left: 25%;
+  left: 20%;
   transform: translate(-50%, -100%);
   position: absolute;
   color: white;
@@ -317,7 +317,7 @@
   outline: none;
   border: none;
   cursor: pointer;
-  left: 34%;
+  left: 36%;
   top: 60%;
   transform: translate(-50%, -50%);
   transition: 0.5s;
@@ -350,7 +350,7 @@
   font-size: 3rem;
   font-weight: bold;
   top: 25%;
-  left: 70%;
+  left: 67%;
   transform: translate(-50%, -100%);
 
   position: absolute;
@@ -362,7 +362,7 @@
   font-size: 1.3rem;
   font-weight: bold;
   top: 55%;
-  left: 73%;
+  left: 77%;
   transform: translate(-50%, -100%);
   position: absolute;
   color: #212529;
@@ -378,7 +378,7 @@
   outline: none;
   border: none;
   cursor: pointer;
-  left: 65.5%;
+  left: 63%;
   top: 60%;
   transform: translate(-50%, -50%);
   transition: 0.5s;

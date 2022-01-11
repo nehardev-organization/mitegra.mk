@@ -1,5 +1,5 @@
 export const en = {
-  home: "home",
+  home: "Home",
   lHome: "/",
   about: "About",
   lAbout: "about-mitegra",

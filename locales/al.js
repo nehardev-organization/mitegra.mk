@@ -1,9 +1,9 @@
 export const al = {
-  home: "në shtëpi",
+  home: "Në Shtëpi",
   lHome: "/sq",
   about: "Rreth",
   lAbout: "reth-mitegres",
-  contact: "kontakt",
+  contact: "Kontakt",
   lContact: "kontakto-mitegra",
   chero: "Punoni me Mitegra",
   get: "Kontaktoni",
