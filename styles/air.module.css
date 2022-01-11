@@ -77,7 +77,7 @@
   color: #0067ff;
   position: absolute;
   top: 120%;
-  left: 38%;
+  left: 25%;
 }
 
 .ma2 {
@@ -89,10 +89,10 @@
   left: 0%;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 462px) {
   .ma1 {
     font-size: 25px;
-    left: 38%;
+    left: 25%;
   }
 }
 @media screen and (max-width: 400px) {
@@ -102,7 +102,7 @@
 
   .ma1 {
     font-size: 25px;
-    left: 38%;
+    left: 15%;
   }
 }
 @media screen and (max-width: 350px) {
@@ -111,8 +111,8 @@
   }
 
   .ma1 {
-    font-size: 25px;
-    left: 38%;
+    font-size: 20px;
+    left: 20%;
   }
 }
 @media screen and (max-width: 300px) {
@@ -121,8 +121,8 @@
   }
 
   .ma1 {
-    font-size: 25px;
-    left: 36%;
+    font-size: 20px;
+    left: 15%;
   }
 }
 

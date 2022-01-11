@@ -76,7 +76,7 @@
   color: #0067ff;
   position: relative;
   top: 120%;
-  left: 40%;
+  left: 20%;
 }
 
 .mh2 {
@@ -94,36 +94,36 @@
   }
   .mh1 {
     font-size: 25px;
-    left: 40%;
+    left: 25%;
   }
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 446px) {
     .mh {
       height: 150px;
     }
 
     .mh1 {
       font-size: 25px;
-      left: 40%;
+      left: 15%;
     }
   }
-  @media screen and (max-width: 350px) {
+  @media screen and (max-width: 394px) {
     .mh {
       height: 150px;
     }
 
     .mh1 {
-      font-size: 25px;
-      left: 40%;
+      font-size: 20px;
+      left: 15%;
     }
   }
-  @media screen and (max-width: 300px) {
+  @media screen and (max-width: 314px) {
     .mh {
       height: 150px;
     }
 
     .mh1 {
-      font-size: 25px;
-      left: 35%;
+      font-size: 20px;
+      left: 10%;
     }
   }
 

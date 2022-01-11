@@ -102,7 +102,7 @@
 
   .mv1 {
     font-size: 25px;
-    left: 30%;
+    left: 25%;
   }
 }
 @media screen and (max-width: 350px) {
@@ -112,7 +112,7 @@
 
   .mv1 {
     font-size: 25px;
-    left: 25%;
+    left: 20%;
   }
 }
 @media screen and (max-width: 300px) {
@@ -121,8 +121,8 @@
   }
 
   .mv1 {
-    font-size: 25px;
-    left: 25%;
+    font-size: 20px;
+    left: 15%;
   }
 }
 

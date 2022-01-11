@@ -77,7 +77,7 @@
   color: #0067ff;
   position: absolute;
   top: 120%;
-  left: 6%;
+  left: 15%;
 }
 
 .mb2 {
@@ -89,10 +89,20 @@
   left: 0%;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 595px) {
   .mb1 {
     font-size: 25px;
-    left: 6%;
+    left: 15%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .mb {
+    height: 150px;
+  }
+
+  .mb1 {
+    font-size: 20px;
+    left: 15%;
   }
 }
 @media screen and (max-width: 400px) {
@@ -101,8 +111,8 @@
   }
 
   .mb1 {
-    font-size: 20px;
-    left: 13%;
+    font-size: 19px;
+    left: 10%;
   }
 }
 @media screen and (max-width: 350px) {
@@ -111,18 +121,8 @@
   }
 
   .mb1 {
-    font-size: 19px;
-    left: 6%;
-  }
-}
-@media screen and (max-width: 300px) {
-  .mb {
-    height: 150px;
-  }
-
-  .mb1 {
     font-size: 15px;
-    left: 9%;
+    left: 10%;
   }
 }
 
