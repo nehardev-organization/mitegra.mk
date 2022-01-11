@@ -299,23 +299,15 @@ let Plumber = () => {
           <span className={styles.mp1}> HIDRAULIK</span>
           <h1 className={styles.mp2}>
             ne kemi ofruar një gamë të gjerë hidraulike profesionale dhe efikase{" "}
-            <br />
             shërbimet. Ekipi ynë i ekspertëve të hidraulikëve të miratuar është{" "}
-            <br />
             krijuar përvojë e gjerë praktike me punë rezidenciale dhe komerciale{" "}
-            <br />
             të të gjitha llojeve dhe madhësive, duke ofruar shërbime me cilësi{" "}
-            <br />
-            të lartë në një çmim të volitshëm dhe pa tarifë thirrjeje. Si <br />
+            të lartë në një çmim të volitshëm dhe pa tarifë thirrjeje. Si
             profesionistë, ne Hiqni telashet nga problemet e hidraulikës dhe{" "}
-            <br />
             përmirësimi i shtëpisë projekte, duke punuar me efikasitet për të{" "}
-            <br />
-            minimizuar ndërprerjet dhe për t'ju shpëtuar kohë dhe para. <br />
+            minimizuar ndërprerjet dhe për t'ju shpëtuar kohë dhe para.
             Pavarësisht nga natyra e projektit tuaj, ne e kemi atë aftësi,{" "}
-            <br />
             njohuri dhe ekspertizë për të arritur rezultatin që ju dhe prona{" "}
-            <br />
             juaj kërkon.
           </h1>
         </div>

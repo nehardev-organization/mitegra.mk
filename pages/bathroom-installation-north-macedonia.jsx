@@ -340,18 +340,12 @@ const Bathroom = () => {
           <span className={styles.mb1}> EXPERT BATHROOM INSTALLATION </span>
           <h1 className={styles.mb2}>
             Our experienced, approved plumbers provide a quick response to{" "}
-            <br />
-            bathroom issues and enquiries. Whether you’re planning a full <br />
+            bathroom issues and enquiries. Whether you’re planning a full
             bathroom renovation project or you require expert repair work to{" "}
-            <br />
             deal with a leak or blockage, our team has the skills and knowledge{" "}
-            <br />
             to help. Our plumbers handle everything, taking the hassle out of{" "}
-            <br />
             dealing with bathroom installation or maintenance and providing an{" "}
-            <br />
             efficient, high-quality service without a call out charge or ongoing{" "}
-            <br />
             contract.
           </h1>
         </div>

@@ -63,19 +63,12 @@ const about = () => {
           <span className={styles.mp1}> MITEGRA TECHNOLOGY SYSTEM</span>
           <h1 className={styles.mp2}>
             Mitegra technology system është një kompani e njohur hidraulike për{" "}
-            <br />
             hidraulike, ngrohje qendrore, banjo, kondicioner, ventilacija, Ne ju
-            <br />
             konkurse aktuale me menaxhment të lartë. sistemi është për të
-            <br />
             ndihmuar dhe mbështetur të prosperuarit tanë duke marrë më shumë
-            <br />
             Produktet, me gjëra efektive dhe të fuqishme në mendjen time janë të
-            <br />
             disponueshme faleminderit. Ky synim është edhe angazhimi ynë si
-            <br />
             lider i biznesit të biznesit rol konstruktiv për këtë industri dhe
-            <br />
             biznes në tuaj.
           </h1>
         </div>

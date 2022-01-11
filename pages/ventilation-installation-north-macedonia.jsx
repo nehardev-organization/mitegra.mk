@@ -245,14 +245,12 @@ const Ventilation = () => {
 
           <span className={styles.mv1}> EXPERT VENTILATION </span>
           <h1 className={styles.mv2}>
-            we can help to design, install, repair, and replace <br /> Air
-            Conditions, putting our skills to good use as <br /> part of your
-            improvement project. We’ve <br /> successfully worked on Air
-            conditions of all sizes <br />
-            within a wide range of properties and will be able <br />
-            to provide any expert assistance you require. <br />
-            We are prepared to handle any issues or <br /> challenges we
-            encounter.
+            we can help to design, install, repair, and replace Air Conditions,
+            putting our skills to good use as part of your improvement project.
+            We’ve successfully worked on Air conditions of all sizes within a
+            wide range of properties and will be able to provide any expert
+            assistance you require. We are prepared to handle any issues or
+            challenges we encounter.
           </h1>
         </div>
         <div className={styles.mheb}></div>

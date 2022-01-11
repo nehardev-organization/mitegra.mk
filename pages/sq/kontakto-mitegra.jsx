@@ -57,14 +57,10 @@ const Contact = () => {
           <span className={styles.mh1}> PSE NE?</span>
           <h1 className={styles.mh2}>
             Ne jemi një kompani që monitoron vazhdimisht zhvillimin e zgjidhjeve{" "}
-            <br />
             të reja dhe teknologjitë, si dhe standardet dhe tendencat botërore
-            <br />
-            që zbaton në punën e tyre të përditshme. Përvoja e mëparshme e<br />
+            që zbaton në punën e tyre të përditshme. Përvoja e mëparshme e
             menaxhimi, i fituar gjatë 14 viteve të fundit në disa nga kompanitë
-            <br />
             lider në Itali, i lejon kompanisë të e specializuar në projektimin
-            <br />
             dhe ekzekutimin e plotë teknike zgjidhje dhe mirëmbajtje instalimi.
           </h1>
         </div>

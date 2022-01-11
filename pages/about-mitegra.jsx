@@ -63,17 +63,11 @@ const about = () => {
           <span className={styles.mp1}> MITEGRA TECHNOLOGY SYSTEM</span>
           <h1 className={styles.mp2}>
             Mitegra Technology System is a, a Plumbing Company that’s recognized{" "}
-            <br />
             We are a company that constantly monitors the development of new{" "}
-            <br />
             solutions and technologies, as well as world standards and trends we{" "}
-            <br />
             implement it on our daily work. Previous experience of management,{" "}
-            <br />
             acquired over the past 14 years in some from leading companies in{" "}
-            <br />
             Italy, allows the company to specializes in the design and execution{" "}
-            <br />
             of complete technical solutions and installation maintenance.
           </h1>
         </div>

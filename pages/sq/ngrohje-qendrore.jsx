@@ -189,18 +189,12 @@ const Heating = () => {
           <span className={styles.mh1}> EXPERT HEATING SERVICES</span>
           <h1 className={styles.mh2}>
             Ne kemi ofruar shërbime ngrohjeje me cilësi të lartë për banesa dhe{" "}
-            <br />
             klientët komercialë. Inxhinierët tanë të ditur të ngrohjes kanë{" "}
-            <br />
             ndërtuar të ketë përvojë të gjerë me punë të të gjitha llojeve dhe{" "}
-            <br />
             madhësive, duke ofruar zgjidhje efektive me një çmim konkurrues – pa{" "}
-            <br />
             pasur nevojë për një kontratë në vazhdim ose tarifë thirrjeje. Si{" "}
-            <br />
-            ekspertë të ngrohjes, të gjithë tanë puna kryhet në mënyrë të <br />
+            ekspertë të ngrohjes, të gjithë tanë puna kryhet në mënyrë të
             sigurt, efikase dhe profesionale, duke e mbajtur përçarje në minimum{" "}
-            <br />
             dhe largimin e mundimit nga adresimi çështjet.
           </h1>
         </div>

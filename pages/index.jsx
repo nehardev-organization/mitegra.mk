@@ -55,8 +55,8 @@ export default function Home() {
           <button className={styles.heroButton}>Why us?</button>
         </Link>
         <h1 className={styles.h1}>
-          We work with real estate companies that need safe and healthy <br />
-          Plumbing services order to have a safe environment for their customers
+          We work with real estate companies that need safe and healthy Plumbing
+          services order to have a safe environment for their customers
         </h1>
       </div>
       <div className={styles.Desktop}>

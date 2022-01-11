@@ -298,20 +298,14 @@ let Plumber = () => {
           <span className={styles.mp1}> EXPERT PLUMBING SERVICES</span>
           <h1 className={styles.mp2}>
             we’ve provided a wide range of professional and efficient plumbing{" "}
-            <br />
-            services. Our expert team of approved plumbers has built up <br />
+            services. Our expert team of approved plumbers has built up
             extensive hands-on experience with residential and commercial jobs{" "}
-            <br />
-            of all types and sizes, providing high-quality services at an <br />
+            of all types and sizes, providing high-quality services at an
             affordable price and without a call out charge. As professionals, we{" "}
-            <br />
-            take the hassle out of plumbing issues and home improvement <br />
+            take the hassle out of plumbing issues and home improvement
             projects, working efficiently to minimise disruption and save you{" "}
-            <br />
             time and money. No matter the nature of your project, we have the{" "}
-            <br />
             skills, knowledge, and expertise to achieve the result that you and{" "}
-            <br />
             your property require.
           </h1>
         </div>

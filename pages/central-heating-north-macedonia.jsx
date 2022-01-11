@@ -189,19 +189,12 @@ const Heating = () => {
           <span className={styles.mh1}> EXPERT HEATING SERVICES</span>
           <h1 className={styles.mh2}>
             We’ve provided high-quality heating services to residential and{" "}
-            <br />
             commercial customers. Our knowledgeable heating engineers have built{" "}
-            <br />
             up extensive experience with jobs of all types and sizes, providing{" "}
-            <br />
             effective solutions at a competitive price – without the need for an{" "}
-            <br />
             ongoing contract or call out charge. As heating experts, all our{" "}
-            <br />
             work is completed safely, efficiently, and professionally, keeping{" "}
-            <br />
             disruption to a minimum and taking the hassle out of addressing{" "}
-            <br />
             issues.
           </h1>
         </div>

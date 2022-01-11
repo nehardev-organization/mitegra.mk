@@ -340,20 +340,14 @@ const Bathroom = () => {
 
           <span className={styles.mb1}> INSTALIMIM BANJOJE </span>
           <h1 className={styles.mb2}>
-            Hidraulikët tanë me përvojë dhe të miratuar ofrojnë një përgjigje{" "}
-            <br /> të shpejtë ndaj çështjet dhe pyetjet e banjës. Nëse jeni duke{" "}
-            <br />
+            Hidraulikët tanë me përvojë dhe të miratuar ofrojnë një përgjigje të
+            shpejtë ndaj çështjet dhe pyetjet e banjës. Nëse jeni duke{" "}
             planifikuar një të plotë projekti i rinovimit të banjës ose keni{" "}
-            <br />
             nevojë për punë riparimi të ekspertëve përballemi me një rrjedhje{" "}
-            <br />
-            ose bllokim, ekipi ynë ka aftësitë dhe njohuritë te ndihmosh. <br />
+            ose bllokim, ekipi ynë ka aftësitë dhe njohuritë te ndihmosh.
             Hidraulikët tanë trajtojnë çdo gjë, duke hequr telashet që kanë të{" "}
-            <br />
             bëjnë me instalimin ose mirëmbajtjen e banjës dhe sigurimin e një{" "}
-            <br />
             shërbim efikas dhe me cilësi të lartë pa tarifë thirrjeje ose të{" "}
-            <br />
             vazhdueshme kontratës.
           </h1>
         </div>

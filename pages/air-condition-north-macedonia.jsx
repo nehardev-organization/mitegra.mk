@@ -125,18 +125,12 @@ const Air = () => {
           <span className={styles.ma1}> EXPERT AIR CONDITION </span>
           <h1 className={styles.ma2}>
             We’ve provided high-quality air conditioning services to residential{" "}
-            <br />
             and commercial customers. Our knowledgeable engineers have built up{" "}
-            <br />
             extensive experience with jobs of all types and sizes, providing{" "}
-            <br />
             effective solutions at a competitive price – without the need for an{" "}
-            <br />
             ongoing contract or call out charge. all our work is completed
-            safely, <br />
-            efficiently, and professionally, keeping disruption to a minimum and{" "}
-            <br />
-            taking the hassle out of addressing issues.
+            safely, efficiently, and professionally, keeping disruption to a
+            minimum and taking the hassle out of addressing issues.
           </h1>
         </div>
         <div className={styles.mheb}></div>
