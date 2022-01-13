@@ -16,6 +16,10 @@ const Nav = () => {
   const t = languages[router.locale];
 
   const [hamburger, setHamburger] = useState(false);
+  const [submenu, setSubmenu] = useState(false);
+  const [submenu1, setSubmenu1] = useState(false);
+  const [submenu2, setSubmenu2] = useState(false);
+  const [submenu3, setSubmenu3] = useState(false);
 
   return (
     <nav className={navStyles.nav}>
@@ -54,6 +58,74 @@ const Nav = () => {
           </svg>
         </Link>
         <div className={navStyles.menu}>
+          <li className={navStyles.prod}>
+            Products{" "}
+            <span
+              onClick={() => setSubmenu(!submenu)}
+              className={`${navStyles.arrowRight} ${
+                submenu1 ? navStyles.arrowDown : ""
+              }`}
+            ></span>
+            <div className={navStyles.submenu}>
+              <Link href="/">
+                <li>
+                  Heating{" "}
+                  <span
+                    className={`${navStyles.arrowRight} ${navStyles.arrow}`}
+                  ></span>
+                  <div className={navStyles.submenu1}>
+                    <Link href="/">
+                      <li>h 1</li>
+                    </Link>
+                    <Link href="/">
+                      <li>h 2</li>
+                    </Link>
+                    <Link href="/">
+                      <li>h 3</li>
+                    </Link>
+                  </div>
+                </li>
+              </Link>
+              <Link href="/">
+                <li>
+                  Plumbing{" "}
+                  <span
+                    className={`${navStyles.arrowRight} ${navStyles.arrow}`}
+                  ></span>
+                  <div className={navStyles.submenu1}>
+                    <Link href="/">
+                      <li>p 1</li>
+                    </Link>
+                    <Link href="/">
+                      <li>p 2</li>
+                    </Link>
+                    <Link href="/">
+                      <li>p 3</li>
+                    </Link>
+                  </div>
+                </li>
+              </Link>
+              <Link href="/">
+                <li>
+                  Air Conditioning{" "}
+                  <span
+                    className={`${navStyles.arrowRight} ${navStyles.arrow}`}
+                  ></span>
+                  <div className={navStyles.submenu1}>
+                    <Link href="/">
+                      <li>a 1</li>
+                    </Link>
+                    <Link href="/">
+                      <li>a 2</li>
+                    </Link>
+                    <Link href="/">
+                      <li>a 3</li>
+                    </Link>
+                  </div>
+                </li>
+              </Link>
+            </div>
+          </li>
           <Link href={t.lHome}>
             <a>{t.home}</a>
           </Link>
@@ -63,7 +135,6 @@ const Nav = () => {
           <Link href={t.lContact}>
             <a>{t.contact}</a>
           </Link>
-          <div className={navStyles.submenu}></div>
 
           <DropdownMenu.Root className={navStyles.Root}>
             <DropdownMenu.Trigger className={navStyles.Trigger}>
@@ -127,20 +198,140 @@ const Nav = () => {
           <span></span>
         </button>
         <div
-          onClick={() => setHamburger(!hamburger)}
           className={`${navStyles.mobileNav} ${
             hamburger ? navStyles.isActiveM : ""
           }`}
         >
           <Link href={t.lHome}>
-            <a>{t.home}</a>
+            <a onClick={() => setHamburger(!hamburger)}>{t.home}</a>
           </Link>
           <Link href={t.lAbout}>
-            <a>{t.about}</a>
+            <a onClick={() => setHamburger(!hamburger)}>{t.about}</a>
           </Link>
           <Link href={t.lContact}>
-            <a>{t.contact}</a>
+            <a onClick={() => setHamburger(!hamburger)}>{t.contact}</a>
           </Link>
+          <li>
+            <li
+              onClick={() => setSubmenu(!submenu)}
+              className={`${navStyles.mprod} ${
+                submenu ? navStyles.mprod1 : ""
+              }`}
+            >
+              Products
+              <span
+                onClick={() => setSubmenu(!submenu)}
+                className={`${navStyles.arrowRight} ${
+                  submenu ? navStyles.arrowDown : ""
+                }`}
+              ></span>
+            </li>
+
+            <div
+              className={`${navStyles.msubmenu} ${
+                submenu ? navStyles.activeMsubmenu : ""
+              }`}
+            >
+              <li>
+                <li
+                  onClick={() => setSubmenu1(!submenu1)}
+                  className={`${navStyles.msubmenu} ${
+                    submenu ? navStyles.activeMsubmenu : ""
+                  }`}
+                >
+                  Heating
+                  <span
+                    onClick={() => setSubmenu(!submenu)}
+                    className={`${navStyles.arrowRight} ${
+                      submenu1 ? navStyles.arrowDown : ""
+                    }`}
+                  ></span>
+                </li>
+                <div
+                  onClick={() => setSubmenu1(!submenu1)}
+                  className={`${navStyles.msubmenu} ${
+                    submenu1 ? navStyles.activeMsubmenu : ""
+                  }`}
+                >
+                  <Link href="/">
+                    <li>h 1</li>
+                  </Link>
+                  <Link href="/">
+                    <li>h 2</li>
+                  </Link>
+                  <Link href="/">
+                    <li>h 3</li>
+                  </Link>
+                </div>
+              </li>
+
+              <li>
+                <li
+                  onClick={() => setSubmenu2(!submenu2)}
+                  className={`${navStyles.msubmenu} ${
+                    submenu ? navStyles.activeMsubmenu : ""
+                  }`}
+                >
+                  Plumbing
+                  <span
+                    onClick={() => setSubmenu2(!submenu2)}
+                    className={`${navStyles.arrowRight} ${
+                      submenu2 ? navStyles.arrowDown : ""
+                    }`}
+                  ></span>
+                </li>
+                <div
+                  onClick={() => setSubmenu2(!submenu2)}
+                  className={`${navStyles.msubmenu} ${
+                    submenu2 ? navStyles.activeMsubmenu : ""
+                  }`}
+                >
+                  <Link href="/">
+                    <li>h 1</li>
+                  </Link>
+                  <Link href="/">
+                    <li>h 2</li>
+                  </Link>
+                  <Link href="/">
+                    <li>h 3</li>
+                  </Link>
+                </div>
+              </li>
+              <li>
+                <li
+                  onClick={() => setSubmenu3(!submenu3)}
+                  className={`${navStyles.msubmenu} ${
+                    submenu ? navStyles.activeMsubmenu : ""
+                  }`}
+                >
+                  Air Conditioning
+                  <span
+                    onClick={() => setSubmenu(!submenu)}
+                    className={`${navStyles.arrowRight} ${
+                      submenu3 ? navStyles.arrowDown : ""
+                    }`}
+                  ></span>
+                </li>
+                <div
+                  onClick={() => setSubmenu3(!submenu3)}
+                  className={`${navStyles.msubmenu} ${
+                    submenu3 ? navStyles.activeMsubmenu : ""
+                  }`}
+                >
+                  <Link href="/">
+                    <li>h 1</li>
+                  </Link>
+                  <Link href="/">
+                    <li>h 2</li>
+                  </Link>
+                  <Link href="/">
+                    <li>h 3</li>
+                  </Link>
+                </div>
+              </li>
+            </div>
+          </li>
+
           <div className={navStyles.dropdown}>
             <DropdownMenu.Root className={navStyles.mRoot}>
               <DropdownMenu.Trigger className={navStyles.mTrigger}>
