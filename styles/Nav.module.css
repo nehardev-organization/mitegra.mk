@@ -62,7 +62,7 @@
   transform: translate(-0.2rem, 0.55rem) rotate(-45deg);
 }
 .hamburger.isActive:hover span {
-  background-color: #212529;
+  background-color: #0067ff;
 }
 
 .Trigger {
@@ -208,5 +208,160 @@
 
   outline: none;
   border: none;
+  cursor: pointer;
+}
+.menu1 {
+  display: flex;
+  flex: 1 1 0%;
+  justify-content: right;
+  margin: 0 -0.5rem;
+  color: white;
+}
+.submenu,
+.submenu1 {
+  position: absolute;
+  display: none;
+  background-color: #212529;
+  width: 200px;
+}
+.submenu li {
+  position: relative;
+}
+.submenu1 {
+  top: 0;
+  right: 0;
+  transform: translate(-100%, 0);
+}
+.prod {
+  text-decoration: none;
+  color: white;
+  margin: 0 -0.1rem;
+  font-weight: 600;
+  transition: 0.4s;
+  padding: 0.5rem 0rem;
+  border-radius: 5rem;
+  top: 50%;
+  transform: translate(-50%);
+  list-style: none;
+}
+.prod:hover {
+  background-color: #358b06;
+}
+
+.arrowRight {
+  display: inline-block;
+  border: 2px solid white;
+  width: 8px;
+  height: 8px;
+  border-left: none;
+  border-bottom: none;
+  position: relative;
+  right: 0;
+  margin-left: 5px;
+  transform: rotateZ(135deg) translate(0px, 3px);
+  transition: ease 0.5s;
+}
+.arrowRight.arrowDown {
+  transform: rotateZ(45deg);
+  transition: ease 0.5s;
+}
+
+.submenu li {
+  text-decoration: none;
+  color: white;
+  margin: 0 -0.1rem;
+  font-weight: 600;
+  transition: 0.4s;
+  padding: 0.5rem 1rem;
+  list-style: none;
+  cursor: pointer;
+}
+.submenu li:hover {
+  background-color: #358b06;
+}
+.menu > li:hover .submenu,
+.submenu > li:hover > .submenu1 {
+  display: block;
+}
+
+/* mobile product  */
+
+.mprod {
+  display: block;
+  width: 100%;
+  max-width: 200px;
+  margin: 0 auto 16px;
+  text-align: center;
+  margin-bottom: 1vh;
+  padding: 12px 16px;
+  background-color: #212529;
+  color: white;
+  text-decoration: none;
+  list-style: none;
+
+  cursor: pointer;
+}
+
+.mprod1 {
+  display: block;
+  width: 100%;
+  max-width: 200px;
+  margin: 0 auto 16px;
+  text-align: center;
+  margin-bottom: 1vh;
+  padding: 12px 16px;
+  background-color: #212529;
+  color: white;
+  text-decoration: none;
+  list-style: none;
+  border: 3px solid transparent;
+  border-left-color: #0067ff;
+  cursor: pointer;
+}
+.msubmenu {
+  display: none;
+  width: 100%;
+  max-width: 200px;
+  margin: 0 auto 16px;
+  text-align: center;
+  margin-bottom: 1vh;
+  padding: 12px 16px;
+  background-color: #212529;
+  color: white;
+  text-decoration: none;
+  list-style: none;
+
+  border: 3px solid transparent;
+  border-left-color: #0067ff;
+  cursor: pointer;
+}
+.msubmenu1 {
+  display: none;
+  width: 100%;
+  max-width: 200px;
+  margin: 0 auto 16px;
+  text-align: center;
+  margin-bottom: 1vh;
+  padding: 12px 16px;
+  background-color: #212529;
+  color: white;
+  text-decoration: none;
+  list-style: none;
+  cursor: pointer;
+}
+.activeMsubmenu {
+  display: block;
+  width: 100%;
+  max-width: 200px;
+  margin: 0 auto 16px;
+  text-align: center;
+  margin-bottom: 1vh;
+  padding: 12px 16px;
+  background-color: #212529;
+  color: white;
+  text-decoration: none;
+  list-style: none;
+  border: 3px solid transparent;
+  border-left-color: #0067ff;
   cursor: pointer;
 }
