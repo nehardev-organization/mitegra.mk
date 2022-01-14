@@ -200,7 +200,10 @@ const Heating = () => {
         </div>
         <div className={styles.mheb}></div>
       </div>
-      <div className={`${model ? styles.modelOpen : ""} ${styles.model}`}>
+      <div
+        onClick={() => setModel(!model)}
+        className={`${model ? styles.modelOpen : ""} ${styles.model}`}
+      >
         {tempimgSrc
           ? [
               <Image
